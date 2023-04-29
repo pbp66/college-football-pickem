@@ -1,79 +1,86 @@
 [
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Bill",
+		"last_name": "Swift",
+		"nickname": "Swifty",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Cody",
+		"last_name": "Santangelo",
+		"nickname": "Kodee",
+		"email": "",
+		"password": ""
 	}
 		{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Keaton",
+		"last_name": "Reed",
+		"nickname": "Keater",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Zach",
+		"last_name": "Oberhaus",
+		"nickname": "Wafflechamp",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Michael",
+		"last_name": "Marino",
+		"nickname": "Meekal",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Genny",
+		"last_name": "Willman",
+		"nickname": "8675309",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Logan",
+		"last_name": "Popp",
+		"nickname": "Loges",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "James",
+		"last_name": "Perry",
+		"nickname": "PBP",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
+		"first_name": "Alex",
+		"last_name": "Moore",
 		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
-		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"first_name": "Gabe",
+		"last_name": "Martini",
+		"nickname": "Martini",
+		"email": "",
+		"password": ""
 	},
 	{
-		"first_name": "",
-		"last_name": "",
+		"first_name": "Ali",
+		"last_name": "Finley",
+		"nickname": "Tiktoker",
+		"email": "",
+		"password": ""
+	},
+		{
+		"first_name": "Paige",
+		"last_name": "Detwiler",
 		"nickname": "",
-		"email": "sal@hotmail.com",
-		"password": "password12345"
+		"email": "",
+		"password": ""
 	}
 ]
