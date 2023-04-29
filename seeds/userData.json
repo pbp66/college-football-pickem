@@ -1,27 +1,79 @@
 [
 	{
-		"name": "Sal",
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
 		"email": "sal@hotmail.com",
 		"password": "password12345"
 	},
 	{
-		"name": "Lernantino",
-		"email": "lernantino@gmail.com",
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
+		"password": "password12345"
+	}
+		{
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
 		"password": "password12345"
 	},
 	{
-		"name": "Amiko",
-		"email": "amiko2k20@aol.com",
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
 		"password": "password12345"
 	},
 	{
-		"name": "Jordan",
-		"email": "jordan99@msn.com",
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
 		"password": "password12345"
 	},
 	{
-		"name": "Blake",
-		"email": "the_blake@yahoo.com",
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
+		"password": "password12345"
+	},
+	{
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
+		"password": "password12345"
+	},
+	{
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
+		"password": "password12345"
+	},
+	{
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
+		"password": "password12345"
+	},
+	{
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
+		"password": "password12345"
+	},
+	{
+		"first_name": "",
+		"last_name": "",
+		"nickname": "",
+		"email": "sal@hotmail.com",
 		"password": "password12345"
 	}
 ]
