@@ -62,7 +62,7 @@ async function main() {
 
 	for (let i = 1; i < sheets.length - 3; i++) {
 		// Generate Matchup List
-		matchups.push([]);
+		matchups.push([]); //! Need to fix Matchups. One week of matchups should be stored per week object!
 		for (
 			let j = 2;
 			j < sheets[i].data[0].rowData[4].values.length;
