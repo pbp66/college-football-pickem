@@ -19,7 +19,7 @@ class Data {
 
 class Game {
 	constructor(
-		weekNumber,
+		gameNumber,
 		homeTeam,
 		awayTeam,
 		pickedTeam,
@@ -27,7 +27,7 @@ class Game {
 		pointsWagered,
 		pointsWon
 	) {
-		this.weekNumber = weekNumber;
+		this.gameNumber = gameNumber;
 		this.homeTeam = homeTeam;
 		this.awayTeam = awayTeam;
 		this.pickedTeam = pickedTeam;
@@ -84,16 +84,15 @@ async function main() {
 
 		// Generate Player Pick Data
 		pickData = [];
-		for (let k = 5; k < players; k += 2) {
+		for (let k = 5, p = 0; p < players; k += 2, p++) {
 			gamesList = [];
-			for (let l = 2; l < matchups[i - 1].length; l += 2) {
-				let delim = matchups[i - 1][l - 2].indexOf("@");
-				//console.log(matchups[i - 1][l - 2]);
+			for (let l = 2, g = 0; g < matchups[i - 1].length; l += 2, g++) {
+				let delim = matchups[i - 1][g].indexOf("@");
 				gamesList.push(
 					new Game(
-						l - 1,
-						matchups[i - 1][l - 2].substring(delim + 1),
-						matchups[i - 1][l - 2].substring(0, delim),
+						g + 1,
+						matchups[i - 1][g].substring(delim + 1),
+						matchups[i - 1][g].substring(0, delim),
 						sheets[i].data[0].rowData[k].values[l].formattedValue,
 						sheets[i].data[0].rowData[k + 1].values[
 							l
