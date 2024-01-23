@@ -2,174 +2,16 @@
 	{
 		"weekNumber": 1,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"UF@UTAH",
+			"MIOH@MIAMI",
+			"FRST@PUR",
+			"BSU@UW",
+			"UTSA@UH",
+			"UNC-SCAR",
+			"TOL@ILL",
+			"SALA@TUL",
+			"LSU@FSU",
+			"CLEM@DUKE"
 		],
 		"pickData": [
 			{
@@ -1222,174 +1064,16 @@
 	{
 		"weekNumber": 2,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"ND@NCST",
+			"JMU@UVA",
+			"OLE@TULN",
+			"A&M@MIAMI",
+			"TXST@UTSA",
+			"UT@BAMA",
+			"ORE@TTU",
+			"UCF@BOISE",
+			"ZONA@MSST",
+			"OKST@ASU"
 		],
 		"pickData": [
 			{
@@ -2442,174 +2126,16 @@
 	{
 		"weekNumber": 3,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"KSU@MIZ",
+			"SCAR@UGA",
+			"MINN@UNC",
+			"WASH@MSU",
+			"TENN@UF",
+			"JMU@TROY",
+			"BYU@ARK",
+			"PITT@WVU",
+			"TCU@HOU",
+			"FRES@ASU"
 		],
 		"pickData": [
 			{
@@ -3662,174 +3188,16 @@
 	{
 		"weekNumber": 4,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"FSU@CLEM",
+			"WKU@TROY",
+			"SMU@TCU",
+			"CU@ORE",
+			"UCLA@UTAH",
+			"OLE@BAMA",
+			"ORST@WSU",
+			"APP@WYO",
+			"OSU@ND",
+			"IOWA@PSU"
 		],
 		"pickData": [
 			{
@@ -4882,174 +4250,16 @@
 	{
 		"weekNumber": 5,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"UTAH@ORST",
+			"SALA@JMU",
+			"UGA@AUB",
+			"KU@TEX",
+			"BAY@UCF",
+			"BSU@MEM",
+			"LSU@OLE",
+			"ECU@RICE",
+			"ND@DUKE",
+			"WVU@TCU"
 		],
 		"pickData": [
 			{
@@ -6091,174 +5301,16 @@
 	{
 		"weekNumber": 6,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"W&M@UVA",
+			"OU@TEX",
+			"LSU@MIZ",
+			"BC@ARMY",
+			"MRSH@NCST",
+			"WAZZU@UCLA",
+			"BAMA@A&M",
+			"UK@UGA",
+			"ND@LOU",
+			"FRES@WYO"
 		],
 		"pickData": [
 			{
@@ -7311,174 +6363,16 @@
 	{
 		"weekNumber": 7,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"UO@UW",
+			"A&M@TENN",
+			"KU@OKST",
+			"IOWA@WIS",
+			"ZONA@WAZZU",
+			"KSU@TTU",
+			"USC@ND",
+			"MIAMI@UNC",
+			"UCLA@ORST",
+			"UMT@IDAHO"
 		],
 		"pickData": [
 			{
@@ -8520,174 +7414,16 @@
 	{
 		"weekNumber": 8,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"JMU@MRSH",
+			"PSU@OSU",
+			"BAMA@TENN",
+			"OKST@WVU",
+			"TOL@MIOH",
+			"UM@MSU",
+			"DUKE@FSU",
+			"ARMY@LSU",
+			"UTAH@USC",
+			"CLEM@MIAMI"
 		],
 		"pickData": [
 			{
@@ -9740,174 +8476,16 @@
 	{
 		"weekNumber": 9,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"KU@OU",
+			"UGA@UF",
+			"BYU@UT",
+			"ORE@UTAH",
+			"DUKE@LOU",
+			"MIOH@OHIO",
+			"TENN@UK",
+			"OSU@WIS",
+			"ORST@ZONA",
+			"UNLV@FRES"
 		],
 		"pickData": [
 			{
@@ -10960,174 +9538,16 @@
 	{
 		"weekNumber": 10,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"KSU@UT",
+			"ND@CLEM",
+			"JXST@SCAR",
+			"MIZ@UGA",
+			"OU@OKST",
+			"JMU@GAST",
+			"KU@ISU",
+			"UW@USC",
+			"LSU@BAMA",
+			"UCLA@ZONA"
 		],
 		"pickData": [
 			{
@@ -12180,174 +10600,16 @@
 	{
 		"weekNumber": 11,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"UM@PSU",
+			"MIAMI@FSU",
+			"UTAH@UW",
+			"TENN@MIZ",
+			"OKST@UCF",
+			"RU@IOWA",
+			"OLE@UGA",
+			"WVU@OU",
+			"DUKE@UNC",
+			"USC@UO"
 		],
 		"pickData": [
 			{
@@ -13400,174 +11662,16 @@
 	{
 		"weekNumber": 12,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"LAF@LEH",
+			"HARV@YALE",
+			"RICH@W&M",
+			"MTST@UMT",
+			"UTAH@ZONA",
+			"UCLA@USC",
+			"UO@ASU",
+			"CAL@STAN",
+			"IDST@IDAHO",
+			"UW@ORST"
 		],
 		"pickData": [
 			{
@@ -14620,174 +12724,16 @@
 	{
 		"weekNumber": 13,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"IOWA@NU",
+			"UTSA@TULN",
+			"ORST@UO",
+			"OSU@UM",
+			"UK@LOU",
+			"IU@PUR",
+			"WIS@MINN",
+			"UNC@NCST",
+			"ISU@KSU",
+			"CAL@UCLA"
 		],
 		"pickData": [
 			{
@@ -15840,174 +13786,16 @@
 	{
 		"weekNumber": 14,
 		"matchUps": [
-			[
-				"UF@UTAH",
-				"MIOH@MIAMI",
-				"FRST@PUR",
-				"BSU@UW",
-				"UTSA@UH",
-				"UNC-SCAR",
-				"TOL@ILL",
-				"SALA@TUL",
-				"LSU@FSU",
-				"CLEM@DUKE"
-			],
-			[
-				"ND@NCST",
-				"JMU@UVA",
-				"OLE@TULN",
-				"A&M@MIAMI",
-				"TXST@UTSA",
-				"UT@BAMA",
-				"ORE@TTU",
-				"UCF@BOISE",
-				"ZONA@MSST",
-				"OKST@ASU"
-			],
-			[
-				"KSU@MIZ",
-				"SCAR@UGA",
-				"MINN@UNC",
-				"WASH@MSU",
-				"TENN@UF",
-				"JMU@TROY",
-				"BYU@ARK",
-				"PITT@WVU",
-				"TCU@HOU",
-				"FRES@ASU"
-			],
-			[
-				"FSU@CLEM",
-				"WKU@TROY",
-				"SMU@TCU",
-				"CU@ORE",
-				"UCLA@UTAH",
-				"OLE@BAMA",
-				"ORST@WSU",
-				"APP@WYO",
-				"OSU@ND",
-				"IOWA@PSU"
-			],
-			[
-				"UTAH@ORST",
-				"SALA@JMU",
-				"UGA@AUB",
-				"KU@TEX",
-				"BAY@UCF",
-				"BSU@MEM",
-				"LSU@OLE",
-				"ECU@RICE",
-				"ND@DUKE",
-				"WVU@TCU"
-			],
-			[
-				"W&M@UVA",
-				"OU@TEX",
-				"LSU@MIZ",
-				"BC@ARMY",
-				"MRSH@NCST",
-				"WAZZU@UCLA",
-				"BAMA@A&M",
-				"UK@UGA",
-				"ND@LOU",
-				"FRES@WYO"
-			],
-			[
-				"UO@UW",
-				"A&M@TENN",
-				"KU@OKST",
-				"IOWA@WIS",
-				"ZONA@WAZZU",
-				"KSU@TTU",
-				"USC@ND",
-				"MIAMI@UNC",
-				"UCLA@ORST",
-				"UMT@IDAHO"
-			],
-			[
-				"JMU@MRSH",
-				"PSU@OSU",
-				"BAMA@TENN",
-				"OKST@WVU",
-				"TOL@MIOH",
-				"UM@MSU",
-				"DUKE@FSU",
-				"ARMY@LSU",
-				"UTAH@USC",
-				"CLEM@MIAMI"
-			],
-			[
-				"KU@OU",
-				"UGA@UF",
-				"BYU@UT",
-				"ORE@UTAH",
-				"DUKE@LOU",
-				"MIOH@OHIO",
-				"TENN@UK",
-				"OSU@WIS",
-				"ORST@ZONA",
-				"UNLV@FRES"
-			],
-			[
-				"KSU@UT",
-				"ND@CLEM",
-				"JXST@SCAR",
-				"MIZ@UGA",
-				"OU@OKST",
-				"JMU@GAST",
-				"KU@ISU",
-				"UW@USC",
-				"LSU@BAMA",
-				"UCLA@ZONA"
-			],
-			[
-				"UM@PSU",
-				"MIAMI@FSU",
-				"UTAH@UW",
-				"TENN@MIZ",
-				"OKST@UCF",
-				"RU@IOWA",
-				"OLE@UGA",
-				"WVU@OU",
-				"DUKE@UNC",
-				"USC@UO"
-			],
-			[
-				"LAF@LEH",
-				"HARV@YALE",
-				"RICH@W&M",
-				"MTST@UMT",
-				"UTAH@ZONA",
-				"UCLA@USC",
-				"UO@ASU",
-				"CAL@STAN",
-				"IDST@IDAHO",
-				"UW@ORST"
-			],
-			[
-				"IOWA@NU",
-				"UTSA@TULN",
-				"ORST@UO",
-				"OSU@UM",
-				"UK@LOU",
-				"IU@PUR",
-				"WIS@MINN",
-				"UNC@NCST",
-				"ISU@KSU",
-				"CAL@UCLA"
-			],
-			[
-				"NMSU@LIB",
-				"UO@UW",
-				"OKST@UT",
-				"MIOH@TOL",
-				"BSU@UNLV",
-				"UGA@BAMA",
-				"SMU@TULN",
-				"APP@TROY",
-				"UM@IOWA",
-				"LOU@FSU"
-			]
+			"NMSU@LIB",
+			"UO@UW",
+			"OKST@UT",
+			"MIOH@TOL",
+			"BSU@UNLV",
+			"UGA@BAMA",
+			"SMU@TULN",
+			"APP@TROY",
+			"UM@IOWA",
+			"LOU@FSU"
 		],
 		"pickData": [
 			{
@@ -17052,6 +14840,4168 @@
 						"winningTeam": "FSU",
 						"pointsWagered": "1",
 						"pointsWon": "1"
+					}
+				]
+			}
+		]
+	},
+	{
+		"weekNumber": 15,
+		"matchUps": [
+			"GASO@OHIO",
+			"JXST@ULL",
+			"MIOH@APP",
+			"NMST@FRES",
+			"UCLA@BSU",
+			"CAL@TTU",
+			"WKU@ODU",
+			"UTSA@MRSH",
+			"USF@CUSE",
+			"GT@UCF",
+			"TROY@DUKE",
+			"ARST@NIU",
+			"JMU@AF",
+			"GAST@UTST",
+			"SALA@EMU",
+			"UTAH@NW",
+			"CCU@SJSU",
+			"BGSU@MINN",
+			"TXST@RICE",
+			"KU@UNLV",
+			"VT@TULN",
+			"UNC@WVU",
+			"LOU@USC",
+			"A&M@OKST",
+			"SMU@BC",
+			"RUT@MIAMI",
+			"NCST@KSU",
+			"ZONA@OU",
+			"CLEM@UK",
+			"ORST@ND",
+			"MEM@ISU",
+			"MIZZ@OSU",
+			"OLE@PSU",
+			"AUB@UMD",
+			"UGA@FSU",
+			"TOL@WYO",
+			"WIS@LSU",
+			"LIB@UO",
+			"IOWA@TENN",
+			"BAMA@UM",
+			"UT@UW"
+		],
+		"pickData": [
+			{
+				"playerName": "Swift",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "MIOH",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "NMST",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "BSU",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "CAL",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "ODU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "USF",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "GT",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "DUKE",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "ARST",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "NW",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "MINN",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "RICE",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "UNC",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "BC",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "RUT",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "ZONA",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ND",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "OSU",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "UMD",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "WYO",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "IOWA",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "BAMA",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "WASH",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					}
+				]
+			},
+			{
+				"playerName": "Kodee",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "ULL",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "FRES",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "CAL",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "ODU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "USF",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "DUKE",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "BGSU",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "USC",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "RUT",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "NCST",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "ZONA",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "UK",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ORST",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "MEM",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "MIZZ",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "UMD",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "WYO",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "IOWA",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "UM",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "TEX",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					}
+				]
+			},
+			{
+				"playerName": "Keater",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "FRES",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "CAL",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "ODU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "GT",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "TROY",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "BGSU",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "NCST",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "OU",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ND",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "OSU",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "UMD",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "WYO",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "UM",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "TEX",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					}
+				]
+			},
+			{
+				"playerName": "Zober",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "ULL",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "NMST",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "CAL",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "WKU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "USF",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "DUKE",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "MINN",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "TULN",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "OU",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ND",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "MIZZ",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "TOL",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "BAMA",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "WASH",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					}
+				]
+			},
+			{
+				"playerName": "Meekal",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "FRES",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "TTU",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "WKU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "TROY",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "MINN",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "A&M",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "OU",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ND",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "OSU",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "TOL",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "BAMA",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "TEX",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					}
+				]
+			},
+			{
+				"playerName": "G-Money",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "GASO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "FRES",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "BSU",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "TTU",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "ODU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "TROY",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "MINN",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "USC",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "OU",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ORST",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "OSU",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "WYO",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "UM",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "TEX",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					}
+				]
+			},
+			{
+				"playerName": "Loges",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "NMST",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "CAL",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "WKU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "TROY",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "MINN",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "RUT",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "OU",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ND",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "OSU",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "TOL",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "BAMA",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "WASH",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					}
+				]
+			},
+			{
+				"playerName": "PBP",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "FRES",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "TTU",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "WKU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "DUKE",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "GAST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "MINN",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "RICE",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "TULN",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "UNC",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "OU",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ORST",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "MIZZ",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "WYO",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "UM",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "TEX",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					}
+				]
+			},
+			{
+				"playerName": "Martini",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "OHIO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "MIOH",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "FRES",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "CAL",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "WKU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "DUKE",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "NIU",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "MINN",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "RICE",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "UNC",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "USC",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "A&M",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "OU",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ND",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "MEM",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "OSU",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "FSU",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "TOL",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "UM",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "WASH",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					}
+				]
+			},
+			{
+				"playerName": "CALi",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "GASO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "MIOH",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "NMST",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "CAL",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "ODU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "GT",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "DUKE",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "ARST",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "BGSU",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "OKST",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "ZONA",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ORST",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "OSU",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "OLE",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "TOL",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "UM",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "WASH",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					}
+				]
+			},
+			{
+				"playerName": "Vegas Paige",
+				"games": [
+					{
+						"gameNumber": 1,
+						"homeTeam": "OHIO",
+						"awayTeam": "GASO",
+						"pickedTeam": "GASO",
+						"winningTeam": "OHIO",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 2,
+						"homeTeam": "ULL",
+						"awayTeam": "JXST",
+						"pickedTeam": "JXST",
+						"winningTeam": "JXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 3,
+						"homeTeam": "APP",
+						"awayTeam": "MIOH",
+						"pickedTeam": "APP",
+						"winningTeam": "APP",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 4,
+						"homeTeam": "FRES",
+						"awayTeam": "NMST",
+						"pickedTeam": "NMST",
+						"winningTeam": "FRES",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 5,
+						"homeTeam": "BSU",
+						"awayTeam": "UCLA",
+						"pickedTeam": "UCLA",
+						"winningTeam": "UCLA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 6,
+						"homeTeam": "TTU",
+						"awayTeam": "CAL",
+						"pickedTeam": "TTU",
+						"winningTeam": "TTU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 7,
+						"homeTeam": "ODU",
+						"awayTeam": "WKU",
+						"pickedTeam": "ODU",
+						"winningTeam": "WKU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 8,
+						"homeTeam": "MRSH",
+						"awayTeam": "UTSA",
+						"pickedTeam": "UTSA",
+						"winningTeam": "UTSA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 9,
+						"homeTeam": "CUSE",
+						"awayTeam": "USF",
+						"pickedTeam": "CUSE",
+						"winningTeam": "USF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 10,
+						"homeTeam": "UCF",
+						"awayTeam": "GT",
+						"pickedTeam": "UCF",
+						"winningTeam": "GT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 11,
+						"homeTeam": "DUKE",
+						"awayTeam": "TROY",
+						"pickedTeam": "TROY",
+						"winningTeam": "DUKE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 12,
+						"homeTeam": "NIU",
+						"awayTeam": "ARST",
+						"pickedTeam": "ARST",
+						"winningTeam": "NIU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 13,
+						"homeTeam": "AF",
+						"awayTeam": "JMU",
+						"pickedTeam": "JMU",
+						"winningTeam": "AF",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 14,
+						"homeTeam": "UTST",
+						"awayTeam": "GAST",
+						"pickedTeam": "UTST",
+						"winningTeam": "GAST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 15,
+						"homeTeam": "EMU",
+						"awayTeam": "SALA",
+						"pickedTeam": "SALA",
+						"winningTeam": "SALA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 16,
+						"homeTeam": "NW",
+						"awayTeam": "UTAH",
+						"pickedTeam": "UTAH",
+						"winningTeam": "NW",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 17,
+						"homeTeam": "SJSU",
+						"awayTeam": "CCU",
+						"pickedTeam": "SJSU",
+						"winningTeam": "CCU",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 18,
+						"homeTeam": "MINN",
+						"awayTeam": "BGSU",
+						"pickedTeam": "BGSU",
+						"winningTeam": "MINN",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 19,
+						"homeTeam": "RICE",
+						"awayTeam": "TXST",
+						"pickedTeam": "TXST",
+						"winningTeam": "TXST",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 20,
+						"homeTeam": "UNLV",
+						"awayTeam": "KU",
+						"pickedTeam": "KU",
+						"winningTeam": "KU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 21,
+						"homeTeam": "TULN",
+						"awayTeam": "VT",
+						"pickedTeam": "VT",
+						"winningTeam": "VT",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 22,
+						"homeTeam": "WVU",
+						"awayTeam": "UNC",
+						"pickedTeam": "WVU",
+						"winningTeam": "WVU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 23,
+						"homeTeam": "USC",
+						"awayTeam": "LOU",
+						"pickedTeam": "LOU",
+						"winningTeam": "USC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 24,
+						"homeTeam": "OKST",
+						"awayTeam": "A&M",
+						"pickedTeam": "A&M",
+						"winningTeam": "OKST",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 25,
+						"homeTeam": "BC",
+						"awayTeam": "SMU",
+						"pickedTeam": "SMU",
+						"winningTeam": "BC",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 26,
+						"homeTeam": "MIAMI",
+						"awayTeam": "RUT",
+						"pickedTeam": "MIAMI",
+						"winningTeam": "RUT",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 27,
+						"homeTeam": "KSU",
+						"awayTeam": "NCST",
+						"pickedTeam": "KSU",
+						"winningTeam": "KSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 28,
+						"homeTeam": "OU",
+						"awayTeam": "ZONA",
+						"pickedTeam": "ZONA",
+						"winningTeam": "ZONA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 29,
+						"homeTeam": "UK",
+						"awayTeam": "CLEM",
+						"pickedTeam": "CLEM",
+						"winningTeam": "CLEM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 30,
+						"homeTeam": "ND",
+						"awayTeam": "ORST",
+						"pickedTeam": "ND",
+						"winningTeam": "ND",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 31,
+						"homeTeam": "ISU",
+						"awayTeam": "MEM",
+						"pickedTeam": "ISU",
+						"winningTeam": "MEM",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 32,
+						"homeTeam": "OSU",
+						"awayTeam": "MIZZ",
+						"pickedTeam": "MIZZ",
+						"winningTeam": "MIZZ",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 33,
+						"homeTeam": "PSU",
+						"awayTeam": "OLE",
+						"pickedTeam": "PSU",
+						"winningTeam": "OLE",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 34,
+						"homeTeam": "UMD",
+						"awayTeam": "AUB",
+						"pickedTeam": "AUB",
+						"winningTeam": "UMD",
+						"pointsWagered": "5",
+						"pointsWon": "0"
+					},
+					{
+						"gameNumber": 35,
+						"homeTeam": "FSU",
+						"awayTeam": "UGA",
+						"pickedTeam": "UGA",
+						"winningTeam": "UGA",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 36,
+						"homeTeam": "WYO",
+						"awayTeam": "TOL",
+						"pickedTeam": "WYO",
+						"winningTeam": "WYO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 37,
+						"homeTeam": "LSU",
+						"awayTeam": "WIS",
+						"pickedTeam": "LSU",
+						"winningTeam": "LSU",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 38,
+						"homeTeam": "UO",
+						"awayTeam": "LIB",
+						"pickedTeam": "UO",
+						"winningTeam": "UO",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 39,
+						"homeTeam": "TENN",
+						"awayTeam": "IOWA",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 40,
+						"homeTeam": "UM",
+						"awayTeam": "BAMA",
+						"pickedTeam": "UM",
+						"winningTeam": "UM",
+						"pointsWagered": "5",
+						"pointsWon": "5"
+					},
+					{
+						"gameNumber": 41,
+						"homeTeam": "UW",
+						"awayTeam": "UT",
+						"pickedTeam": "TEX",
+						"winningTeam": "WASH",
+						"pointsWagered": "5",
+						"pointsWon": "0"
 					}
 				]
 			}

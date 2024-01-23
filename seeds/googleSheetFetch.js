@@ -55,14 +55,14 @@ async function main() {
 
 	let players = 11;
 	let sheets = res.data.sheets;
-	let matchups = [];
+	let matchups;
 	let gamesList = [];
 	let pickData = [];
 	let weekData = [];
 
-	for (let i = 1; i < sheets.length - 3; i++) {
+	for (let i = 1; i < sheets.length - 2; i++) {
 		// Generate Matchup List
-		matchups.push([]); //! Need to fix Matchups. One week of matchups should be stored per week object!
+		matchups = [];
 		for (
 			let j = 2;
 			j < sheets[i].data[0].rowData[4].values.length;
@@ -74,7 +74,7 @@ async function main() {
 					"formattedValue"
 				)
 			) {
-				matchups[i - 1].push(
+				matchups.push(
 					sheets[i].data[0].rowData[4].values[
 						j
 					].formattedValue.replace(/\s+/g, "")
@@ -86,13 +86,13 @@ async function main() {
 		pickData = [];
 		for (let k = 5, p = 0; p < players; k += 2, p++) {
 			gamesList = [];
-			for (let l = 2, g = 0; g < matchups[i - 1].length; l += 2, g++) {
-				let delim = matchups[i - 1][g].indexOf("@");
+			for (let l = 2, g = 0; g < matchups.length; l += 2, g++) {
+				let delim = matchups[g].indexOf("@");
 				gamesList.push(
 					new Game(
 						g + 1,
-						matchups[i - 1][g].substring(delim + 1),
-						matchups[i - 1][g].substring(0, delim),
+						matchups[g].substring(delim + 1),
+						matchups[g].substring(0, delim),
 						sheets[i].data[0].rowData[k].values[l].formattedValue,
 						sheets[i].data[0].rowData[k + 1].values[
 							l
