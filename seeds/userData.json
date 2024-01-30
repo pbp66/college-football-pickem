@@ -22,7 +22,7 @@
 	{
 		"first_name": "Zach",
 		"last_name": "Oberhaus",
-		"nicknames": ["Wafflechamp", "Zob"],
+		"nicknames": ["Wafflechamp", "Zob", "Zobes", "Zober"],
 		"email": "",
 		"password": ""
 	},
@@ -36,7 +36,7 @@
 	{
 		"first_name": "Genny",
 		"last_name": "Willman",
-		"nicknames": ["8675309", "Gywineeviev"],
+		"nicknames": ["8675309", "Gwynieveeev", "Gywineeviev", "G-Money"],
 		"email": "",
 		"password": ""
 	},
@@ -50,14 +50,28 @@
 	{
 		"first_name": "James",
 		"last_name": "Perry",
-		"nicknames": ["PBP", "Perri"],
+		"nicknames": ["PBP", "Perri", "Perrier", "Goober"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Drew",
+		"last_name": "Sherman",
+		"nicknames": ["Shermy", "Druber"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Alejandria",
+		"last_name": "",
+		"nicknames": ["Alejandria"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Alex",
 		"last_name": "Moore",
-		"nicknames": [""],
+		"nicknames": ["Alex"],
 		"email": "",
 		"password": ""
 	},
@@ -71,14 +85,14 @@
 	{
 		"first_name": "Ali",
 		"last_name": "Finley",
-		"nicknames": ["Tiktoker", "CALi"],
+		"nicknames": ["Ali", "Tiktoker", "CALi"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Paige",
 		"last_name": "Detwiler",
-		"nicknames": ["Vegas", "Vegas Paige"],
+		"nicknames": ["Paige", "Vegas", "Vegas Paige"],
 		"email": "",
 		"password": ""
 	}
