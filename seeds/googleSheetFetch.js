@@ -42,18 +42,36 @@ const sheetsAPI = google.sheets({
 	auth: process.env.API_KEY,
 });
 
-let historicalSheet2022Id = "1IKULDleiK1QEHUt0y1pF7zE3KB3JOMfoDzKpm7x6tuo";
-let historicalSheet2023Id = "1phCjeMld4QMeYgafXvLoLA4kWMmfzt3Mk6jzasWb1hQ";
+const historicalSheet2019Id = "1AjT1AQywe99yFGX5cQe8Jql7oZbBakTApqGThk9rOLo";
+const historicalSheet2020Id = "1-RjQqGLemGLiQi2rd4timvA24PjGkDtLC8K2Ewg-WzM";
+const historicalSheet2021Id = "1z5p_JHvNDEZRYWJVbQSiRaF9KOtC0qLzHRBkxRGKLYk";
+const historicalSheet2022Id = "1IKULDleiK1QEHUt0y1pF7zE3KB3JOMfoDzKpm7x6tuo";
+const historicalSheet2023Id = "1phCjeMld4QMeYgafXvLoLA4kWMmfzt3Mk6jzasWb1hQ";
+const historicalSheetIds = [
+	historicalSheet2019Id,
+	historicalSheet2020Id,
+	historicalSheet2021Id,
+	historicalSheet2022Id,
+	historicalSheet2023Id,
+];
+
+const playerMap = {
+	historicalSheet2019Id: 9,
+	historicalSheet2020Id: 10,
+	historicalSheet2021Id: 9,
+	historicalSheet2022Id: 12,
+	historicalSheet2023Id: 11,
+};
 
 let data;
 
-async function main() {
+async function main(sheetId) {
 	const res = await sheetsAPI.spreadsheets.get({
-		spreadsheetId: historicalSheet2023Id,
+		spreadsheetId: sheetId,
 		includeGridData: true,
 	});
 
-	let players = 11;
+	let players = playerMap[sheetId]; //! For additional spreadsheets, update the playerMap
 	let sheets = res.data.sheets;
 	let matchups;
 	let gamesList = [];
@@ -117,8 +135,8 @@ async function main() {
 		weekData.push(new Week(i, matchups, pickData));
 	}
 
-	//const data = JSON.stringify(res.data.sheets[1]);
-	data = JSON.stringify(weekData);
+	data = JSON.stringify(res.data.sheets[1]);
+	//data = JSON.stringify(weekData);
 
 	fs.writeFile("data.json", data, (error) => {
 		if (error) {
@@ -136,4 +154,4 @@ async function main() {
 //res.data.sheets[1] returns the 2nd sheet within the sheets array
 //res.data.sheets[1].data returns the cell data for that specific sheet
 
-main().catch(console.error);
+main(historicalSheet2023Id).catch(console.error);
