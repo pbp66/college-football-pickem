@@ -55,13 +55,20 @@ const historicalSheetIds = [
 	historicalSheet2023Id,
 ];
 
-const playerMap = {
-	historicalSheet2019Id: 9,
-	historicalSheet2020Id: 10,
-	historicalSheet2021Id: 9,
-	historicalSheet2022Id: 12,
-	historicalSheet2023Id: 11,
-};
+//! Javascript will set the variable name as the key if typed as {key: value} rather than use variable subsitution. So... see the alternate approach below
+const playerMap = {};
+playerMap[historicalSheet2019Id] = 9;
+playerMap[historicalSheet2020Id] = 10;
+playerMap[historicalSheet2021Id] = 9;
+playerMap[historicalSheet2022Id] = 12;
+playerMap[historicalSheet2023Id] = 11;
+
+const yearMap = {};
+yearMap[historicalSheet2019Id] = 2019;
+yearMap[historicalSheet2020Id] = 2020;
+yearMap[historicalSheet2021Id] = 2021;
+yearMap[historicalSheet2022Id] = 2022;
+yearMap[historicalSheet2023Id] = 2023;
 
 let data;
 
@@ -86,16 +93,19 @@ async function main(sheetId) {
 			j < sheets[i].data[0].rowData[4].values.length;
 			j += 2
 		) {
+			let temp = "";
 			if (
 				Object.hasOwn(
 					sheets[i].data[0].rowData[4].values[j],
 					"formattedValue"
 				)
 			) {
+				//* Formatting each matchup for proper delimination below
 				matchups.push(
-					sheets[i].data[0].rowData[4].values[
-						j
-					].formattedValue.replace(/\s+/g, "")
+					sheets[i].data[0].rowData[4].values[j].formattedValue
+						.replace(/\s+/g, "")
+						.replace(/\-/g, "@")
+						.replace(/vs\.?/g, "@")
 				);
 			}
 		}
@@ -135,16 +145,22 @@ async function main(sheetId) {
 		weekData.push(new Week(i, matchups, pickData));
 	}
 
-	data = JSON.stringify(res.data.sheets[1]);
-	//data = JSON.stringify(weekData);
+	//data = JSON.stringify(res.data.sheets[1]);
+	data = JSON.stringify(weekData);
 
-	fs.writeFile("data.json", data, (error) => {
+	fs.writeFile(`historicalData${yearMap[sheetId]}.json`, data, (error) => {
 		if (error) {
 			console.error(error);
 			throw error;
 		}
-
-		console.log("JSON data written to data.json");
+		if (yearMap[sheetId] == 2020) {
+			console.log(
+				"Remember to reverse the order of weeks for 2020! The sheets are ordered in reverse compared to the other sheets!"
+			);
+		}
+		console.log(
+			`JSON data written to historicalData${yearMap[sheetId]}.json`
+		);
 	});
 }
 
@@ -153,5 +169,8 @@ async function main(sheetId) {
 //res.data.sheets returns the list of sheets within the spreadsheet
 //res.data.sheets[1] returns the 2nd sheet within the sheets array
 //res.data.sheets[1].data returns the cell data for that specific sheet
-
-main(historicalSheet2023Id).catch(console.error);
+for (const historicalSheet of historicalSheetIds) {
+	//console.log(historicalSheet);
+	main(historicalSheet).catch(console.error);
+}
+//main(historicalSheet2023Id).catch(console.error);
