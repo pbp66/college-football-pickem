@@ -38,19 +38,10 @@ Users.init(
 				throw new Error("Do not try to set the 'fullname value!");
 			},
 		},
-		// TODO: Implement username validation/constraints
-		//? Should this be a foreign reference to the usernames table with an id matching the most current username?
 		username: {
 			type: DataTypes.STRING,
 			defaultValue: `${this.first_name}-${this.id}`,
 			unique: true,
-		},
-		past_usernames: {
-			type: DataTypes.INTEGER,
-			references: {
-				model: Usernames,
-				foreignKey: "id",
-			},
 		},
 		email: {
 			type: DataTypes.STRING,
