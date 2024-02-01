@@ -15,7 +15,7 @@ Pick.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		user_id: {
+		user: {
 			type: DataTypes.INTEGER,
 			references: {
 				model: Users,
@@ -64,5 +64,10 @@ Pick.init(
 		modelName: "picks",
 	}
 );
+
+Picks.belongsTo(Users);
+Picks.belongsTo(Teams);
+Picks.belongsTo(Games);
+Picks.belongsTo(Weeks);
 
 export default Picks;

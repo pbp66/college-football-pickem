@@ -16,7 +16,7 @@ Usernames.init(
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
-		user_id: {
+		user: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			references: {
@@ -34,4 +34,5 @@ Usernames.init(
 	}
 );
 
+Usernames.belongsTo(Users);
 export default Usernames;

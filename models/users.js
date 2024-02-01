@@ -82,4 +82,13 @@ Users.init(
 	}
 );
 
+Users.hasMany(Usernames, {
+	foreignKey: "user",
+	// Or:
+	// foreignKey: { name: "user"},
+});
+Users.hasMany(Picks, {
+	foreignKey: "user",
+});
+
 export default Users;
