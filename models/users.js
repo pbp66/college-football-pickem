@@ -1,10 +1,15 @@
 import { Model, DataTypes } from "sequelize";
 import bcrypt from "bcryptjs";
 import sequelize from "../config/connection.js";
+import Usernames from "./usernames.js";
 
 class Users extends Model {
 	async checkPassword(loginPw) {
 		return await bcrypt.compare(loginPw, this.password);
+	}
+
+	getFullname() {
+		return [this.first_name, this.last_name].join(" ");
 	}
 }
 
@@ -33,14 +38,17 @@ Users.init(
 				throw new Error("Do not try to set the 'fullname value!");
 			},
 		},
+		// TODO: Implement username validation/constraints
+		//? Should this be a foreign reference to the usernames table with an id matching the most current username?
 		username: {
 			type: DataTypes.STRING,
-			defaultValue: this.first_name,
+			defaultValue: `${this.first_name}-${this.id}`,
+			unique: true,
 		},
 		past_usernames: {
 			type: DataTypes.INTEGER,
 			references: {
-				model: usernames,
+				model: Usernames,
 				foreignKey: "id",
 			},
 		},

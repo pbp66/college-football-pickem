@@ -20,12 +20,18 @@ Weeks.init(
 			type: DataTypes.INTEGER,
 			allowNull: false,
 		},
-		game_id: {
-			type: DataTypes.INTEGER,
-			references: {
-				model: Game,
-				foreignKey: "id",
-			},
+		name: {
+			type: DataTypes.STRING,
+			allowNull: true,
+		},
+
+		start_date: {
+			type: DataTypes.DATE,
+			allowNull: true,
+		},
+		end_date: {
+			type: DataTypes.DATE,
+			allowNull: true,
 		},
 	},
 	{
