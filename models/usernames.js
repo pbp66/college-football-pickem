@@ -21,7 +21,7 @@ Usernames.init(
 			allowNull: true,
 			references: {
 				model: Users,
-				foreignKey: "id",
+				key: "id",
 			},
 		},
 	},

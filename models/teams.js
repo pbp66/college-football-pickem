@@ -87,7 +87,7 @@ Team.init(
 			type: DataTypes.INTEGER,
 			references: {
 				model: Locations,
-				foreignKey: "id",
+				key: "id",
 			},
 		},
 	},
