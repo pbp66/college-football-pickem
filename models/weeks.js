@@ -1,6 +1,5 @@
 import { Model, DataTypes } from "sequelize";
-import sequelize from "../config/connection";
-import Game from "./game";
+import sequelize from "../config/connection.js";
 
 class Weeks extends Model {}
 
@@ -16,7 +15,7 @@ Weeks.init(
 			type: DataTypes.STRING,
 			allowNull: true,
 		},
-		week_num: {
+		number: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 		},
@@ -24,7 +23,6 @@ Weeks.init(
 			type: DataTypes.STRING,
 			allowNull: true,
 		},
-
 		start_date: {
 			type: DataTypes.DATE,
 			allowNull: true,
