@@ -1,14 +1,14 @@
 import { Model, DataTypes } from "sequelize";
 import bcrypt from "bcryptjs";
-import sequelize from "../config/connection";
+import sequelize from "../config/connection.js";
 
-class User extends Model {
+class Users extends Model {
 	async checkPassword(loginPw) {
 		return await bcrypt.compare(loginPw, this.password);
 	}
 }
 
-User.init(
+Users.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
@@ -16,13 +16,26 @@ User.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		name: {
+		first_name: {
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
-		email: {
+		last_name: {
 			type: DataTypes.STRING,
 			allowNull: false,
+		},
+		fullname: {
+			type: DataTypes.VIRTUAL,
+			get() {
+				return `${this.first_name} ${this.last_name}`;
+			},
+			set(name) {
+				throw new Error("Do not try to set the 'fullname value!");
+			},
+		},
+		email: {
+			type: DataTypes.STRING,
+			allowNull: true,
 			unique: true,
 			validate: {
 				isEmail: true,
@@ -34,6 +47,10 @@ User.init(
 			validate: {
 				len: [8],
 			},
+		},
+		joined: {
+			type: DataTypes.DATE,
+			allowNull: true,
 		},
 	},
 	{
@@ -51,8 +68,8 @@ User.init(
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,
-		modelName: "user",
+		modelName: "users",
 	}
 );
 
-export default User;
+export default Users;
