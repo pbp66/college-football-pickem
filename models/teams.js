@@ -1,6 +1,6 @@
 import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection.js";
-import Location from "./locations.js";
+import Locations from "./locations.js";
 
 class Teams extends Model {}
 
