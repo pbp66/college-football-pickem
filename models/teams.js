@@ -1,7 +1,8 @@
 import { Model, DataTypes } from "sequelize";
-import sequelize from "../config/connection";
+import sequelize from "../config/connection.js";
+import Location from "./locations.js";
 
-class Team extends Model {}
+class Teams extends Model {}
 
 Team.init(
 	{
@@ -11,7 +12,7 @@ Team.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		name: {
+		school_name: {
 			type: DataTypes.STRING,
 			allowNull: false,
 			unique: true,
@@ -20,11 +21,73 @@ Team.init(
 			type: DataTypes.STRING,
 			allowNull: false,
 		},
+		abbreviation: {
+			type: DataTypes.STRING,
+			allowNull: false,
+		},
+		alt_name1: {
+			type: DataTypes.STRING,
+			allowNull: true,
+		},
+		alt_name2: {
+			type: DataTypes.STRING,
+			allowNull: true,
+		},
+		alt_name3: {
+			type: DataTypes.STRING,
+			allowNull: true,
+		},
+		conference: {
+			type: DataTypes.STRING,
+			allowNull: false, // TODO: Add validator for valid conferences
+		},
+		classification: {
+			type: DataTypes.STRING,
+			allowNull: false,
+			validate: {
+				isIn: ["fbs", "fcs", "iii", "ii"], // TODO: Add remaining valid classifications
+			},
+		},
+		color: {
+			type: DataTypes.STRING,
+			allowNull: false,
+			validate: {
+				is: /#[0-9a-z]{8}/,
+			},
+		},
+		alt_color: {
+			type: DataTypes.STRING,
+			allowNull: false,
+			validate: {
+				is: /#[0-9a-z]{8}/,
+			},
+		},
 		logo: {
 			type: DataTypes.STRING,
 			allowNull: false,
 			validate: {
 				isURL: true,
+			},
+		},
+		alt_logo: {
+			type: DataTypes.STRING,
+			allowNull: false,
+			validate: {
+				isURL: true,
+			},
+		},
+		twitter_handle: {
+			type: DataTypes.STRING,
+			allowNull: true,
+			validate: {
+				is: /^@?(\w){1,15}$/,
+			},
+		},
+		location: {
+			type: DataTypes.INTEGER,
+			references: {
+				model: Locations,
+				foreignKey: "id",
 			},
 		},
 	},
@@ -33,8 +96,8 @@ Team.init(
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,
-		modelName: "team",
+		modelName: "teams",
 	}
 );
 
-export default Team;
+export default Teams;
