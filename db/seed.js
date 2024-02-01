@@ -1,12 +1,30 @@
-import sequelize from "../config/connection";
-import { Date, Game, Pick, Team, User, Week } from "../models";
-import userData from "./userData.json" assert { type: "json" };
-import dateData from "./dateData.json" assert { type: "json" };
-import teamData from "./teamData.json" assert { type: "json" };
-import weekData from "./weekData.json" assert { type: "json" };
+import sequelize from "../config/connection.js";
+// import { Date, Game, Pick, Team, User, Week } from "../models"; //! Moving to direct imports and removing bulk imports with index.js
+import userData from "./data/users.json" assert { type: "json" };
+import teamData from "./data/teams.json" assert { type: "json" };
 
 const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
+
+	/* Generate Week Data*/
+	const years = [2019, 2020, 2021, 2022, 2023];
+	let maxWeeks;
+	const weekData = [];
+	for (const year of years) {
+		if (year == 2020) {
+			maxWeeks = 9;
+		} else {
+			maxWeeks = 15;
+		}
+		for (let i = 1; i < maxWeeks + 1; i++) {
+			weekData.push({ season: year, number: i });
+		}
+	}
+	const weeksData = await Weeks.bulkCreate(weekData, {
+		individualHooks: true,
+		returning: true,
+	});
+	const weeks = weeksData.map((element) => element.get({ plain: true }));
 
 	/* Generate User Data from JSON */
 	const usersData = await User.bulkCreate(userData, {
@@ -15,12 +33,12 @@ const seedDatabase = async () => {
 	});
 	const users = usersData.map((element) => element.get({ plain: true }));
 
-	/* Generate Date Data from JSON */
-	const datesData = await Date.bulkCreate(dateData, {
-		individualHooks: true,
-		returning: true,
-	});
-	const dates = datesData.map((element) => element.get({ plain: true }));
+	//! NO LONGER VALID
+	// const datesData = await Date.bulkCreate(dateData, {
+	// 	individualHooks: true,
+	// 	returning: true,
+	// });
+	// const dates = datesData.map((element) => element.get({ plain: true }));
 
 	/* Generate Teams Data from JSON */
 	const teamsData = await Team.bulkCreate(teamData, {
@@ -47,12 +65,12 @@ const seedDatabase = async () => {
 	});
 	const games = gamesData.map((element) => element.get({ plain: true }));
 
-	/* Generate Week Data from JSON */
-	const weeksData = await Week.bulkCreate(weekData, {
-		individualHooks: true,
-		returning: true,
-	});
-	const weeks = weeksData.map((element) => element.get({ plain: true }));
+	//! NO LONGER VALID
+	// const weeksData = await Week.bulkCreate(weekData, {
+	// 	individualHooks: true,
+	// 	returning: true,
+	// });
+	// const weeks = weeksData.map((element) => element.get({ plain: true }));
 
 	/**
 	 * Dynamically generate Pick Data based on the games created as well as random points per user
