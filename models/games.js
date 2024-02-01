@@ -1,12 +1,13 @@
 import { Model, DataTypes } from "sequelize";
-import sequelize from "../config/connection";
-import Team from "./team";
-import Date from "./date";
+import sequelize from "../config/connection.js";
+import Teams from "./team";
+import Weeks from "./weeks.js";
+import Locations from "./locations.js";
 
-class Game extends Model {}
+class Games extends Model {}
 
 // Each team has a home and away team rather than team_1 and team_2
-Game.init(
+Games.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
@@ -14,38 +15,55 @@ Game.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		home_team_id: {
+		home_team: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			references: {
-				model: Team,
+				model: Teams,
 				key: "id",
 			},
 		},
-		away_team_id: {
+		away_team: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			references: {
-				model: Team,
+				model: Teams,
 				key: "id",
 			},
 		},
-		winner_id: {
+		winning_team: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			defaultValue: null,
 			references: {
-				model: Team,
+				model: Teams,
 				key: "id",
 			},
 		},
-		date_id: {
+		week: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			references: {
-				model: Date,
-				foreignKey: "id",
+				model: Weeks,
+				key: "id",
 			},
+		},
+		location: {
+			// TODO: automate the default value to be the home team's location
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			references: {
+				model: Locations,
+				key: "id",
+			},
+		},
+		alt_name: {
+			type: DataTypes.STRING,
+			allowNull: true,
+		},
+		date: {
+			type: DataTypes.DATE,
+			allowNull: false,
 		},
 	},
 	{
@@ -53,8 +71,8 @@ Game.init(
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,
-		modelName: "game",
+		modelName: "games",
 	}
 );
 
-export default Game;
+export default Games;
