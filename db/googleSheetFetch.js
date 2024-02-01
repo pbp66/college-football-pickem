@@ -145,23 +145,26 @@ async function main(sheetId) {
 		weekData.push(new Week(i, matchups, pickData));
 	}
 
-	//data = JSON.stringify(res.data.sheets[1]);
 	data = JSON.stringify(weekData);
 
-	fs.writeFile(`historicalData${yearMap[sheetId]}.json`, data, (error) => {
-		if (error) {
-			console.error(error);
-			throw error;
-		}
-		if (yearMap[sheetId] == 2020) {
+	fs.writeFile(
+		`./data/historicalData${yearMap[sheetId]}.json`,
+		data,
+		(error) => {
+			if (error) {
+				console.error(error);
+				throw error;
+			}
+			if (yearMap[sheetId] == 2020) {
+				console.log(
+					"Remember, for the year 2020, the sheets are ordered in reverse compared to the other sheets!"
+				);
+			}
 			console.log(
-				"Remember to reverse the order of weeks for 2020! The sheets are ordered in reverse compared to the other sheets!"
+				`JSON data written to historicalData${yearMap[sheetId]}.json`
 			);
 		}
-		console.log(
-			`JSON data written to historicalData${yearMap[sheetId]}.json`
-		);
-	});
+	);
 }
 
 //console.log(res.data.sheets[1].data[0].rowData);
@@ -170,7 +173,5 @@ async function main(sheetId) {
 //res.data.sheets[1] returns the 2nd sheet within the sheets array
 //res.data.sheets[1].data returns the cell data for that specific sheet
 for (const historicalSheet of historicalSheetIds) {
-	//console.log(historicalSheet);
 	main(historicalSheet).catch(console.error);
 }
-//main(historicalSheet2023Id).catch(console.error);

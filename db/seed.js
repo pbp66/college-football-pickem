@@ -7,6 +7,24 @@ const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
 
 	/* Generate Week Data*/
+	const years = [2019, 2020, 2021, 2022, 2023];
+	let maxWeeks;
+	const weekData = [];
+	for (const year of years) {
+		if (year == 2020) {
+			maxWeeks = 9;
+		} else {
+			maxWeeks = 15;
+		}
+		for (let i = 1; i < maxWeeks + 1; i++) {
+			weekData.push({ season: year, number: i });
+		}
+	}
+	const weeksData = await Weeks.bulkCreate(weekData, {
+		individualHooks: true,
+		returning: true,
+	});
+	const weeks = weeksData.map((element) => element.get({ plain: true }));
 
 	/* Generate User Data from JSON */
 	const usersData = await User.bulkCreate(userData, {
