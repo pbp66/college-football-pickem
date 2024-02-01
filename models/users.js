@@ -46,16 +46,16 @@ Users.init(
 		email: {
 			type: DataTypes.STRING,
 			allowNull: true,
-			unique: true,
-			validate: {
-				isEmail: true,
-			},
+			//unique: true, //TODO: Cannot be both null and unique...
+			// validate: { // TODO: Enable valiidation once email accounts can be used
+			// 	isEmail: true,
+			// },
 		},
 		password: {
 			type: DataTypes.STRING,
 			allowNull: false,
 			validate: {
-				len: [8],
+				min: 0, //TODO: Update password validation criteria...
 			},
 		},
 		joined: {

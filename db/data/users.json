@@ -2,97 +2,98 @@
 	{
 		"first_name": "Bill",
 		"last_name": "Swift",
-		"nicknames": ["Swifty", "Swift"],
+		"usernames": ["Swifty", "Swift"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Cody",
 		"last_name": "Santangelo",
-		"nicknames": ["Kodee", "Jodi"],
+		"usernames": ["Kodee", "Jodi"],
+		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Keaton",
 		"last_name": "Reed",
-		"nicknames": ["Keater", "Skeet"],
+		"usernames": ["Keater", "Skeet"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Zach",
 		"last_name": "Oberhaus",
-		"nicknames": ["Wafflechamp", "Zob", "Zobes", "Zober"],
+		"usernames": ["Wafflechamp", "Zob", "Zobes", "Zober"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Michael",
 		"last_name": "Marino",
-		"nicknames": ["Meekal", "Mikail"],
+		"usernames": ["Meekal", "Mikail"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Genny",
 		"last_name": "Willman",
-		"nicknames": ["8675309", "Gwynieveeev", "Gywineeviev", "G-Money"],
+		"usernames": ["8675309", "Gwynieveeev", "Gywineeviev", "G-Money"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Logan",
 		"last_name": "Popp",
-		"nicknames": ["Loges", "LNL"],
+		"usernames": ["Loges", "LNL"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "James",
 		"last_name": "Perry",
-		"nicknames": ["PBP", "Perri", "Perrier", "Goober"],
+		"usernames": ["PBP", "Perri", "Perrier", "Goober"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Drew",
 		"last_name": "Sherman",
-		"nicknames": ["Shermy", "Druber"],
+		"usernames": ["Shermy", "Druber"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Alejandria",
 		"last_name": "",
-		"nicknames": ["Alejandria"],
+		"usernames": ["Alejandria"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Alex",
 		"last_name": "Moore",
-		"nicknames": ["Alex"],
+		"usernames": ["Alex"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Gabe",
 		"last_name": "Martini",
-		"nicknames": ["Martini", "GM"],
+		"usernames": ["Martini", "GM"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Ali",
 		"last_name": "Finley",
-		"nicknames": ["Ali", "Tiktoker", "CALi"],
+		"usernames": ["Ali", "Tiktoker", "CALi"],
 		"email": "",
 		"password": ""
 	},
 	{
 		"first_name": "Paige",
 		"last_name": "Detwiler",
-		"nicknames": ["Paige", "Vegas", "Vegas Paige"],
+		"usernames": ["Paige", "Vegas", "Vegas Paige"],
 		"email": "",
 		"password": ""
 	}

@@ -1,12 +1,21 @@
 import sequelize from "../config/connection.js";
-// import { Date, Game, Pick, Team, User, Week } from "../models"; //! Moving to direct imports and removing bulk imports with index.js
-import userData from "./data/users.json" assert { type: "json" };
-import teamData from "./data/teams.json" assert { type: "json" };
+import Users from "../models/users.js";
+import Usernames from "../models/usernames.js";
+import Weeks from "../models/weeks.js";
+import Teams from "../models/teams.js";
+import Picks from "../models/picks.js";
+import Locations from "../models/locations.js";
+import Games from "../models/games.js";
+import userJSON from "./data/users.json" assert { type: "json" };
+import teamJSON from "./data/teams.json" assert { type: "json" };
+import historicalJSON2019 from "./data/historicalData2019.json" assert { type: "json" };
+import historicalJSON2020 from "./data/historicalData2020.json" assert { type: "json" };
+import historicalJSON2021 from "./data/historicalData2021.json" assert { type: "json" };
+import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "json" };
+import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
 
-const seedDatabase = async () => {
-	await sequelize.sync({ force: true });
-
-	/* Generate Week Data*/
+async function generateWeekData() {
+	/* Generate Week Data */
 	const years = [2019, 2020, 2021, 2022, 2023];
 	let maxWeeks;
 	const weekData = [];
@@ -24,79 +33,136 @@ const seedDatabase = async () => {
 		individualHooks: true,
 		returning: true,
 	});
-	const weeks = weeksData.map((element) => element.get({ plain: true }));
+	return weeksData.map((element) => element.get({ plain: true }));
+}
 
-	/* Generate User Data from JSON */
-	const usersData = await User.bulkCreate(userData, {
+async function generateUserData() {
+	const modifiedUserData = [];
+	const usernameData = [];
+	for (const user of userJSON) {
+		modifiedUserData.push({
+			first_name: user.first_name,
+			last_name: user.last_name,
+			email: user.email,
+			password: user.password,
+		});
+		usernameData.push({
+			first_name: user.first_name,
+			last_name: user.last_name,
+			usernames: user.usernames,
+		});
+	}
+	const usersData = await Users.bulkCreate(modifiedUserData, {
 		individualHooks: true,
 		returning: true,
 	});
-	const users = usersData.map((element) => element.get({ plain: true }));
+	return usersData.map((element) => element.get({ plain: true }));
+}
 
-	//! NO LONGER VALID
-	// const datesData = await Date.bulkCreate(dateData, {
-	// 	individualHooks: true,
-	// 	returning: true,
-	// });
-	// const dates = datesData.map((element) => element.get({ plain: true }));
+async function generateUsernameData() {
+	const usernameData = [];
+	for (const user of userJSON) {
+		usernameData.push({
+			first_name: user.first_name,
+			last_name: user.last_name,
+			usernames: user.usernames,
+		});
+	}
+	const modifiedUsernameData = [];
+	let userData;
+	for (const user of usernameData) {
+		userData = await Users.findOne({
+			where: {
+				first_name: user.first_name,
+				last_name: user.last_name,
+			},
+		});
+		for (let i = 0; i < user.usernames.length; i++) {
+			modifiedUsernameData.push({
+				name: user.usernames[i],
+				user: userData.id,
+			});
+		}
+	}
+	const usernamesData = await Usernames.bulkCreate(modifiedUsernameData, {
+		individualHooks: true,
+		returning: true,
+	});
+	return usernamesData.map((element) => element.get({ plain: true }));
+}
 
-	/* Generate Teams Data from JSON */
-	const teamsData = await Team.bulkCreate(teamData, {
+async function generateLocationsData(locationsData) {
+	const locations = await Locations.bulkCreate(locationsData, {
+		individualHooks: true,
+		returning: true,
+	});
+	return locations.map((element) => element.get({ plain: true }));
+}
+
+async function generateTeamsData() {
+	const modifiedTeamsData = [];
+	const locationsData = [];
+	for (const team of teamJSON) {
+		locationsData.push({
+			name: team.location.name,
+			city: team.location.city,
+			state: team.location.state,
+			zip: team.location.zip,
+			country_code: team.location.country_code,
+			timezone: team.location.timezone,
+			latitude: team.location.latitude,
+			longitude: team.location.longitude,
+			elevation: team.location.elevation,
+			capacity: team.location.capacity,
+			year_constructed: team.location.year_constructed,
+			grass: team.location.grass,
+			dome: team.location.dome,
+		});
+		modifiedTeamsData.push({
+			school_name: team.school,
+			mascot: team.mascot,
+			abbreviation: team.abbreviation,
+			alt_name1: team.alt_name1,
+			alt_name2: team.alt_name2,
+			alt_name3: team.alt_name3,
+			conference: team.conference,
+			classification: team.classification,
+			color: team.color,
+			alt_color: team.alt_color,
+			logo: team.logos[0],
+			alt_logo: team.logos[1],
+			twitter_handle: team.twitter,
+			location: { name: team.location.name, zip: team.location.zip },
+		});
+	}
+	const locations = await generateLocationsData(locationsData);
+
+	// Assign location IDs to TeamsData
+	let locationData;
+	for (let i = 0; i < modifiedTeamsData.length; i++) {
+		locationData = await Locations.findOne({
+			where: {
+				name: modifiedTeamsData[i].location.name,
+				zip: modifiedTeamsData[i].location.zip,
+			},
+		});
+		modifiedTeamsData[i].location = locationData.id;
+	}
+	const teamsData = await Teams.bulkCreate(modifiedTeamsData, {
 		individualHooks: true,
 		returning: true,
 	});
 	const teams = teamsData.map((element) => element.get({ plain: true }));
+	return [teams, locations];
+}
 
-	/** Dynamically generate Game Data based on insertion order of the games.
-	 * Since the ids aren't always sequential, this preserves the team match-ups.
-	 */
-	let gameData = [];
-	for (let i = 0; i < teams.length; i += 2) {
-		gameData.push({
-			away_team_id: teams[i].id,
-			home_team_id: teams[i + 1].id,
-			winner_id: teams[Math.floor(Math.random() * 2) + i].id,
-			date_id: dates[0].id,
-		});
-	}
-	const gamesData = await Game.bulkCreate(gameData, {
-		individualHooks: true,
-		returning: true,
-	});
-	const games = gamesData.map((element) => element.get({ plain: true }));
+const seedDatabase = async () => {
+	await sequelize.sync({ force: true });
+	const weeks = await generateWeekData();
+	const users = await generateUserData();
+	const usernames = await generateUsernameData();
+	const [teams, locations] = await generateTeamsData();
 
-	//! NO LONGER VALID
-	// const weeksData = await Week.bulkCreate(weekData, {
-	// 	individualHooks: true,
-	// 	returning: true,
-	// });
-	// const weeks = weeksData.map((element) => element.get({ plain: true }));
-
-	/**
-	 * Dynamically generate Pick Data based on the games created as well as random points per user
-	 */
-	let pickData = [];
-	for (let i = 0; i < users.length; i++) {
-		let points = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-		for (let j = 0; j < games.length; j++) {
-			const { home_team_id, away_team_id } = games[j];
-			const choices = [home_team_id, away_team_id];
-			pickData.push({
-				game_id: games[j].id,
-				team_pick_id: choices[Math.floor(Math.random() * 2)],
-				points: points.splice(
-					Math.floor(Math.random() * points.length),
-					1
-				)[0],
-				user_id: users[i].id,
-			});
-		}
-	}
-	const picksData = await Pick.bulkCreate(pickData, {
-		individualHooks: true,
-		returning: true,
-	});
-	const picks = picksData.map((element) => element.get({ plain: true }));
 	process.exit(0);
 };
 
