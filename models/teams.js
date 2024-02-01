@@ -4,7 +4,7 @@ import Locations from "./locations.js";
 
 class Teams extends Model {}
 
-Team.init(
+Teams.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
