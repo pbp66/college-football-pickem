@@ -14,7 +14,8 @@
 	"author": "pbp66",
 	"license": "MIT",
 	"dependencies": {
-		"bcrypt": "^5.0.0",
+		"axios": "^1.6.7",
+		"bcryptjs": "^2.4.3",
 		"chart.js": "^4.0.1",
 		"connect-session-sequelize": "^7.0.4",
 		"dotenv": "^8.6.0",
@@ -23,8 +24,7 @@
 		"express-session": "^1.17.1",
 		"handlebars-helpers": "^0.9.8",
 		"mysql2": "^2.2.5",
-		"sequelize": "^6.3.5",
-		"sportsdataverse": "^1.2.3"
+		"sequelize": "^6.3.5"
 	},
 	"repository": {
 		"type": "git",

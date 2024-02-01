@@ -1,10 +1,10 @@
 import { Model, DataTypes } from "sequelize";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import sequelize from "../config/connection";
 
 class User extends Model {
-	checkPassword(loginPw) {
-		return bcrypt.compareSync(loginPw, this.password);
+	async checkPassword(loginPw) {
+		return await bcrypt.compare(loginPw, this.password);
 	}
 }
 
@@ -39,9 +39,10 @@ User.init(
 	{
 		hooks: {
 			beforeCreate: async (newUserData) => {
+				const saltRounds = 12;
 				newUserData.password = await bcrypt.hash(
 					newUserData.password,
-					10
+					saltRounds
 				);
 				return newUserData;
 			},
