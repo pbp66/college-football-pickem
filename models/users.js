@@ -33,6 +33,17 @@ Users.init(
 				throw new Error("Do not try to set the 'fullname value!");
 			},
 		},
+		username: {
+			type: DataTypes.STRING,
+			defaultValue: this.first_name,
+		},
+		past_usernames: {
+			type: DataTypes.INTEGER,
+			references: {
+				model: usernames,
+				foreignKey: "id",
+			},
+		},
 		email: {
 			type: DataTypes.STRING,
 			allowNull: true,
@@ -50,7 +61,7 @@ Users.init(
 		},
 		joined: {
 			type: DataTypes.DATE,
-			allowNull: true,
+			defaultValue: DataTypes.NOW,
 		},
 	},
 	{

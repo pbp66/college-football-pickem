@@ -2,15 +2,19 @@ import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection";
 import Game from "./game";
 
-class Week extends Model {}
+class Weeks extends Model {}
 
-Week.init(
+Weeks.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			primaryKey: true,
 			autoIncrement: true,
+		},
+		season: {
+			type: DataTypes.STRING,
+			allowNull: true,
 		},
 		week_num: {
 			type: DataTypes.INTEGER,
@@ -29,8 +33,8 @@ Week.init(
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,
-		modelName: "week",
+		modelName: "weeks",
 	}
 );
 
-export default Week;
+export default Weeks;
