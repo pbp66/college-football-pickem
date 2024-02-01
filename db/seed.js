@@ -1,10 +1,12 @@
-import sequelize from "../config/connection";
-import { Date, Game, Pick, Team, User, Week } from "../models";
-import userData from "./data/userData.json" assert { type: "json" };
-import teamData from "./data/teamData.json" assert { type: "json" };
+import sequelize from "../config/connection.js";
+// import { Date, Game, Pick, Team, User, Week } from "../models"; //! Moving to direct imports and removing bulk imports with index.js
+import userData from "./data/users.json" assert { type: "json" };
+import teamData from "./data/teams.json" assert { type: "json" };
 
 const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
+
+	/* Generate Week Data*/
 
 	/* Generate User Data from JSON */
 	const usersData = await User.bulkCreate(userData, {
