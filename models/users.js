@@ -39,7 +39,7 @@ Users.init(
 		},
 		username: {
 			type: DataTypes.STRING,
-			defaultValue: `${this.first_name}-${this.id}`,
+			allowNull: false,
 			unique: true,
 		},
 		email: {
@@ -65,11 +65,30 @@ Users.init(
 	{
 		hooks: {
 			beforeCreate: async (newUserData) => {
+				/* Hash the users password */
 				const saltRounds = 12;
 				newUserData.password = await bcrypt.hash(
 					newUserData.password,
 					saltRounds
 				);
+
+				/* Check and Set Username */
+				if (!Object.hasOwn(newUserData, "username")) {
+					newUserData.username = newUserData.first_name.concat(
+						newUserData.last_name
+					);
+				}
+
+				return newUserData;
+			},
+
+			afterCreate: (newUserData) => {
+				if (
+					newUserData.username ===
+					newUserData.first_name.concat(newUserData.last_name)
+				) {
+					newUserData.username = `${newUserData.first_name}-${newUserData.id}`;
+				}
 				return newUserData;
 			},
 		},
