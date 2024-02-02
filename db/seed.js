@@ -220,7 +220,7 @@ const seedDatabase = async () => {
 	const usernames = await generateUsernameData();
 	const [teams, locations] = await generateTeamsData();
 	const unregisteredTeams = await preprocessHistoricalData(
-		historicalJSON2022
+		historicalJSON2021
 	);
 	console.log(unregisteredTeams);
 	//const games = await generateGamesData();
