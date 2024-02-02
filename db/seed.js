@@ -1,11 +1,13 @@
 import sequelize from "../config/connection.js";
-import Users from "../models/users.js";
-import Usernames from "../models/usernames.js";
-import Weeks from "../models/weeks.js";
-import Teams from "../models/teams.js";
-import Picks from "../models/picks.js";
-import Locations from "../models/locations.js";
-import Games from "../models/games.js";
+import {
+	Users,
+	Usernames,
+	Weeks,
+	Teams,
+	Picks,
+	Locations,
+	Games,
+} from "../models/models.js";
 import userJSON from "./data/users.json" assert { type: "json" };
 import teamJSON from "./data/teams.json" assert { type: "json" };
 import historicalJSON2019 from "./data/historicalData2019.json" assert { type: "json" };
