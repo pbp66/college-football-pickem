@@ -1,6 +1,6 @@
 import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection.js";
-import Teams from "./team";
+import Teams from "./teams.js";
 import Weeks from "./weeks.js";
 import Locations from "./locations.js";
 import Picks from "./picks.js";
