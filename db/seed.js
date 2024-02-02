@@ -82,7 +82,7 @@ async function generateUsernameData() {
 		for (let i = 0; i < user.usernames.length; i++) {
 			modifiedUsernameData.push({
 				name: user.usernames[i],
-				user: userData.id,
+				user_id: userData.dataValues.id,
 			});
 		}
 	}
@@ -175,6 +175,7 @@ const seedDatabase = async () => {
 	const usernames = await generateUsernameData();
 	const [teams, locations] = await generateTeamsData();
 	//const games = await generateGamesData();
+	//const picks = await generatePicksData();
 
 	process.exit(0);
 };
