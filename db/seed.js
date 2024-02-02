@@ -55,7 +55,7 @@ async function preprocessHistoricalData(seasonData) {
 			}
 		}
 	}
-	return teamNamesToGenerate;
+	console.log(teamNamesToGenerate);
 }
 
 async function generateWeekData() {
@@ -219,10 +219,7 @@ const seedDatabase = async () => {
 	const users = await generateUserData();
 	const usernames = await generateUsernameData();
 	const [teams, locations] = await generateTeamsData();
-	const unregisteredTeams = await preprocessHistoricalData(
-		historicalJSON2020
-	);
-	console.log(unregisteredTeams);
+	await preprocessHistoricalData(historicalJSON2023);
 	//const games = await generateGamesData();
 	//const picks = await generatePicksData();
 
