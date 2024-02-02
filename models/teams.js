@@ -37,6 +37,10 @@ Teams.init(
 			type: DataTypes.STRING,
 			allowNull: true,
 		},
+		alt_name4: {
+			type: DataTypes.STRING,
+			allowNull: true,
+		},
 		conference: {
 			type: DataTypes.STRING,
 			allowNull: false, // TODO: Add validator for valid conferences

@@ -8476,7 +8476,7 @@
 	{
 		"weekNumber": 9,
 		"matchUps": [
-			"KU@OU",
+			"OU@KU",
 			"UGA@UF",
 			"BYU@UT",
 			"ORE@UTAH",
@@ -8493,8 +8493,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "6",
@@ -8588,8 +8588,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "7",
@@ -8683,8 +8683,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "7",
@@ -8778,8 +8778,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "10",
@@ -8873,8 +8873,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "7",
@@ -8968,8 +8968,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "7",
@@ -9063,8 +9063,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "7",
@@ -9158,8 +9158,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "8",
@@ -9253,8 +9253,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "8",
@@ -9348,8 +9348,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "9",
@@ -9443,8 +9443,8 @@
 				"games": [
 					{
 						"gameNumber": 1,
-						"homeTeam": "OU",
-						"awayTeam": "KU",
+						"homeTeam": "KU",
+						"awayTeam": "OU",
 						"pickedTeam": "OU",
 						"winningTeam": "KU",
 						"pointsWagered": "6",

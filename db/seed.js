@@ -1,4 +1,5 @@
 import sequelize from "../config/connection.js";
+import { Op } from "sequelize";
 import {
 	Users,
 	Usernames,
@@ -15,6 +16,47 @@ import historicalJSON2020 from "./data/historicalData2020.json" assert { type: "
 import historicalJSON2021 from "./data/historicalData2021.json" assert { type: "json" };
 import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "json" };
 import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
+
+async function preprocessHistoricalData(seasonData) {
+	let home, away, splitIndex, homeTeam, awayTeam;
+	let teamNamesToGenerate = [];
+	for (const week of seasonData) {
+		for (const game of week.matchUps) {
+			splitIndex = game.indexOf("@");
+			home = game.substring(splitIndex + 1);
+			away = game.substring(0, splitIndex);
+			homeTeam = await Teams.findOne({
+				where: {
+					[Op.or]: [
+						{ abbreviation: home },
+						{ alt_name1: home },
+						{ alt_name2: home },
+						{ alt_name3: home },
+						{ alt_name4: home },
+					],
+				},
+			});
+			awayTeam = await Teams.findOne({
+				where: {
+					[Op.or]: [
+						{ abbreviation: away },
+						{ alt_name1: away },
+						{ alt_name2: away },
+						{ alt_name3: away },
+						{ alt_name4: away },
+					],
+				},
+			});
+			if (!homeTeam) {
+				teamNamesToGenerate.push(home);
+			}
+			if (!awayTeam) {
+				teamNamesToGenerate.push(away);
+			}
+		}
+	}
+	return teamNamesToGenerate;
+}
 
 async function generateWeekData() {
 	/* Generate Week Data */
@@ -130,6 +172,7 @@ async function generateTeamsData() {
 			alt_name1: team.alt_name1,
 			alt_name2: team.alt_name2,
 			alt_name3: team.alt_name3,
+			alt_name4: team.alt_name4,
 			conference: team.conference,
 			classification: team.classification,
 			color: team.color,
@@ -164,9 +207,11 @@ async function generateTeamsData() {
 	return [teams, locations];
 }
 
-//async function generateGamesData() {}
+async function generateGamesData() {
+	//
+}
 
-//async function generatePicksData() {}
+async function generatePicksData() {}
 
 const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
@@ -174,6 +219,10 @@ const seedDatabase = async () => {
 	const users = await generateUserData();
 	const usernames = await generateUsernameData();
 	const [teams, locations] = await generateTeamsData();
+	const unregisteredTeams = await preprocessHistoricalData(
+		historicalJSON2022
+	);
+	console.log(unregisteredTeams);
 	//const games = await generateGamesData();
 	//const picks = await generatePicksData();
 
