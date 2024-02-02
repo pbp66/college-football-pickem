@@ -1,9 +1,6 @@
 import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection.js";
-import Teams from "./teams.js";
-import Weeks from "./weeks.js";
-import Locations from "./locations.js";
-import Picks from "./picks.js";
+import { Teams, Weeks, Locations } from "./models.js";
 
 class Games extends Model {}
 
@@ -75,23 +72,5 @@ Games.init(
 		modelName: "games",
 	}
 );
-
-Games.belongsTo(Teams, {
-	as: "home_team",
-	foreignKey: "id",
-});
-Games.belongsTo(Teams, {
-	as: "away_team",
-	foreignKey: "id",
-});
-Games.belongsTo(Teams, {
-	as: "winning_team",
-	foreignKey: "id",
-});
-Games.belongsTo(Weeks);
-Games.belongsTo(Locations);
-Games.hasMany(Picks, {
-	foreignKey: "game",
-});
 
 export default Games;

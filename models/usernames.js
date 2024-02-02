@@ -1,6 +1,6 @@
 import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection.js";
-import Users from "./users.js";
+import { Users } from "./models.js";
 
 class Usernames extends Model {}
 
@@ -34,5 +34,4 @@ Usernames.init(
 	}
 );
 
-Usernames.belongsTo(Users);
 export default Usernames;

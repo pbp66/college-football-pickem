@@ -1,7 +1,5 @@
 import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection.js";
-import Teams from "./teams.js";
-import Games from "./games.js";
 
 class Locations extends Model {}
 
@@ -151,12 +149,5 @@ Locations.init(
 		modelName: "locations",
 	}
 );
-
-Locations.hasMany(Teams, {
-	foreignKey: "location",
-});
-Locations.hasMany(Games, {
-	foreignKey: "location",
-});
 
 export default Locations;

@@ -1,7 +1,6 @@
 import { Model, DataTypes } from "sequelize";
 import bcrypt from "bcryptjs";
 import sequelize from "../config/connection.js";
-import Usernames from "./usernames.js";
 
 class Users extends Model {
 	async checkPassword(loginPw) {
@@ -81,14 +80,5 @@ Users.init(
 		modelName: "users",
 	}
 );
-
-Users.hasMany(Usernames, {
-	foreignKey: "user",
-	// Or:
-	// foreignKey: { name: "user"},
-});
-Users.hasMany(Picks, {
-	foreignKey: "user",
-});
 
 export default Users;

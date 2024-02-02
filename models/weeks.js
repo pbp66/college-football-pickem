@@ -41,11 +41,4 @@ Weeks.init(
 	}
 );
 
-Weeks.hasMany(Games, {
-	foreignKey: "week",
-});
-Weeks.hasMany(Picks, {
-	foreignKey: "week",
-});
-
 export default Weeks;

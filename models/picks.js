@@ -1,9 +1,6 @@
 import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection.js";
-import Users from "./users.js";
-import Teams from "./teams.js";
-import Games from "./games.js";
-import Weeks from "./weeks.js";
+import { Users, Teams, Games, Weeks } from "./models.js";
 
 class Picks extends Model {}
 
@@ -64,10 +61,5 @@ Pick.init(
 		modelName: "picks",
 	}
 );
-
-Picks.belongsTo(Users);
-Picks.belongsTo(Teams);
-Picks.belongsTo(Games);
-Picks.belongsTo(Weeks);
 
 export default Picks;
