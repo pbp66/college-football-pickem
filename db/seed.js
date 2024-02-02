@@ -105,21 +105,24 @@ async function generateTeamsData() {
 	const modifiedTeamsData = [];
 	const locationsData = [];
 	for (const team of teamJSON) {
-		locationsData.push({
-			name: team.location.name,
-			city: team.location.city,
-			state: team.location.state,
-			zip: team.location.zip,
-			country_code: team.location.country_code,
-			timezone: team.location.timezone,
-			latitude: team.location.latitude,
-			longitude: team.location.longitude,
-			elevation: team.location.elevation,
-			capacity: team.location.capacity,
-			year_constructed: team.location.year_constructed,
-			grass: team.location.grass,
-			dome: team.location.dome,
-		});
+		// If location data is truthy (not null)
+		if (team.location.name) {
+			locationsData.push({
+				name: team.location.name,
+				city: team.location.city,
+				state: team.location.state,
+				zip: team.location.zip,
+				country_code: team.location.country_code,
+				timezone: team.location.timezone,
+				latitude: team.location.latitude,
+				longitude: team.location.longitude,
+				elevation: team.location.elevation,
+				capacity: team.location.capacity,
+				year_constructed: team.location.year_constructed,
+				grass: team.location.grass,
+				dome: team.location.dome,
+			});
+		}
 		modifiedTeamsData.push({
 			school_name: team.school,
 			mascot: team.mascot,
@@ -134,7 +137,7 @@ async function generateTeamsData() {
 			logo: team.logos[0],
 			alt_logo: team.logos[1],
 			twitter_handle: team.twitter,
-			location: { name: team.location.name, zip: team.location.zip },
+			location: { name: team.location.name, city: team.location.city },
 		});
 	}
 	const locations = await generateLocationsData(locationsData);
@@ -142,13 +145,16 @@ async function generateTeamsData() {
 	// Assign location IDs to TeamsData
 	let locationData;
 	for (let i = 0; i < modifiedTeamsData.length; i++) {
-		locationData = await Locations.findOne({
-			where: {
-				name: modifiedTeamsData[i].location.name,
-				zip: modifiedTeamsData[i].location.zip,
-			},
-		});
-		modifiedTeamsData[i].location = locationData.id;
+		// If location data is truthy (not null)
+		if (modifiedTeamsData[i].location.name) {
+			locationData = await Locations.findOne({
+				where: {
+					name: modifiedTeamsData[i].location.name,
+					city: modifiedTeamsData[i].location.city,
+				},
+			});
+			modifiedTeamsData[i].location = locationData.id;
+		}
 	}
 	const teamsData = await Teams.bulkCreate(modifiedTeamsData, {
 		individualHooks: true,

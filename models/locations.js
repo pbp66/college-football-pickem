@@ -87,22 +87,22 @@ Locations.init(
 		},
 		zip: {
 			type: DataTypes.INTEGER,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				is: /\b[0-9]{5}\b/,
 			},
 		},
 		country_code: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			allowNull: true,
 		},
 		timezone: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			allowNull: true,
 		},
 		latitude: {
 			type: DataTypes.DOUBLE,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				min: -90,
 				max: 90,
@@ -110,7 +110,7 @@ Locations.init(
 		},
 		longitude: {
 			type: DataTypes.DOUBLE,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				min: -180,
 				max: 180,
@@ -118,18 +118,18 @@ Locations.init(
 		},
 		elevation: {
 			type: DataTypes.DOUBLE,
-			allowNull: false,
+			allowNull: true,
 		},
 		capacity: {
 			type: DataTypes.INTEGER,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				min: 1,
 			},
 		},
 		year_constructed: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			allowNull: true,
 			validate: { len: [4] },
 		},
 		grass: {

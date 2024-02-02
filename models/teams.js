@@ -50,28 +50,28 @@ Teams.init(
 		},
 		color: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				is: /#[0-9a-z]{8}/,
 			},
 		},
 		alt_color: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				is: /#[0-9a-z]{8}/,
 			},
 		},
 		logo: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				isURL: true,
 			},
 		},
 		alt_logo: {
 			type: DataTypes.STRING,
-			allowNull: false,
+			allowNull: true,
 			validate: {
 				isURL: true,
 			},
