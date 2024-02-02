@@ -74,22 +74,18 @@ Users.init(
 
 				/* Check and Set Username */
 				if (!Object.hasOwn(newUserData, "username")) {
-					newUserData.username = newUserData.first_name.concat(
-						newUserData.last_name
-					);
+					newUserData.username = newUserData.first_name;
 				}
 
 				return newUserData;
 			},
 
-			afterCreate: (newUserData) => {
-				if (
-					newUserData.username ===
-					newUserData.first_name.concat(newUserData.last_name)
-				) {
-					newUserData.username = `${newUserData.first_name}-${newUserData.id}`;
+			afterCreate: async (user) => {
+				if (user.username === user.first_name) {
+					return user.update({
+						username: `${user.first_name}-${user.id}`,
+					});
 				}
-				return newUserData;
 			},
 		},
 		sequelize,
