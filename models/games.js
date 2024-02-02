@@ -30,6 +30,7 @@ Games.init(
 			},
 		},
 		winning_team_id: {
+			// TODO: Create a team to represent tie games?
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			defaultValue: null,
@@ -62,6 +63,10 @@ Games.init(
 		date: {
 			type: DataTypes.DATE,
 			allowNull: false,
+		},
+		completed: {
+			type: DataTypes.BOOLEAN,
+			defaultValue: false,
 		},
 	},
 	{

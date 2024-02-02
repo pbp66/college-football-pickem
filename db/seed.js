@@ -61,16 +61,17 @@ async function preprocessHistoricalData(seasonData) {
 async function generateWeekData() {
 	/* Generate Week Data */
 	const years = [2019, 2020, 2021, 2022, 2023];
-	let maxWeeks;
+	let maxWeeks = 15;
 	const weekData = [];
 	for (const year of years) {
 		if (year == 2020) {
-			maxWeeks = 9;
+			for (let i = 8; i < 17; i++) {
+				weekData.push({ season: year, number: i });
+			}
 		} else {
-			maxWeeks = 15;
-		}
-		for (let i = 1; i < maxWeeks + 1; i++) {
-			weekData.push({ season: year, number: i });
+			for (let i = 1; i < maxWeeks + 1; i++) {
+				weekData.push({ season: year, number: i });
+			}
 		}
 	}
 	const weeksData = await Weeks.bulkCreate(weekData, {
@@ -219,7 +220,9 @@ const seedDatabase = async () => {
 	const users = await generateUserData();
 	const usernames = await generateUsernameData();
 	const [teams, locations] = await generateTeamsData();
-	await preprocessHistoricalData(historicalJSON2023);
+
+	//await preprocessHistoricalData(historicalJSON2023);
+
 	//const games = await generateGamesData();
 	//const picks = await generatePicksData();
 

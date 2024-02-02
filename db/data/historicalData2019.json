@@ -12211,7 +12211,7 @@
 			"UTAH@ORE",
 			"BAY@OU",
 			"ULL@APP",
-			"MIAMI@CMU",
+			"MIOH@CMU",
 			"UAB@FAU",
 			"CINCY@MEM",
 			"UGA@LSU",
@@ -12253,9 +12253,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "CMU",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -12348,9 +12348,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "MIAMI",
+						"awayTeam": "MIOH",
+						"pickedTeam": "MIOH",
+						"winningTeam": "MIOH",
 						"pointsWagered": "3",
 						"pointsWon": "3"
 					},
@@ -12443,9 +12443,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "CMU",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "3",
 						"pointsWon": "0"
 					},
@@ -12538,9 +12538,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "CMU",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "3",
 						"pointsWon": "0"
 					},
@@ -12633,9 +12633,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "CMU",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -12728,9 +12728,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "MIAMI",
+						"awayTeam": "MIOH",
+						"pickedTeam": "MIOH",
+						"winningTeam": "MIOH",
 						"pointsWagered": "2",
 						"pointsWon": "2"
 					},
@@ -12823,9 +12823,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "CMU",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "5",
 						"pointsWon": "0"
 					},
@@ -12918,9 +12918,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "MIAMI",
+						"awayTeam": "MIOH",
+						"pickedTeam": "MIOH",
+						"winningTeam": "MIOH",
 						"pointsWagered": "4",
 						"pointsWon": "4"
 					},
@@ -13013,9 +13013,9 @@
 					{
 						"gameNumber": 4,
 						"homeTeam": "CMU",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "CMU",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "8",
 						"pointsWon": "0"
 					},
