@@ -4,7 +4,7 @@ import { Users, Teams, Games, Weeks } from "./models.js";
 
 class Picks extends Model {}
 
-Pick.init(
+Picks.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,

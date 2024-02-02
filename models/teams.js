@@ -85,6 +85,7 @@ Teams.init(
 		},
 		location: {
 			type: DataTypes.INTEGER,
+			allowNull: true,
 			references: {
 				model: Locations,
 				key: "id",

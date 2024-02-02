@@ -1,8 +1,8 @@
 import Weeks from "./weeks.js";
 import Users from "./users.js";
+import Locations from "./locations.js";
 import Teams from "./teams.js";
 import Usernames from "./usernames.js";
-import Locations from "./locations.js";
 import Games from "./games.js";
 import Picks from "./picks.js";
 
