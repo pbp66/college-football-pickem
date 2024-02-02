@@ -156,12 +156,17 @@ async function generateTeamsData() {
 	return [teams, locations];
 }
 
+async function generateGamesData() {}
+
+async function generatePicksData() {}
+
 const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
 	const weeks = await generateWeekData();
 	const users = await generateUserData();
 	const usernames = await generateUsernameData();
 	const [teams, locations] = await generateTeamsData();
+	const games = await generateGamesData() {};
 
 	process.exit(0);
 };
