@@ -12,28 +12,28 @@ Picks.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		user: {
+		user_id: {
 			type: DataTypes.INTEGER,
 			references: {
 				model: Users,
 				key: "id",
 			},
 		},
-		picked_team: {
+		picked_team_id: {
 			type: DataTypes.INTEGER,
 			references: {
 				model: Teams,
 				key: "id",
 			},
 		},
-		game: {
+		game_id: {
 			type: DataTypes.INTEGER,
 			references: {
 				model: Games,
 				key: "id",
 			},
 		},
-		week: {
+		week_id: {
 			type: DataTypes.INTEGER,
 			references: {
 				model: Weeks,

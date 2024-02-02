@@ -83,7 +83,7 @@ Teams.init(
 				is: /^@?(\w){1,15}$/,
 			},
 		},
-		location: {
+		location_id: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			references: {

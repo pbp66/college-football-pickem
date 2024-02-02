@@ -13,7 +13,7 @@ Games.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		home_team: {
+		home_team_id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			references: {
@@ -21,7 +21,7 @@ Games.init(
 				key: "id",
 			},
 		},
-		away_team: {
+		away_team_id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			references: {
@@ -29,7 +29,7 @@ Games.init(
 				key: "id",
 			},
 		},
-		winning_team: {
+		winning_team_id: {
 			type: DataTypes.INTEGER,
 			allowNull: true,
 			defaultValue: null,
@@ -38,7 +38,7 @@ Games.init(
 				key: "id",
 			},
 		},
-		week: {
+		week_id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
 			references: {
@@ -46,7 +46,7 @@ Games.init(
 				key: "id",
 			},
 		},
-		location: {
+		location_id: {
 			// TODO: automate the default value to be the home team's location
 			type: DataTypes.INTEGER,
 			allowNull: true,
