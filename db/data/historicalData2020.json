@@ -9,7 +9,6 @@
 			"CLEM@ND",
 			"MINN@WIS",
 			"BSU@SJSU",
-			"MSU@UMD",
 			"BAMA@UF",
 			"TLSA@CIN"
 		],
@@ -85,7 +84,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -180,7 +179,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -275,7 +274,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -370,7 +369,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "UMD",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -465,7 +464,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -560,7 +559,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -655,7 +654,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -750,7 +749,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -845,7 +844,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "UMD",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -940,7 +939,7 @@
 						"homeTeam": "UMD",
 						"awayTeam": "MSU",
 						"pickedTeam": "MSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -2909,8 +2908,6 @@
 			"BALL@TOL",
 			"SMU@ECU",
 			"AUB@BAMA",
-			"COLO@USC",
-			"SJSU@BSU",
 			"MSST@OLE",
 			"RUT@PUR"
 		],
@@ -2977,7 +2974,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "USC",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "2",
 						"pointsWon": "0"
 					},
@@ -2986,7 +2983,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "8",
 						"pointsWon": "0"
 					},
@@ -3072,7 +3069,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "COLO",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -3081,7 +3078,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "9",
 						"pointsWon": "0"
 					},
@@ -3167,7 +3164,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "COLO",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -3176,7 +3173,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "7",
 						"pointsWon": "0"
 					},
@@ -3262,7 +3259,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "USC",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -3271,7 +3268,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "8",
 						"pointsWon": "0"
 					},
@@ -3357,7 +3354,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "USC",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "6",
 						"pointsWon": "0"
 					},
@@ -3366,7 +3363,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "8",
 						"pointsWon": "0"
 					},
@@ -3452,7 +3449,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "USC",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -3461,7 +3458,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "7",
 						"pointsWon": "0"
 					},
@@ -3547,7 +3544,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "USC",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -3556,7 +3553,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "7",
 						"pointsWon": "0"
 					},
@@ -3642,7 +3639,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "COLO",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -3651,7 +3648,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "BSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "3",
 						"pointsWon": "0"
 					},
@@ -3737,7 +3734,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "COLO",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -3746,7 +3743,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "SJSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "3",
 						"pointsWon": "0"
 					},
@@ -3832,7 +3829,7 @@
 						"homeTeam": "USC",
 						"awayTeam": "COLO",
 						"pickedTeam": "USC",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "10",
 						"pointsWon": "0"
 					},
@@ -3841,7 +3838,7 @@
 						"homeTeam": "BSU",
 						"awayTeam": "SJSU",
 						"pickedTeam": "SJSU",
-						"winningTeam": "DEAD",
+						"winningTeam": null,
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -5812,7 +5809,7 @@
 			"UH@UC",
 			"OKST@KSU",
 			"CLEM@ND",
-			"UT@ARK",
+			"TENN@ARK",
 			"WAZZU@ORST"
 		],
 		"pickData": [
@@ -5894,7 +5891,7 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
+						"awayTeam": "TENN",
 						"pickedTeam": "ARK",
 						"winningTeam": "ARK",
 						"pointsWagered": "1",
@@ -5989,7 +5986,7 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
+						"awayTeam": "TENN",
 						"pickedTeam": "ARK",
 						"winningTeam": "ARK",
 						"pointsWagered": "1",
@@ -6084,7 +6081,7 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
+						"awayTeam": "TENN",
 						"pickedTeam": "ARK",
 						"winningTeam": "ARK",
 						"pointsWagered": "1",
@@ -6179,7 +6176,7 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
+						"awayTeam": "TENN",
 						"pickedTeam": "ARK",
 						"winningTeam": "ARK",
 						"pointsWagered": "2",
@@ -6274,8 +6271,8 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
-						"pickedTeam": "UT",
+						"awayTeam": "TENN",
+						"pickedTeam": "TENN",
 						"winningTeam": "ARK",
 						"pointsWagered": "1",
 						"pointsWon": "0"
@@ -6369,7 +6366,7 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
+						"awayTeam": "TENN",
 						"pickedTeam": "ARK",
 						"winningTeam": "ARK",
 						"pointsWagered": "1",
@@ -6464,8 +6461,8 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
-						"pickedTeam": "UT",
+						"awayTeam": "TENN",
+						"pickedTeam": "TENN",
 						"winningTeam": "ARK",
 						"pointsWagered": "1",
 						"pointsWon": "0"
@@ -6559,7 +6556,7 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
+						"awayTeam": "TENN",
 						"pickedTeam": "ARK",
 						"winningTeam": "ARK",
 						"pointsWagered": "6",
@@ -6654,8 +6651,8 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
-						"pickedTeam": "UT",
+						"awayTeam": "TENN",
+						"pickedTeam": "TENN",
 						"winningTeam": "ARK",
 						"pointsWagered": "2",
 						"pointsWon": "0"
@@ -6749,8 +6746,8 @@
 					{
 						"gameNumber": 9,
 						"homeTeam": "ARK",
-						"awayTeam": "UT",
-						"pickedTeam": "UT",
+						"awayTeam": "TENN",
+						"pickedTeam": "TENN",
 						"winningTeam": "ARK",
 						"pointsWagered": "2",
 						"pointsWon": "0"

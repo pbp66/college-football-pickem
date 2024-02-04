@@ -10,6 +10,7 @@ import historicalJSON2021 from "./data/historicalData2021.json" assert { type: "
 import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "json" };
 import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
 
+//! Skipping COVID year until I can manually verify each cancelled game. SMDH...
 const years = [2019, 2020, 2021, 2022, 2023];
 const historicalData = [
 	historicalJSON2019,
@@ -24,6 +25,7 @@ const gameAPI = new URL("/games", apiURL);
 gameAPI.searchParams.set("year", 2019);
 gameAPI.searchParams.set("week", 1);
 gameAPI.searchParams.set("team", "Purdue");
+gameAPI.searchParams.set("seasonType", "regular");
 const token = process.env.BEARER_TOKEN;
 
 // params must be a list of key, value pairs
@@ -44,6 +46,8 @@ async function getGameData(params) {
 					console.log(
 						"\nYear:",
 						gameAPI.searchParams.get("year"),
+						"\nSeason Type:",
+						gameAPI.searchParams.get("seasonType"),
 						"\nWeek:",
 						gameAPI.searchParams.get("week"),
 						"\nTeam:",
@@ -52,7 +56,7 @@ async function getGameData(params) {
 					);
 					resolve(response);
 				});
-		}, 1000);
+		}, 750);
 	});
 }
 
@@ -127,10 +131,19 @@ async function generateCustomGameData(
 }
 
 async function createGamesList(seasonData, year) {
-	let splitIndex, team, teamObject, params, gameData;
+	let splitIndex, team, teamObject, params, gameData, seasonType;
 	let customGameData;
 	const modifiedGamesData = [];
 	for (const week of seasonData) {
+		if (year === 2019 && week.weekNumber === 16) {
+			seasonType = "postseason";
+			week.weekNumber = 1;
+		} else if (week.weekNumber === 15 && year !== 2020) {
+			seasonType = "postseason";
+			week.weekNumber = 1;
+		} else {
+			seasonType = "regular";
+		}
 		for (const game of week.matchUps) {
 			splitIndex = game.indexOf("@");
 			team = game.substring(0, splitIndex);
@@ -154,6 +167,7 @@ async function createGamesList(seasonData, year) {
 				year,
 				week: week.weekNumber,
 				team: teamObject.school_name,
+				seasonType,
 			};
 			gameData = await getGameData(params); // Returns a list of length 1
 			customGameData = await generateCustomGameData(
@@ -179,20 +193,17 @@ async function createGamesList(seasonData, year) {
 async function main() {
 	let games = [];
 	for (let i = 0; i < historicalData.length; i++) {
-		games.concat(await createGamesList(historicalData[i], years[i]));
+		games.push(await createGamesList(historicalData[i], years[i]));
 	}
-
-	fs.writeFile(
-		"./data/games.json",
-		JSON.stringify(games, null, 4),
-		(error) => {
-			if (error) {
-				console.error(error);
-				throw error;
-			}
-			console.log(`JSON data written to ./data/games.json`);
-		}
-	);
+	return games;
 }
 
-main();
+let games = await main();
+console.log(games);
+fs.writeFile("./data/games.json", JSON.stringify(games, null, 4), (error) => {
+	if (error) {
+		console.error(error);
+		throw error;
+	}
+	console.log(`JSON data written to ./data/games.json`);
+});

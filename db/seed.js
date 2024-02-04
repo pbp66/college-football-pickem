@@ -212,6 +212,8 @@ async function generateGamesData() {
 	//
 }
 
+async function loadManualGamesData() {}
+
 async function generatePicksData() {}
 
 const seedDatabase = async () => {
