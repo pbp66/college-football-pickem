@@ -27,6 +27,13 @@ Usernames.init(
 	},
 	{
 		sequelize,
+		indexes: [
+			{
+				name: "UNIQUE_USERNAME_CONSTRAINT",
+				unique: true,
+				fields: ["name", "user_id"],
+			},
+		],
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,

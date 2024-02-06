@@ -6,35 +6,33 @@ class Picks extends Model {}
 
 Picks.init(
 	{
-		id: {
-			type: DataTypes.INTEGER,
-			allowNull: false,
-			primaryKey: true,
-			autoIncrement: true,
-		},
 		user_id: {
 			type: DataTypes.INTEGER,
+			primaryKey: true,
 			references: {
 				model: Users,
 				key: "id",
 			},
 		},
-		picked_team_id: {
-			type: DataTypes.INTEGER,
-			references: {
-				model: Teams,
-				key: "id",
-			},
-		},
 		game_id: {
 			type: DataTypes.INTEGER,
+			primaryKey: true,
 			references: {
 				model: Games,
 				key: "id",
 			},
 		},
+		picked_team_id: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+			references: {
+				model: Teams,
+				key: "id",
+			},
+		},
 		week_id: {
 			type: DataTypes.INTEGER,
+			allowNull: false,
 			references: {
 				model: Weeks,
 				key: "id",
@@ -47,12 +45,7 @@ Picks.init(
 				isIn: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 			},
 		},
-		points_won: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			defaultValue: null,
-		},
-	}, // TODO: create hook, script, or automation to update points_won once the game winner is updated.
+	},
 	{
 		sequelize,
 		timestamps: true,

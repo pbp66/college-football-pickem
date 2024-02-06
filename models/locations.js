@@ -143,6 +143,15 @@ Locations.init(
 	},
 	{
 		sequelize,
+		validate: {
+			bothCoordsOrNone() {
+				if ((this.latitude === null) !== (this.longitude === null)) {
+					throw new Error(
+						"Either both latitude and longitude, or neither!"
+					);
+				}
+			},
+		},
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,

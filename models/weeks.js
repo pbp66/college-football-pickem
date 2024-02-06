@@ -7,17 +7,20 @@ Weeks.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
-			allowNull: false,
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		season: {
-			type: DataTypes.STRING,
-			allowNull: true,
+		year: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
 		},
 		number: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
+		},
+		season: {
+			type: DataTypes.STRING,
+			defaultValue: "regular",
 		},
 		name: {
 			type: DataTypes.STRING,
@@ -34,6 +37,13 @@ Weeks.init(
 	},
 	{
 		sequelize,
+		indexes: [
+			{
+				name: "UNIQUE_WEEK_CONSTRAINT",
+				unique: true,
+				fields: ["year", "number", "season"],
+			},
+		],
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,

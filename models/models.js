@@ -3,8 +3,12 @@ import Users from "./users.js";
 import Locations from "./locations.js";
 import Teams from "./teams.js";
 import Usernames from "./usernames.js";
+import Emails from "./emails.js";
 import Games from "./games.js";
 import Picks from "./picks.js";
+import TeamNames from "./teamNames.js";
+import WeeklyScoreboard from "./weeklyScoreboard.js";
+import YearlyScoreboard from "./yearlyScoreboard.js";
 
 Weeks.hasMany(Games, {
 	foreignKey: "week_id",
@@ -97,4 +101,16 @@ Picks.belongsTo(Games, {
 	as: "game",
 });
 
-export { Games, Locations, Picks, Teams, Usernames, Users, Weeks };
+export {
+	Games,
+	Locations,
+	Picks,
+	Teams,
+	Usernames,
+	Users,
+	Weeks,
+	Emails,
+	TeamNames,
+	WeeklyScoreboard,
+	YearlyScoreboard,
+};
