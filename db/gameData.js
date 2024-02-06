@@ -10,7 +10,6 @@ import historicalJSON2021 from "./data/historicalData2021.json" assert { type: "
 import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "json" };
 import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
 
-//! Skipping COVID year until I can manually verify each cancelled game. SMDH...
 const years = [2019, 2020, 2021, 2022, 2023];
 const historicalData = [
 	historicalJSON2019,
@@ -192,8 +191,12 @@ async function createGamesList(seasonData, year) {
 }
 async function main() {
 	let games = [];
+	//! NEEDS REFACTORING. Ugly code, but works for now...
 	for (let i = 0; i < historicalData.length; i++) {
-		games.push(await createGamesList(historicalData[i], years[i]));
+		let gamesList = await createGamesList(historicalData[i], years[i]);
+		for (const game of gamesList) {
+			games.push(game);
+		}
 	}
 	return games;
 }
