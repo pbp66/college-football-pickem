@@ -61,15 +61,17 @@ async function preprocessHistoricalData(seasonData) {
 async function generateWeekData() {
 	/* Generate Week Data */
 	const years = [2019, 2020, 2021, 2022, 2023];
-	let maxWeeks = 15;
+	let maxWeeks = 16;
 	const weekData = [];
 	for (const year of years) {
-		if (year == 2020) {
-			for (let i = 8; i < 17; i++) {
+		if (year == 2019 || year == 2020) {
+			for (let i = 1; i <= maxWeeks; i++) {
+				// 16 weeks
 				weekData.push({ season: year, number: i });
 			}
 		} else {
-			for (let i = 1; i < maxWeeks + 1; i++) {
+			// 2021 through 2023 had 15 regular season weeks
+			for (let i = 1; i < maxWeeks; i++) {
 				weekData.push({ season: year, number: i });
 			}
 		}
