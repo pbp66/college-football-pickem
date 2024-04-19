@@ -21,10 +21,10 @@ const historicalData = [
 
 const apiURL = new URL("https://api.collegefootballdata.com");
 const gameAPI = new URL("/games", apiURL);
-gameAPI.searchParams.set("year", 2019);
-gameAPI.searchParams.set("week", 1);
-gameAPI.searchParams.set("team", "Purdue");
-gameAPI.searchParams.set("seasonType", "regular");
+// gameAPI.searchParams.set("year", 2019);
+// gameAPI.searchParams.set("week", 1);
+// gameAPI.searchParams.set("team", "Purdue");
+// gameAPI.searchParams.set("seasonType", "regular");
 const token = process.env.BEARER_TOKEN;
 
 // params must be a list of key, value pairs
