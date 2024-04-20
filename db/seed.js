@@ -21,13 +21,19 @@ import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "
 import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
 
 const historicalData = [
-	historicalJSON2019,
-	historicalJSON2020,
+	//historicalJSON2019,
+	//historicalJSON2020,
 	historicalJSON2021,
-	historicalJSON2022,
-	historicalJSON2023,
+	//historicalJSON2022,
+	// historicalJSON2023,
 ];
-const years = [2019, 2020, 2021, 2022, 2023];
+const years = [
+	//2019,
+	//2020,
+	2021,
+	//2022,
+	//2023
+];
 const apiURL = new URL("https://api.collegefootballdata.com");
 const gameAPI = new URL("/games", apiURL);
 const token = process.env.BEARER_TOKEN;
@@ -316,39 +322,47 @@ async function generateGamesData(matchups) {
 
 	// Iterate through each game and retrieve its information from the API server
 	for (const game of matchups) {
-		params = {
-			year: game.year,
-			week: game.weekNum,
-			team: game.home,
-			seasonType: game.gameType,
-		};
-		gameData = (await getGameData(params)).data[0];
-		homeTeamId = (await getTeamId(game.home)).id;
-		awayTeamId = (await getTeamId(game.away)).id;
+		try {
+			params = {
+				year: game.year,
+				week: game.weekNum,
+				team: game.home,
+				seasonType: game.gameType,
+			};
+			gameData = (await getGameData(params)).data[0];
+			homeTeamId = (await getTeamId(game.home)).id;
+			awayTeamId = (await getTeamId(game.away)).id;
 
-		// Determine game winner
-		if (gameData.home_points > gameData.away_points) {
-			championId = homeTeamId;
-		} else if (gameData.away_points > gameData.home_points) {
-			championId = awayTeamId;
-		} else {
-			//TODO:
-			//? We have a tie! What do I do for a tie???
-			championId = null;
+			// Determine game winner
+			if (gameData.home_points > gameData.away_points) {
+				championId = homeTeamId;
+			} else if (gameData.away_points > gameData.home_points) {
+				championId = awayTeamId;
+			} else {
+				//TODO:
+				//? We have a tie! What do I do for a tie???
+				championId = null;
+			}
+
+			weekId = (await getWeekId(game.year, game.weekNum)).id;
+			locationId = (await getLocationId(gameData.venue)).id;
+
+			allGamesData.push({
+				home_team_id: homeTeamId,
+				away_team_id: awayTeamId,
+				champion_id: championId,
+				week_id: weekId,
+				location_id: locationId,
+				date: gameData.start_date,
+				completed: gameData.completed,
+			});
+		} catch (error) {
+			console.log(`\n\n\nWeek: ${params.week}, Year: ${params.year}`);
+			console.log(`Home Team: ${game.home}, Away Team: ${game.away}`);
+			console.log("Params: ", params);
+			console.log("Game: ", gameData);
+			console.error(error);
 		}
-
-		weekId = (await getWeekId(game.year, game.weekNum)).id;
-		locationId = (await getLocationId(gameData.venue)).id;
-
-		allGamesData.push({
-			home_team_id: homeTeamId,
-			away_team_id: awayTeamId,
-			champion_id: championId,
-			week_id: weekId,
-			location_id: locationId,
-			date: gameData.start_date,
-			completed: gameData.completed,
-		});
 	}
 
 	const gamesData = await Games.bulkCreate(allGamesData, {
@@ -363,6 +377,7 @@ async function generatePicksData(pickData) {}
 
 const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
+	console.log("\n\n");
 	console.log("Generating Weeks Data...");
 	const weeks = await generateWeekData();
 	console.log("Weeks Data Generated!\n");

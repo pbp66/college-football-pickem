@@ -12237,8 +12237,6 @@
 			"TENN@PUR",
 			"PITT@MSU",
 			"WIS@ASU",
-			"WAKE@A&M",
-			"WAZZU@MIAMI",
 			"CINCY@BAMA",
 			"UGA@MICH",
 			"PSU@ARK",
@@ -12531,24 +12529,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "A&M",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 34,
@@ -12925,24 +12905,6 @@
 						"pointsWon": "4"
 					},
 					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "WAKE",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 34,
 						"homeTeam": "BSU",
 						"awayTeam": "CMU",
@@ -13315,24 +13277,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "A&M",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "WAZZU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 34,
@@ -13709,24 +13653,6 @@
 						"pointsWon": "4"
 					},
 					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "A&M",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "WAZZU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 34,
 						"homeTeam": "BSU",
 						"awayTeam": "CMU",
@@ -14099,24 +14025,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "A&M",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 34,
@@ -14493,24 +14401,6 @@
 						"pointsWon": "4"
 					},
 					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "WAKE",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "WAZZU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 34,
 						"homeTeam": "BSU",
 						"awayTeam": "CMU",
@@ -14883,24 +14773,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "WAKE",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 34,
@@ -15277,24 +15149,6 @@
 						"pointsWon": "4"
 					},
 					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "A&M",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "MIAMI",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 34,
 						"homeTeam": "BSU",
 						"awayTeam": "CMU",
@@ -15667,24 +15521,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 32,
-						"homeTeam": "A&M",
-						"awayTeam": "WAKE",
-						"pickedTeam": "A&M",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 33,
-						"homeTeam": "MIAMI",
-						"awayTeam": "WAZZU",
-						"pickedTeam": "WAZZU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 34,
