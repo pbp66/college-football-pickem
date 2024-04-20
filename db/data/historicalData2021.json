@@ -12378,15 +12378,6 @@
 						"pointsWon": "4"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "MEM",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -12403,15 +12394,6 @@
 						"winningTeam": "WMU",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "ECU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 19,
@@ -12441,15 +12423,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "NCST",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
@@ -12457,15 +12430,6 @@
 						"winningTeam": "MINN",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "UVA",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 25,
@@ -12529,15 +12493,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -12752,15 +12707,6 @@
 						"pointsWon": "4"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "MEM",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -12777,15 +12723,6 @@
 						"winningTeam": "WMU",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "ECU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 19,
@@ -12815,29 +12752,11 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "NCST",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
 						"pickedTeam": "WVU",
 						"winningTeam": "MINN",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "SMU",
-						"winningTeam": "OMI",
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -12903,15 +12822,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -13126,15 +13036,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "MEM",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -13151,15 +13052,6 @@
 						"winningTeam": "WMU",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "ECU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 19,
@@ -13189,29 +13081,11 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "UCLA",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
 						"pickedTeam": "WVU",
 						"winningTeam": "MINN",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "SMU",
-						"winningTeam": "OMI",
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -13277,15 +13151,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -13500,15 +13365,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "HAW",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -13523,15 +13379,6 @@
 						"awayTeam": "WMU",
 						"pickedTeam": "NEV",
 						"winningTeam": "WMU",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "ECU",
-						"winningTeam": "OMI",
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -13563,15 +13410,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "NCST",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
@@ -13579,15 +13417,6 @@
 						"winningTeam": "MINN",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "UVA",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 25,
@@ -13651,15 +13480,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -13874,15 +13694,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "MEM",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -13899,15 +13710,6 @@
 						"winningTeam": "WMU",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "BC",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 19,
@@ -13937,15 +13739,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "NCST",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
@@ -13953,15 +13746,6 @@
 						"winningTeam": "MINN",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "UVA",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 25,
@@ -14025,15 +13809,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -14248,15 +14023,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "MEM",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -14271,15 +14037,6 @@
 						"awayTeam": "WMU",
 						"pickedTeam": "NEV",
 						"winningTeam": "WMU",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "BC",
-						"winningTeam": "OMI",
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -14311,15 +14068,6 @@
 						"pointsWon": "4"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "NCST",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
@@ -14327,15 +14075,6 @@
 						"winningTeam": "MINN",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "UVA",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 25,
@@ -14399,15 +14138,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -14622,15 +14352,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "MEM",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -14647,15 +14368,6 @@
 						"winningTeam": "WMU",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "ECU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 19,
@@ -14685,15 +14397,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "UCLA",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
@@ -14701,15 +14404,6 @@
 						"winningTeam": "MINN",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "SMU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 25,
@@ -14773,15 +14467,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -14996,15 +14681,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "MEM",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -15019,15 +14695,6 @@
 						"awayTeam": "WMU",
 						"pickedTeam": "NEV",
 						"winningTeam": "WMU",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "BC",
-						"winningTeam": "OMI",
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -15059,29 +14726,11 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "NCST",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
 						"pickedTeam": "WVU",
 						"winningTeam": "MINN",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "SMU",
-						"winningTeam": "OMI",
 						"pointsWagered": "4",
 						"pointsWon": "0"
 					},
@@ -15147,15 +14796,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
@@ -15370,15 +15010,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 15,
-						"homeTeam": "HAW",
-						"awayTeam": "MEM",
-						"pickedTeam": "HAW",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 16,
 						"homeTeam": "BALL",
 						"awayTeam": "GAST",
@@ -15395,15 +15026,6 @@
 						"winningTeam": "WMU",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 18,
-						"homeTeam": "ECU",
-						"awayTeam": "BC",
-						"pickedTeam": "ECU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 19,
@@ -15433,15 +15055,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 22,
-						"homeTeam": "NCST",
-						"awayTeam": "UCLA",
-						"pickedTeam": "NCST",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 23,
 						"homeTeam": "MINN",
 						"awayTeam": "WVU",
@@ -15449,15 +15062,6 @@
 						"winningTeam": "MINN",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 24,
-						"homeTeam": "UVA",
-						"awayTeam": "SMU",
-						"pickedTeam": "UVA",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 25,
@@ -15521,15 +15125,6 @@
 						"winningTeam": "WIS",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					},
-					{
-						"gameNumber": 34,
-						"homeTeam": "BSU",
-						"awayTeam": "CMU",
-						"pickedTeam": "BSU",
-						"winningTeam": "OMI",
-						"pointsWagered": "4",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 35,
