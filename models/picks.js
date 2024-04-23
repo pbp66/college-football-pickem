@@ -46,6 +46,14 @@ Picks.init(
 			// 	isIn: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 			// },
 		},
+		points_won: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+			// TODO: create custom validator. Points are typically between 1 and 10, but bowl games could be greater than 10...
+			// validate: {
+			// 	isIn: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+			// },
+		},
 	},
 	{
 		sequelize,
