@@ -1,15 +1,5 @@
 # Group Project Two: College Football Pickem
 
-## User Story
-
-```
-As a sports fan interested in college football,
-
-I want an interactive site to host a pickem' league,
-
-so that my friends and I can compete with eachother for bragging rights.
-```
-
 ## Description
 
 This is a full stack college fantasy football app. The app uses the Model-View-Controller paradigm in its achitectural structure. The app utilizes express and sequelize on the back end and handlebars to create the front end interface. The purpose of the site is to provide users an escape from using spreadsheets to maintain their college fantasy football leagues. Instead of manually entering every users pick into a spreadsheet the users can all utilize this app which will keep track of picks and scores automatically. Future development will allow for groups to form unique leagues.
@@ -17,10 +7,13 @@ This is a full stack college fantasy football app. The app uses the Model-View-C
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Group Project Two: College Football Pickem](#group-project-two-college-football-pickem)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
 
 ## Installation
 
