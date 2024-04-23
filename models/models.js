@@ -7,6 +7,8 @@ import Emails from "./emails.js";
 import Games from "./games.js";
 import Picks from "./picks.js";
 import TeamNames from "./teamNames.js";
+
+//* Currently not planning on implementing the below scoreboards. They violate one (maybe more...) of the normal forms (can't remember which one(s)) and are currently unnecessary. In the future, if the number of records imposes too much of a performance hit, I will consider implementing them. Alternatively, such a performance hit could warrant an entire database redesign.
 import WeeklyScoreboard from "./weeklyScoreboard.js";
 import YearlyScoreboard from "./yearlyScoreboard.js";
 
@@ -111,6 +113,4 @@ export {
 	Weeks,
 	Emails,
 	TeamNames,
-	WeeklyScoreboard,
-	YearlyScoreboard,
 };
