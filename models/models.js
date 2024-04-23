@@ -69,12 +69,12 @@ Games.belongsTo(Teams, {
 });
 
 Teams.hasMany(Games, {
-	foreignKey: "winning_team_id",
+	foreignKey: "champion_id",
 });
 
 Games.belongsTo(Teams, {
-	foreignKey: "winning_team_id",
-	as: "winning_team",
+	foreignKey: "champion_id",
+	as: "champion",
 });
 
 Locations.hasMany(Teams, {

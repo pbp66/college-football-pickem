@@ -22,11 +22,6 @@ YearlyScoreboard.init(
 		year: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
-			// TODO: Evaluate if a foreign key relationship is needed for Weeks.year
-			// references: {
-			// 	model: Weeks,
-			// 	key: "year",
-			// },
 		},
 		points_won: {
 			type: DataTypes.INTEGER,

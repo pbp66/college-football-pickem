@@ -29,7 +29,7 @@ Games.init(
 				key: "id",
 			},
 		},
-		winning_team_id: {
+		champion_id: {
 			// TODO: Create a team to represent tie games?
 			type: DataTypes.INTEGER,
 			allowNull: true,
@@ -56,7 +56,7 @@ Games.init(
 				key: "id",
 			},
 		},
-		name: {
+		alt_name: {
 			type: DataTypes.STRING,
 			allowNull: true,
 		},
