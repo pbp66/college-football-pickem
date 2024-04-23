@@ -12,14 +12,14 @@ import {
 	Locations,
 	Games,
 } from "../models/models.js";
-import userJSON from "./data/users.json" assert { type: "json" };
-import teamJSON from "./data/teams.json" assert { type: "json" };
-import locationJSON from "./data/locations.json" assert { type: "json" };
-import historicalJSON2019 from "./data/historicalData2019.json" assert { type: "json" };
-import historicalJSON2020 from "./data/historicalData2020.json" assert { type: "json" };
-import historicalJSON2021 from "./data/historicalData2021.json" assert { type: "json" };
-import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "json" };
-import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
+import userJSON from "./data/json/users.json" assert { type: "json" };
+import teamJSON from "./data/json/teams.json" assert { type: "json" };
+import locationJSON from "./data/json/locations.json" assert { type: "json" };
+import historicalJSON2019 from "./data/json/historicalData2019.json" assert { type: "json" };
+import historicalJSON2020 from "./data/json/historicalData2020.json" assert { type: "json" };
+import historicalJSON2021 from "./data/json/historicalData2021.json" assert { type: "json" };
+import historicalJSON2022 from "./data/json/historicalData2022.json" assert { type: "json" };
+import historicalJSON2023 from "./data/json/historicalData2023.json" assert { type: "json" };
 
 const historicalData = [
 	historicalJSON2019,
@@ -316,72 +316,40 @@ async function generateGamesData(matchups) {
 	let params, gameData, homeTeamId, awayTeamId, locationId, championId;
 	const allGamesData = [];
 
-	if (fs.existsSync("./db/data/games.csv")) {
-		const gamesData = fs.readFileSync("./db/data/games.csv", "utf8");
-		const games = gamesData.split("\n");
-		for (const game of games) {
-			console.log(game);
-			console.log(game.split(","));
-			const [
-				id,
-				homeTeamId,
-				awayTeamId,
-				championId,
-				weekId,
-				locationId,
-				alt_name,
-				date,
-				completed,
-				createdAt,
-			] = game.split(",");
+	// Iterate through each game and retrieve its information from the API server
+	for (const game of matchups) {
+		params = {
+			year: game.year,
+			week: game.weekNum,
+			team: game.home,
+			seasonType: game.gameType,
+		};
+		gameData = (await getGameData(params)).data[0];
+		homeTeamId = (await getTeamId(game.home)).id;
+		awayTeamId = (await getTeamId(game.away)).id;
 
-			allGamesData.push({
-				id: parseInt(id),
-				home_team_id: parseInt(homeTeamId),
-				away_team_id: parseInt(awayTeamId),
-				champion_id: parseInt(championId),
-				week_id: parseInt(weekId),
-				location_id: parseInt(locationId),
-				date,
-				completed: parseInt(completed),
-			});
+		// Determine game winner
+		if (gameData.home_points > gameData.away_points) {
+			championId = homeTeamId;
+		} else if (gameData.away_points > gameData.home_points) {
+			championId = awayTeamId;
+		} else {
+			//TODO:
+			//? We have a tie! What do I do for a tie???
+			championId = null;
 		}
-	} else {
-		// Iterate through each game and retrieve its information from the API server
-		for (const game of matchups) {
-			params = {
-				year: game.year,
-				week: game.weekNum,
-				team: game.home,
-				seasonType: game.gameType,
-			};
-			gameData = (await getGameData(params)).data[0];
-			homeTeamId = (await getTeamId(game.home)).id;
-			awayTeamId = (await getTeamId(game.away)).id;
 
-			// Determine game winner
-			if (gameData.home_points > gameData.away_points) {
-				championId = homeTeamId;
-			} else if (gameData.away_points > gameData.home_points) {
-				championId = awayTeamId;
-			} else {
-				//TODO:
-				//? We have a tie! What do I do for a tie???
-				championId = null;
-			}
+		locationId = (await getLocationId(gameData.venue)).id;
 
-			locationId = (await getLocationId(gameData.venue)).id;
-
-			allGamesData.push({
-				home_team_id: homeTeamId,
-				away_team_id: awayTeamId,
-				champion_id: championId,
-				week_id: game.weekId,
-				location_id: locationId,
-				date: gameData.start_date,
-				completed: gameData.completed,
-			});
-		}
+		allGamesData.push({
+			home_team_id: homeTeamId,
+			away_team_id: awayTeamId,
+			champion_id: championId,
+			week_id: game.weekId,
+			location_id: locationId,
+			date: gameData.start_date,
+			completed: gameData.completed,
+		});
 	}
 
 	const gamesData = await Games.bulkCreate(allGamesData, {
@@ -471,6 +439,8 @@ const seedDatabase = async () => {
 	console.log("Generating Picks Data...");
 	const picks = await generatePicksData(pickData);
 	console.log("Picks Data Generated!\n");
+
+	console.log("Database Seeded Successfully!");
 
 	process.exit(0);
 };

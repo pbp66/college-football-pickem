@@ -11,11 +11,11 @@ import {
 	Locations,
 	Games,
 } from "../models/models.js";
-import historicalJSON2019 from "./data/historicalData2019.json" assert { type: "json" };
-import historicalJSON2020 from "./data/historicalData2020.json" assert { type: "json" };
-import historicalJSON2021 from "./data/historicalData2021.json" assert { type: "json" };
-import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "json" };
-import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
+import historicalJSON2019 from "./data/json/historicalData2019.json" assert { type: "json" };
+import historicalJSON2020 from "./data/json/historicalData2020.json" assert { type: "json" };
+import historicalJSON2021 from "./data/json/historicalData2021.json" assert { type: "json" };
+import historicalJSON2022 from "./data/json/historicalData2022.json" assert { type: "json" };
+import historicalJSON2023 from "./data/json/historicalData2023.json" assert { type: "json" };
 
 const historicalData = [
 	historicalJSON2019,
@@ -25,54 +25,6 @@ const historicalData = [
 	historicalJSON2023,
 ];
 const years = [2019, 2020, 2021, 2022, 2023];
-
-function getWeekData(year, weekNumber) {
-	let gameType;
-	let week;
-	if (year === 2019 && weekNumber === 16) {
-		gameType = "postseason";
-		week = 1;
-	} else if (weekNumber === 15 && year !== 2020) {
-		gameType = "postseason";
-		week = 1;
-	} else {
-		gameType = "regular";
-		week = weekNumber;
-	}
-	return [gameType, week];
-}
-
-async function getWeekId(year, season, weekNum) {
-	return await Weeks.findOne({
-		attributes: ["id"],
-		where: { year, season, number: weekNum },
-		raw: true,
-	});
-}
-
-async function getTeamName(abbreviation) {
-	return await Teams.findOne({
-		attributes: ["school_name"],
-		where: {
-			[Op.or]: [
-				{ abbreviation },
-				{ alt_name1: abbreviation },
-				{ alt_name2: abbreviation },
-				{ alt_name3: abbreviation },
-				{ alt_name4: abbreviation },
-			],
-		},
-		raw: true,
-	});
-}
-
-async function getTeamId(name) {
-	return await Teams.findOne({
-		attributes: ["id"],
-		where: { school_name: name },
-		raw: true,
-	});
-}
 
 async function generateWeekData() {
 	/* Generate Week Data */
@@ -109,7 +61,7 @@ async function generateWeekData() {
 async function generateUserData() {
 	const modifiedUserData = [];
 
-	const userCSV = fs.readFileSync("./db/data/users.csv", "utf8");
+	const userCSV = fs.readFileSync("./db/data/csv/users.csv", "utf8");
 	const userList = userCSV.split("\n");
 	for (const user of userList) {
 		const [id, first_name, last_name, username, ...unusedValues] =
@@ -138,7 +90,7 @@ async function generateUserData() {
 async function generateUsernameData() {
 	const usernameData = [];
 
-	const usernameCSV = fs.readFileSync("./db/data/usernames.csv", "utf8");
+	const usernameCSV = fs.readFileSync("./db/data/csv/usernames.csv", "utf8");
 	const usernameList = usernameCSV.split("\n");
 	for (const username of usernameList) {
 		const [id, name, user_id, created_at, updated_at] = username.split(",");
@@ -164,7 +116,7 @@ async function generateUsernameData() {
 async function generateLocationsData() {
 	const locationData = [];
 
-	const locationCSV = fs.readFileSync("./db/data/locations.csv", "utf8");
+	const locationCSV = fs.readFileSync("./db/data/csv/locations.csv", "utf8");
 	const locationList = locationCSV.split("\n");
 	for (const location of locationList) {
 		const [
@@ -220,7 +172,7 @@ async function generateLocationsData() {
 async function generateTeamsData() {
 	const teamData = [];
 
-	const teamCSV = fs.readFileSync("./db/data/teams.csv", "utf8");
+	const teamCSV = fs.readFileSync("./db/data/csv/teams.csv", "utf8");
 	const teamList = teamCSV.split("\n");
 	for (const team of teamList) {
 		const [
@@ -276,7 +228,7 @@ async function generateTeamsData() {
 async function generateGamesData() {
 	const allGamesData = [];
 
-	const gamesCSV = fs.readFileSync("./db/data/games.csv", "utf8");
+	const gamesCSV = fs.readFileSync("./db/data/csv/games.csv", "utf8");
 	const gameList = gamesCSV.split("\n");
 	for (const game of gameList) {
 		const [
@@ -315,7 +267,7 @@ async function generateGamesData() {
 async function generatePicksData() {
 	const pickData = [];
 
-	const pickCSV = fs.readFileSync("./db/data/picks.csv", "utf8");
+	const pickCSV = fs.readFileSync("./db/data/csv/picks.csv", "utf8");
 	const pickList = pickCSV.split("\n");
 	for (const pick of pickList) {
 		const [
