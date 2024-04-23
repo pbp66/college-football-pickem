@@ -1,0 +1,100 @@
+[
+	{
+		"first_name": "Bill",
+		"last_name": "Swift",
+		"usernames": ["Swifty", "Swift"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Cody",
+		"last_name": "Santangelo",
+		"usernames": ["Kodee", "Jodi"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Keaton",
+		"last_name": "Reed",
+		"usernames": ["Keater", "Skeet"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Zach",
+		"last_name": "Oberhaus",
+		"usernames": ["Wafflechamp", "Zob", "Zobes", "Zober"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Michael",
+		"last_name": "Marino",
+		"usernames": ["Meekal", "Mikail"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Genny",
+		"last_name": "Willman",
+		"usernames": ["8675309", "Gwynieveeev", "Gywineeviev", "G-Money"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Logan",
+		"last_name": "Popp",
+		"usernames": ["Loges", "LNL"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "James",
+		"last_name": "Perry",
+		"usernames": ["PBP", "Perri", "Perrier", "Goober"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Drew",
+		"last_name": "Sherman",
+		"usernames": ["Shermy", "Druber"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Alejandria",
+		"last_name": "",
+		"usernames": ["Alejandria"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Alex",
+		"last_name": "Moore",
+		"usernames": ["Alex"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Gabe",
+		"last_name": "Martini",
+		"usernames": ["Martini", "GM"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Ali",
+		"last_name": "Finley",
+		"usernames": ["Ali", "Tiktoker", "CALi"],
+		"email": "",
+		"password": ""
+	},
+	{
+		"first_name": "Paige",
+		"last_name": "Detwiler",
+		"usernames": ["Paige", "Vegas", "Vegas Paige"],
+		"email": "",
+		"password": ""
+	}
+]

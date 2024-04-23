@@ -1,10 +1,10 @@
 import { Model, DataTypes } from "sequelize";
-import sequelize from "../config/connection";
-import Game from "./game";
+import sequelize from "../config/connection.js";
+import { Users } from "./models.js";
 
-class Week extends Model {}
+class Usernames extends Model {}
 
-Week.init(
+Usernames.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
@@ -12,15 +12,16 @@ Week.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		week_num: {
-			type: DataTypes.INTEGER,
+		name: {
+			type: DataTypes.STRING,
 			allowNull: false,
 		},
-		game_id: {
+		user_id: {
 			type: DataTypes.INTEGER,
+			allowNull: true,
 			references: {
-				model: Game,
-				foreignKey: "id",
+				model: Users,
+				key: "id",
 			},
 		},
 	},
@@ -29,8 +30,8 @@ Week.init(
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,
-		modelName: "week",
+		modelName: "usernames",
 	}
 );
 
-export default Week;
+export default Usernames;
