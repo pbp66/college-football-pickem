@@ -80,15 +80,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "UF",
 						"awayTeam": "BAMA",
@@ -172,15 +163,6 @@
 						"pickedTeam": "BSU",
 						"winningTeam": "SJSU",
 						"pointsWagered": "5",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
 					{
@@ -270,15 +252,6 @@
 						"pointsWon": "3"
 					},
 					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "UF",
 						"awayTeam": "BAMA",
@@ -362,15 +335,6 @@
 						"pickedTeam": "BSU",
 						"winningTeam": "SJSU",
 						"pointsWagered": "6",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "UMD",
-						"winningTeam": null,
-						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
 					{
@@ -460,15 +424,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "UF",
 						"awayTeam": "BAMA",
@@ -552,15 +507,6 @@
 						"pickedTeam": "BSU",
 						"winningTeam": "SJSU",
 						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
 					{
@@ -650,15 +596,6 @@
 						"pointsWon": "0"
 					},
 					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "UF",
 						"awayTeam": "BAMA",
@@ -742,15 +679,6 @@
 						"pickedTeam": "BSU",
 						"winningTeam": "SJSU",
 						"pointsWagered": "5",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
 					{
@@ -840,15 +768,6 @@
 						"pointsWon": "6"
 					},
 					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "UMD",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "UF",
 						"awayTeam": "BAMA",
@@ -933,15 +852,6 @@
 						"winningTeam": "SJSU",
 						"pointsWagered": "2",
 						"pointsWon": "2"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "UMD",
-						"awayTeam": "MSU",
-						"pickedTeam": "MSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 9,
@@ -2970,24 +2880,6 @@
 						"pointsWon": "10"
 					},
 					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "USC",
-						"winningTeam": null,
-						"pointsWagered": "2",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "8",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "OLE",
 						"awayTeam": "MSST",
@@ -3063,24 +2955,6 @@
 						"winningTeam": "BAMA",
 						"pointsWagered": "10",
 						"pointsWon": "10"
-					},
-					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "COLO",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "9",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 9,
@@ -3160,24 +3034,6 @@
 						"pointsWon": "10"
 					},
 					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "COLO",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "7",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "OLE",
 						"awayTeam": "MSST",
@@ -3253,24 +3109,6 @@
 						"winningTeam": "BAMA",
 						"pointsWagered": "6",
 						"pointsWon": "6"
-					},
-					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "USC",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "8",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 9,
@@ -3350,24 +3188,6 @@
 						"pointsWon": "10"
 					},
 					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "USC",
-						"winningTeam": null,
-						"pointsWagered": "6",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "8",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "OLE",
 						"awayTeam": "MSST",
@@ -3443,24 +3263,6 @@
 						"winningTeam": "BAMA",
 						"pointsWagered": "10",
 						"pointsWon": "10"
-					},
-					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "USC",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "7",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 9,
@@ -3540,24 +3342,6 @@
 						"pointsWon": "10"
 					},
 					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "USC",
-						"winningTeam": null,
-						"pointsWagered": "4",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "7",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "OLE",
 						"awayTeam": "MSST",
@@ -3633,24 +3417,6 @@
 						"winningTeam": "BAMA",
 						"pointsWagered": "8",
 						"pointsWon": "8"
-					},
-					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "COLO",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "BSU",
-						"winningTeam": null,
-						"pointsWagered": "3",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 9,
@@ -3730,24 +3496,6 @@
 						"pointsWon": "10"
 					},
 					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "COLO",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "SJSU",
-						"winningTeam": null,
-						"pointsWagered": "3",
-						"pointsWon": "0"
-					},
-					{
 						"gameNumber": 9,
 						"homeTeam": "OLE",
 						"awayTeam": "MSST",
@@ -3823,24 +3571,6 @@
 						"winningTeam": "BAMA",
 						"pointsWagered": "9",
 						"pointsWon": "9"
-					},
-					{
-						"gameNumber": 7,
-						"homeTeam": "USC",
-						"awayTeam": "COLO",
-						"pickedTeam": "USC",
-						"winningTeam": null,
-						"pointsWagered": "10",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "BSU",
-						"awayTeam": "SJSU",
-						"pickedTeam": "SJSU",
-						"winningTeam": null,
-						"pointsWagered": "1",
-						"pointsWon": "0"
 					},
 					{
 						"gameNumber": 9,
@@ -8599,81 +8329,6 @@
 						"winningTeam": "CIN",
 						"pointsWagered": "4",
 						"pointsWon": "4"
-					}
-				]
-			},
-			{
-				"playerName": "Alejandria",
-				"games": [
-					{
-						"gameNumber": 1,
-						"homeTeam": "UNC",
-						"awayTeam": "NCST",
-						"winningTeam": "UNC",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 2,
-						"homeTeam": "KSU",
-						"awayTeam": "KU",
-						"winningTeam": "KSU",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 3,
-						"homeTeam": "OLE",
-						"awayTeam": "AUB",
-						"winningTeam": "AUB",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 4,
-						"homeTeam": "TCU",
-						"awayTeam": "OU",
-						"winningTeam": "OU",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 5,
-						"homeTeam": "LOU",
-						"awayTeam": "FSU",
-						"winningTeam": "LOU",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 6,
-						"homeTeam": "MSU",
-						"awayTeam": "RUT",
-						"winningTeam": "RUT",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 7,
-						"homeTeam": "OKST",
-						"awayTeam": "ISU",
-						"winningTeam": "OKST",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 8,
-						"homeTeam": "TEX",
-						"awayTeam": "BAY",
-						"winningTeam": "TEX",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 9,
-						"homeTeam": "MINN",
-						"awayTeam": "UM",
-						"winningTeam": "UM",
-						"pointsWon": "0"
-					},
-					{
-						"gameNumber": 10,
-						"homeTeam": "SMU",
-						"awayTeam": "CIN",
-						"winningTeam": "CIN",
-						"pointsWon": "0"
 					}
 				]
 			}

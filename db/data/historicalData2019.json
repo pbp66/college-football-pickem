@@ -781,8 +781,9 @@
 						"gameNumber": 1,
 						"homeTeam": "UF",
 						"awayTeam": "UM",
-						"pickedTeam": "1",
+						"pickedTeam": "UM",
 						"winningTeam": "UF",
+						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
 					{

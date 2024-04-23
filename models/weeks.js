@@ -11,13 +11,20 @@ Weeks.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
+		year: {
+			type: DataTypes.INTEGER,
+			allowNull: false,
+			required: true,
+		},
 		season: {
 			type: DataTypes.STRING,
 			allowNull: true,
+			required: true,
 		},
 		number: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
+			required: true,
 		},
 		name: {
 			type: DataTypes.STRING,

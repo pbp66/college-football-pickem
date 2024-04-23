@@ -2,6 +2,7 @@ import axios from "axios";
 import dotenv from "dotenv/config";
 import sequelize from "../config/connection.js";
 import { Op } from "sequelize";
+import fs from "fs";
 import {
 	Users,
 	Usernames,
@@ -21,19 +22,13 @@ import historicalJSON2022 from "./data/historicalData2022.json" assert { type: "
 import historicalJSON2023 from "./data/historicalData2023.json" assert { type: "json" };
 
 const historicalData = [
-	//historicalJSON2019,
-	//historicalJSON2020,
+	historicalJSON2019,
+	historicalJSON2020,
 	historicalJSON2021,
-	//historicalJSON2022,
-	// historicalJSON2023,
+	historicalJSON2022,
+	historicalJSON2023,
 ];
-const years = [
-	//2019,
-	//2020,
-	2021,
-	//2022,
-	//2023
-];
+const years = [2019, 2020, 2021, 2022, 2023];
 const apiURL = new URL("https://api.collegefootballdata.com");
 const gameAPI = new URL("/games", apiURL);
 const token = process.env.BEARER_TOKEN;
@@ -78,10 +73,10 @@ async function getTeamId(name) {
 	});
 }
 
-async function getWeekId(year, weekNum) {
+async function getWeekId(year, season, weekNum) {
 	return await Weeks.findOne({
 		attributes: ["id"],
-		where: { season: year, number: weekNum },
+		where: { year, season, number: weekNum },
 		raw: true,
 	});
 }
@@ -127,21 +122,21 @@ async function getGameData(params) {
 }
 
 async function preprocessHistoricalData() {
-	// TODO: Generate list of matchups, Generate list of picks
 	let splitIndex, homeTeam, awayTeam, gameType, weekNum;
 	const matchups = [];
 	const pickData = [];
 	let i = 0;
 	for (const season of historicalData) {
 		for (const week of season) {
+			const [gameType, weekNum] = getWeekData(years[i], week.weekNumber);
 			for (const game of week.matchUps) {
 				splitIndex = game.indexOf("@");
 				homeTeam = await getTeamName(game.substring(splitIndex + 1));
 				awayTeam = await getTeamName(game.substring(0, splitIndex));
-				[gameType, weekNum] = getWeekData(years[i], week.weekNumber);
 				matchups.push({
 					home: homeTeam.school_name,
 					away: awayTeam.school_name,
+					weekId: (await getWeekId(years[i], gameType, weekNum)).id,
 					year: years[i],
 					gameType,
 					weekNum,
@@ -151,8 +146,7 @@ async function preprocessHistoricalData() {
 				pickData.push({
 					player: picks.playerName,
 					games: picks.games,
-					year: years[i],
-					weekNum,
+					weekId: (await getWeekId(years[i], gameType, weekNum)).id,
 				});
 			}
 		}
@@ -163,18 +157,26 @@ async function preprocessHistoricalData() {
 
 async function generateWeekData() {
 	/* Generate Week Data */
-	let maxWeeks = 16;
+	let maxWeeks = 17;
 	const weekData = [];
 	for (const year of years) {
 		if (year == 2019 || year == 2020) {
+			// 2019 and 2020 had 16 regular season weeks, 1 postseason week
 			for (let i = 1; i <= maxWeeks; i++) {
-				// 16 weeks
-				weekData.push({ season: year, number: i });
+				weekData.push({
+					year,
+					season: i < maxWeeks ? "regular" : "postseason",
+					number: i < maxWeeks ? i : 1,
+				});
 			}
 		} else {
-			// 2021 through 2023 had 15 regular season weeks
+			// 2021 through 2023 had 15 regular season weeks, 1 postseason week
 			for (let i = 1; i < maxWeeks; i++) {
-				weekData.push({ season: year, number: i });
+				weekData.push({
+					year,
+					season: i < maxWeeks - 1 ? "regular" : "postseason",
+					number: i < maxWeeks - 1 ? i : 1,
+				});
 			}
 		}
 	}
@@ -311,18 +313,42 @@ async function generateTeamsData() {
 }
 
 async function generateGamesData(matchups) {
-	let params,
-		gameData,
-		homeTeamId,
-		awayTeamId,
-		weekId,
-		locationId,
-		championId;
+	let params, gameData, homeTeamId, awayTeamId, locationId, championId;
 	const allGamesData = [];
 
-	// Iterate through each game and retrieve its information from the API server
-	for (const game of matchups) {
-		try {
+	if (fs.existsSync("./db/data/games.csv")) {
+		const gamesData = fs.readFileSync("./db/data/games.csv", "utf8");
+		const games = gamesData.split("\n");
+		for (const game of games) {
+			console.log(game);
+			console.log(game.split(","));
+			const [
+				id,
+				homeTeamId,
+				awayTeamId,
+				championId,
+				weekId,
+				locationId,
+				alt_name,
+				date,
+				completed,
+				createdAt,
+			] = game.split(",");
+
+			allGamesData.push({
+				id: parseInt(id),
+				home_team_id: parseInt(homeTeamId),
+				away_team_id: parseInt(awayTeamId),
+				champion_id: parseInt(championId),
+				week_id: parseInt(weekId),
+				location_id: parseInt(locationId),
+				date,
+				completed: parseInt(completed),
+			});
+		}
+	} else {
+		// Iterate through each game and retrieve its information from the API server
+		for (const game of matchups) {
 			params = {
 				year: game.year,
 				week: game.weekNum,
@@ -344,24 +370,17 @@ async function generateGamesData(matchups) {
 				championId = null;
 			}
 
-			weekId = (await getWeekId(game.year, game.weekNum)).id;
 			locationId = (await getLocationId(gameData.venue)).id;
 
 			allGamesData.push({
 				home_team_id: homeTeamId,
 				away_team_id: awayTeamId,
 				champion_id: championId,
-				week_id: weekId,
+				week_id: game.weekId,
 				location_id: locationId,
 				date: gameData.start_date,
 				completed: gameData.completed,
 			});
-		} catch (error) {
-			console.log(`\n\n\nWeek: ${params.week}, Year: ${params.year}`);
-			console.log(`Home Team: ${game.home}, Away Team: ${game.away}`);
-			console.log("Params: ", params);
-			console.log("Game: ", gameData);
-			console.error(error);
 		}
 	}
 
@@ -373,7 +392,54 @@ async function generateGamesData(matchups) {
 	return games;
 }
 
-async function generatePicksData(pickData) {}
+async function generatePicksData(pickData) {
+	let playerId, pickedTeamId, pickedTeam, gameId, pickedTeamName, gameInfo;
+	const allPicksData = [];
+
+	for (const picks of pickData) {
+		playerId = (
+			await Usernames.findOne({
+				attributes: ["user_id"],
+				where: { name: picks.player },
+				raw: true,
+			})
+		).user_id;
+
+		for (const game of picks.games) {
+			pickedTeamName = await getTeamName(game.pickedTeam);
+			pickedTeam = await getTeamId(pickedTeamName.school_name);
+			pickedTeamId = pickedTeam.id;
+			gameInfo = await Games.findOne({
+				attributes: ["id"],
+				where: {
+					week_id: picks.weekId,
+					[Op.or]: [
+						{ home_team_id: pickedTeamId },
+						{ away_team_id: pickedTeamId },
+					],
+				},
+				raw: true,
+			});
+			gameId = gameInfo.id;
+
+			allPicksData.push({
+				user_id: playerId,
+				picked_team_id: pickedTeamId,
+				game_id: gameId,
+				week_id: picks.weekId,
+				points_wagered: game.pointsWagered,
+				points_won: game.pointsWon,
+			});
+		}
+	}
+
+	const picksData = await Picks.bulkCreate(allPicksData, {
+		individualHooks: true,
+		returning: true,
+	});
+	const picks = picksData.map((element) => element.get({ plain: true }));
+	return picks;
+}
 
 const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
@@ -402,9 +468,9 @@ const seedDatabase = async () => {
 	const games = await generateGamesData(matchups);
 	console.log("Games Data Generated!\n");
 
-	//console.log("Generating Picks Data...");
-	//const picks = await generatePicksData();
-	//console.log("Picks Data Generated!\n");
+	console.log("Generating Picks Data...");
+	const picks = await generatePicksData(pickData);
+	console.log("Picks Data Generated!\n");
 
 	process.exit(0);
 };
