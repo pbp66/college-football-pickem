@@ -1,5 +1,4 @@
 import sequelize from "../config/connection.js";
-import { Op } from "sequelize";
 import fs from "fs";
 
 import {
@@ -11,19 +10,7 @@ import {
 	Locations,
 	Games,
 } from "../models/models.js";
-import historicalJSON2019 from "./data/json/historicalData2019.json" assert { type: "json" };
-import historicalJSON2020 from "./data/json/historicalData2020.json" assert { type: "json" };
-import historicalJSON2021 from "./data/json/historicalData2021.json" assert { type: "json" };
-import historicalJSON2022 from "./data/json/historicalData2022.json" assert { type: "json" };
-import historicalJSON2023 from "./data/json/historicalData2023.json" assert { type: "json" };
 
-const historicalData = [
-	historicalJSON2019,
-	historicalJSON2020,
-	historicalJSON2021,
-	historicalJSON2022,
-	historicalJSON2023,
-];
 const years = [2019, 2020, 2021, 2022, 2023];
 
 async function generateWeekData() {
@@ -302,7 +289,7 @@ async function generatePicksData() {
 
 const seedDatabase = async () => {
 	await sequelize.sync({ force: true });
-	console.log("\n\n");
+	console.log("Running seedCSV.js...\n\n");
 
 	console.log("Generating Weeks Data...");
 	const weeks = await generateWeekData();
