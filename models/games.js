@@ -71,6 +71,23 @@ Games.init(
 	},
 	{
 		sequelize,
+		indexes: [
+			{
+				name: "UNIQUE_GAME_HOME_TEAM_CONSTRAINT",
+				unique: true,
+				fields: ["home_team_id", "date"],
+			},
+			{
+				name: "UNIQUE_GAME_AWAY_TEAM_CONSTRAINT",
+				unique: true,
+				fields: ["away_team_id", "date"],
+			},
+			{
+				name: "UNIQUE_GAME_LOCATION_CONSTRAINT",
+				unique: true,
+				fields: ["location_id", "date"],
+			},
+		],
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,

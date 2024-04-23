@@ -17,30 +17,6 @@ Teams.init(
 			allowNull: false,
 			unique: true,
 		},
-		mascot: {
-			type: DataTypes.STRING,
-			allowNull: false,
-		},
-		abbreviation: {
-			type: DataTypes.STRING,
-			allowNull: false,
-		},
-		alt_name1: {
-			type: DataTypes.STRING,
-			allowNull: true,
-		},
-		alt_name2: {
-			type: DataTypes.STRING,
-			allowNull: true,
-		},
-		alt_name3: {
-			type: DataTypes.STRING,
-			allowNull: true,
-		},
-		alt_name4: {
-			type: DataTypes.STRING,
-			allowNull: true,
-		},
 		conference: {
 			type: DataTypes.STRING,
 			allowNull: false, // TODO: Add validator for valid conferences
@@ -52,28 +28,40 @@ Teams.init(
 				isIn: ["fbs", "fcs", "iii", "ii"], // TODO: Add remaining valid classifications
 			},
 		},
-		color: {
+		primary_color: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			validate: {
 				is: /#[0-9a-z]{8}/,
 			},
 		},
-		alt_color: {
+		secondary_color: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			validate: {
 				is: /#[0-9a-z]{8}/,
 			},
 		},
-		logo: {
+		location_id: {
+			type: DataTypes.INTEGER,
+			allowNull: true,
+			references: {
+				model: Locations,
+				key: "id",
+			},
+		},
+		mascot: {
+			type: DataTypes.STRING,
+			allowNull: false,
+		},
+		primary_logo: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			validate: {
 				isURL: true,
 			},
 		},
-		alt_logo: {
+		secondary_logo: {
 			type: DataTypes.STRING,
 			allowNull: true,
 			validate: {
@@ -87,17 +75,16 @@ Teams.init(
 				is: /^@?(\w){1,15}$/,
 			},
 		},
-		location_id: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			references: {
-				model: Locations,
-				key: "id",
-			},
-		},
 	},
 	{
 		sequelize,
+		indexes: [
+			{
+				name: "UNIQUE_TEAM_LOCATION_CONSTRAINT",
+				unique: true,
+				fields: ["school_name", "location_id"],
+			},
+		],
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,

@@ -2,9 +2,9 @@ import { Model, DataTypes } from "sequelize";
 import sequelize from "../config/connection.js";
 import { Users } from "./models.js";
 
-class Usernames extends Model {}
+class Emails extends Model {}
 
-Usernames.init(
+Emails.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
@@ -12,9 +12,12 @@ Usernames.init(
 			primaryKey: true,
 			autoIncrement: true,
 		},
-		name: {
+		email: {
 			type: DataTypes.STRING,
 			allowNull: false,
+			validate: {
+				isEmail: true,
+			},
 		},
 		user_id: {
 			type: DataTypes.INTEGER,
@@ -29,16 +32,16 @@ Usernames.init(
 		sequelize,
 		indexes: [
 			{
-				name: "UNIQUE_USERNAME_CONSTRAINT",
+				name: "UNIQUE_EMAIL_CONSTRAINT",
 				unique: true,
-				fields: ["name", "user_id"],
+				fields: ["email", "user_id"],
 			},
 		],
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,
-		modelName: "usernames",
+		modelName: "emails",
 	}
 );
 
-export default Usernames;
+export default Emails;

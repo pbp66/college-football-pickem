@@ -7,7 +7,6 @@ Weeks.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
-			allowNull: false,
 			primaryKey: true,
 			autoIncrement: true,
 		},
@@ -41,6 +40,13 @@ Weeks.init(
 	},
 	{
 		sequelize,
+		indexes: [
+			{
+				name: "UNIQUE_WEEK_CONSTRAINT",
+				unique: true,
+				fields: ["year", "number", "season"],
+			},
+		],
 		timestamps: true,
 		freezeTableName: true,
 		underscored: true,

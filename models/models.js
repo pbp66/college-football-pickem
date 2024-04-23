@@ -3,8 +3,14 @@ import Users from "./users.js";
 import Locations from "./locations.js";
 import Teams from "./teams.js";
 import Usernames from "./usernames.js";
+import Emails from "./emails.js";
 import Games from "./games.js";
 import Picks from "./picks.js";
+import TeamNames from "./teamNames.js";
+
+//* Currently not planning on implementing the below scoreboards. They violate one (maybe more...) of the normal forms (can't remember which one(s)) and are currently unnecessary. In the future, if the number of records imposes too much of a performance hit, I will consider implementing them. Alternatively, such a performance hit could warrant an entire database redesign.
+import WeeklyScoreboard from "./weeklyScoreboard.js";
+import YearlyScoreboard from "./yearlyScoreboard.js";
 
 Weeks.hasMany(Games, {
 	foreignKey: "week_id",
@@ -97,4 +103,14 @@ Picks.belongsTo(Games, {
 	as: "game",
 });
 
-export { Games, Locations, Picks, Teams, Usernames, Users, Weeks };
+export {
+	Games,
+	Locations,
+	Picks,
+	Teams,
+	Usernames,
+	Users,
+	Weeks,
+	Emails,
+	TeamNames,
+};
