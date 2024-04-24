@@ -51,13 +51,11 @@ function getWeekData(year, weekNumber) {
 }
 
 async function getTeamName(abbreviation) {
-	console.log(abbreviation);
 	const { team_id: teamId } = await TeamNames.findOne({
 		attributes: ["team_id"],
 		where: { name: abbreviation },
 		raw: true,
 	});
-	console.log(teamId);
 	return await Teams.findOne({
 		attributes: ["school_name"],
 		where: { id: teamId },
