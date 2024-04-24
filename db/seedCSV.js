@@ -9,6 +9,7 @@ import {
 	Picks,
 	Locations,
 	Games,
+	TeamNames,
 } from "../models/models.js";
 
 const years = [2019, 2020, 2021, 2022, 2023];
@@ -165,40 +166,29 @@ async function generateTeamsData() {
 		const [
 			id,
 			school_name,
-			mascot,
-			abbreviation,
-			alt_name1,
-			alt_name2,
-			alt_name3,
-			alt_name4,
 			conference,
 			classification,
-			color,
-			alt_color,
-			logo,
-			alt_logo,
-			twitter_handle,
+			primary_color,
+			secondary_color,
 			location_id,
-			created_at,
-			updated_at,
+			mascot,
+			primary_logo,
+			secondary_logo,
+			twitter_handle,
+			...unusedValues
 		] = team.split(",");
 		teamData.push({
 			id: parseInt(id),
 			school_name,
-			mascot,
-			abbreviation,
-			alt_name1,
-			alt_name2,
-			alt_name3,
-			alt_name4,
 			conference,
 			classification,
-			color,
-			alt_color,
-			logo,
-			alt_logo,
-			twitter_handle,
+			primary_color,
+			secondary_color,
 			location_id: parseInt(location_id) ? parseInt(location_id) : null,
+			mascot,
+			primary_logo,
+			secondary_logo,
+			twitter_handle,
 		});
 	}
 
@@ -210,6 +200,32 @@ async function generateTeamsData() {
 	const teams = savedTeams.map((element) => element.get({ plain: true }));
 
 	return teams;
+}
+
+async function generateTeamNamesData() {
+	const teamNameData = [];
+	const teamNameCSV = fs.readFileSync("./db/data/csv/teamNames.csv", "utf8");
+	const teamNameEntriesList = teamNameCSV.split("\n");
+	for (const teamNameEntry of teamNameEntriesList) {
+		const [team_id, ...teamNames] = teamNameEntry.split(",");
+		for (const teamName of teamNames) {
+			teamNameData.push({
+				name: teamName,
+				team_id: parseInt(team_id),
+			});
+		}
+	}
+
+	const savedTeamNames = await TeamNames.bulkCreate(teamNameData, {
+		individualHooks: true,
+		returning: true,
+	});
+
+	const teamNames = savedTeamNames.map((element) =>
+		element.get({ plain: true })
+	);
+
+	return teamNames;
 }
 
 async function generateGamesData() {
@@ -258,7 +274,6 @@ async function generatePicksData() {
 	const pickList = pickCSV.split("\n");
 	for (const pick of pickList) {
 		const [
-			id,
 			user_id,
 			picked_team_id,
 			game_id,
@@ -269,10 +284,9 @@ async function generatePicksData() {
 		] = pick.split(",");
 
 		pickData.push({
-			id: parseInt(id),
 			user_id: parseInt(user_id),
-			picked_team_id: parseInt(picked_team_id),
 			game_id: parseInt(game_id),
+			picked_team_id: parseInt(picked_team_id),
 			week_id: parseInt(week_id),
 			points_wagered: parseInt(points_wagered),
 			points_won: parseInt(points_won),
@@ -310,6 +324,10 @@ const seedDatabase = async () => {
 	console.log("Generating Teams Data...");
 	const teams = await generateTeamsData();
 	console.log("Teams Data Generated!\n");
+
+	console.log("Generating Team Names Data...");
+	const teamNames = await generateTeamNamesData();
+	console.log("Team Names Data Generated!\n");
 
 	console.log("Generating Games Data...");
 	const games = await generateGamesData();

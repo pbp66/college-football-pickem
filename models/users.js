@@ -1,7 +1,7 @@
 import { Model, DataTypes } from "sequelize";
 import bcrypt from "bcryptjs";
 import sequelize from "../config/connection.js";
-import { Emails, Usernames } from "./models.js";
+import { Usernames } from "./models.js";
 
 class Users extends Model {
 	async checkPassword(loginPw) {
@@ -42,14 +42,6 @@ Users.init(
 			type: DataTypes.STRING,
 			allowNull: false,
 			unique: true,
-		},
-		email_id: {
-			type: DataTypes.INTEGER,
-			allowNull: true,
-			references: {
-				model: Emails,
-				key: "Id",
-			},
 		},
 		password: {
 			type: DataTypes.STRING,

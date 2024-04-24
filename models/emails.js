@@ -27,6 +27,16 @@ Emails.init(
 				key: "id",
 			},
 		},
+		// TODO: Generate validator where only 1 email can be primary per user
+		primary: {
+			type: DataTypes.BOOLEAN,
+			defaultValue: false,
+		},
+		// TODO: Generate validator where primary and secondary values cannot be the same
+		secondary: {
+			type: DataTypes.BOOLEAN,
+			defaultValue: true,
+		},
 	},
 	{
 		sequelize,

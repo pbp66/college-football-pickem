@@ -1,9 +1,9 @@
 import Weeks from "./weeks.js";
 import Users from "./users.js";
+import Emails from "./emails.js";
 import Locations from "./locations.js";
 import Teams from "./teams.js";
 import Usernames from "./usernames.js";
-import Emails from "./emails.js";
 import Games from "./games.js";
 import Picks from "./picks.js";
 import TeamNames from "./teamNames.js";
@@ -34,6 +34,14 @@ Users.hasMany(Usernames, {
 	// foreignKey: { name: "user"},
 });
 Usernames.belongsTo(Users, {
+	foreignKey: "user_id",
+	as: "user",
+});
+
+Users.hasMany(Emails, {
+	foreignKey: "user_id",
+});
+Emails.belongsTo(Users, {
 	foreignKey: "user_id",
 	as: "user",
 });
@@ -110,7 +118,7 @@ export {
 	Teams,
 	Usernames,
 	Users,
-	Weeks,
 	Emails,
+	Weeks,
 	TeamNames,
 };

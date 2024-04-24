@@ -11,6 +11,7 @@ import {
 	Picks,
 	Locations,
 	Games,
+	TeamNames,
 } from "../models/models.js";
 import userJSON from "./data/json/users.json" assert { type: "json" };
 import teamJSON from "./data/json/teams.json" assert { type: "json" };
@@ -194,7 +195,6 @@ async function generateUserData() {
 		modifiedUserData.push({
 			first_name: user.first_name,
 			last_name: user.last_name,
-			email: user.email,
 			password: user.password,
 		});
 		usernameData.push({
@@ -245,16 +245,26 @@ async function generateLocationsData() {
 			name: location.name,
 			city: location.city,
 			state: location.state,
-			zip: location.zip,
+			zip: parseInt(location.zip) ? parseInt(location.zip) : null,
 			country_code: location.country_code,
 			timezone: location.timezone,
-			latitude: location.latitude,
-			longitude: location.longitude,
-			elevation: location.elevation,
-			capacity: location.capacity,
-			year_constructed: location.year_constructed,
-			grass: location.grass,
-			dome: location.dome,
+			latitude: parseInt(location.latitude)
+				? parseInt(location.latitude)
+				: null,
+			longitude: parseInt(location.longitude)
+				? parseInt(location.longitude)
+				: null,
+			elevation: parseInt(location.elevation)
+				? parseInt(location.elevation)
+				: null,
+			capacity: parseInt(location.capacity)
+				? parseInt(location.capacity)
+				: null,
+			year_constructed: parseInt(location.year_constructed)
+				? parseInt(location.year_constructed)
+				: null,
+			grass: location.grass ? true : false,
+			dome: location.dome ? true : false,
 		});
 	}
 	const locationData = await Locations.bulkCreate(modifiedLocationData, {
@@ -267,49 +277,84 @@ async function generateLocationsData() {
 	return locations;
 }
 
-async function generateTeamsData() {
+async function generateTeamData() {
 	const modifiedTeamsData = [];
+	const teamNameData = [];
 	for (const team of teamJSON) {
 		modifiedTeamsData.push({
 			school_name: team.school,
+			conference: team.conference,
+			classification: team.classification,
+			primary_color: team.color,
+			secondary_color: team.alt_color,
+			location_id: team.location.name
+				? (await getLocationId(team.location.name)).id
+				: null,
 			mascot: team.mascot,
+			primary_logo: team.logos[0],
+			secondary_logo: team.logos[1],
+			twitter_handle: team.twitter,
+		});
+
+		teamNameData.push({
+			school_name: team.school,
 			abbreviation: team.abbreviation,
 			alt_name1: team.alt_name1,
 			alt_name2: team.alt_name2,
 			alt_name3: team.alt_name3,
 			alt_name4: team.alt_name4,
-			conference: team.conference,
-			classification: team.classification,
-			color: team.color,
-			alt_color: team.alt_color,
-			logo: team.logos[0],
-			alt_logo: team.logos[1],
-			twitter_handle: team.twitter,
-			location: { name: team.location.name, city: team.location.city },
 		});
 	}
 
-	// Assign location IDs to TeamsData
-	let locationData;
-	for (let i = 0; i < modifiedTeamsData.length; i++) {
-		// If location data is truthy (not null)
-		if (modifiedTeamsData[i].location.name) {
-			locationData = await Locations.findOne({
-				where: {
-					name: modifiedTeamsData[i].location.name,
-					city: modifiedTeamsData[i].location.city,
-				},
-				raw: true,
-			});
-			modifiedTeamsData[i].location = locationData.id;
-		}
-	}
 	const teamsData = await Teams.bulkCreate(modifiedTeamsData, {
 		individualHooks: true,
 		returning: true,
 	});
 	const teams = teamsData.map((element) => element.get({ plain: true }));
-	return teams;
+
+	const teamNames = await generateTeamNameData(teamNameData);
+
+	return [teams, teamNames];
+}
+
+async function generateTeamNameData(teamNameData) {
+	let teamId;
+	const newTeamNameData = [];
+	for (const teamNameEntry of teamNameData) {
+		teamId = (await getTeamId(teamNameEntry.school_name)).id;
+		let teamNames = [
+			teamNameEntry.alt_name1,
+			teamNameEntry.alt_name2,
+			teamNameEntry.alt_name3,
+			teamNameEntry.alt_name4,
+		];
+		newTeamNameData.push({
+			team_id: teamId,
+			name: teamNameEntry.abbreviation,
+		});
+		for (const teamName of teamNames) {
+			if (!teamName || teamName === teamNameEntry.abbreviation) {
+				//skip null values and duplicate names
+				continue;
+			} else {
+				newTeamNameData.push({
+					team_id: teamId,
+					name: teamName,
+				});
+			}
+		}
+	}
+
+	const savedTeamNames = await TeamNames.bulkCreate(newTeamNameData, {
+		individualHooks: true,
+		returning: true,
+	});
+
+	const teamNames = savedTeamNames.map((element) =>
+		element.get({ plain: true })
+	);
+
+	return teamNames;
 }
 
 async function generateGamesData(matchups) {
@@ -416,17 +461,17 @@ const seedDatabase = async () => {
 	const weeks = await generateWeekData();
 	console.log("Weeks Data Generated!\n");
 
-	console.log("Generating User Data...");
+	console.log("Generating User and Username Data...");
 	const [users, usernames] = await generateUserData();
-	console.log("User Data Generated!\n");
+	console.log("User and Username Data Generated!\n");
 
 	console.log("Generating Locations Data...");
 	const locations = await generateLocationsData();
 	console.log("Locations Data Generated!\n");
 
-	console.log("Generating Teams Data...");
-	const teams = await generateTeamsData();
-	console.log("Teams Data Generated!\n");
+	console.log("Generating Team and Team Name Data...");
+	const [teams, teamNames] = await generateTeamData();
+	console.log("Team and Team Name Data Generated!\n");
 
 	console.log("Preprocessing Historical Data...");
 	const [matchups, pickData] = await preprocessHistoricalData();
