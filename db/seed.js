@@ -51,17 +51,16 @@ function getWeekData(year, weekNumber) {
 }
 
 async function getTeamName(abbreviation) {
+	console.log(abbreviation);
+	const { team_id: teamId } = await TeamNames.findOne({
+		attributes: ["team_id"],
+		where: { name: abbreviation },
+		raw: true,
+	});
+	console.log(teamId);
 	return await Teams.findOne({
 		attributes: ["school_name"],
-		where: {
-			[Op.or]: [
-				{ abbreviation },
-				{ alt_name1: abbreviation },
-				{ alt_name2: abbreviation },
-				{ alt_name3: abbreviation },
-				{ alt_name4: abbreviation },
-			],
-		},
+		where: { id: teamId },
 		raw: true,
 	});
 }
@@ -120,40 +119,6 @@ async function getGameData(params) {
 				});
 		}, 750);
 	});
-}
-
-async function preprocessHistoricalData() {
-	let splitIndex, homeTeam, awayTeam, gameType, weekNum;
-	const matchups = [];
-	const pickData = [];
-	let i = 0;
-	for (const season of historicalData) {
-		for (const week of season) {
-			const [gameType, weekNum] = getWeekData(years[i], week.weekNumber);
-			for (const game of week.matchUps) {
-				splitIndex = game.indexOf("@");
-				homeTeam = await getTeamName(game.substring(splitIndex + 1));
-				awayTeam = await getTeamName(game.substring(0, splitIndex));
-				matchups.push({
-					home: homeTeam.school_name,
-					away: awayTeam.school_name,
-					weekId: (await getWeekId(years[i], gameType, weekNum)).id,
-					year: years[i],
-					gameType,
-					weekNum,
-				});
-			}
-			for (const picks of week.pickData) {
-				pickData.push({
-					player: picks.playerName,
-					games: picks.games,
-					weekId: (await getWeekId(years[i], gameType, weekNum)).id,
-				});
-			}
-		}
-		i++;
-	}
-	return [matchups, pickData];
 }
 
 async function generateWeekData() {
@@ -355,6 +320,41 @@ async function generateTeamNameData(teamNameData) {
 	);
 
 	return teamNames;
+}
+
+async function preprocessHistoricalData() {
+	let splitIndex, homeTeam, awayTeam, weekId;
+	const matchups = [];
+	const pickData = [];
+	let i = 0;
+	for (const season of historicalData) {
+		for (const week of season) {
+			const [gameType, weekNum] = getWeekData(years[i], week.weekNumber);
+			for (const game of week.matchUps) {
+				splitIndex = game.indexOf("@");
+				homeTeam = await getTeamName(game.substring(splitIndex + 1));
+				awayTeam = await getTeamName(game.substring(0, splitIndex));
+				weekId = (await getWeekId(years[i], gameType, weekNum)).id;
+				matchups.push({
+					home: homeTeam.school_name,
+					away: awayTeam.school_name,
+					weekId,
+					year: years[i],
+					gameType,
+					weekNum,
+				});
+			}
+			for (const picks of week.pickData) {
+				pickData.push({
+					player: picks.playerName,
+					games: picks.games,
+					weekId,
+				});
+			}
+		}
+		i++;
+	}
+	return [matchups, pickData];
 }
 
 async function generateGamesData(matchups) {
