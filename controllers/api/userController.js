@@ -1,8 +1,6 @@
-import express from "express";
-const router = express.Router();
 import { Date, User, Game, Week, Team, Pick } from "../../models";
 
-router.post("/login", async (req, res) => {
+async function login(req, res) {
 	try {
 		const userData = await User.findOne({
 			where: { email: req.body.email },
@@ -33,9 +31,9 @@ router.post("/login", async (req, res) => {
 		console.log(err);
 		res.status(400).send();
 	}
-});
+}
 
-router.post("/logout", (req, res) => {
+async function logout(res, res) {
 	if (req.session.logged_in) {
 		// Remove the session variables
 		req.session.destroy(() => {
@@ -44,8 +42,9 @@ router.post("/logout", (req, res) => {
 	} else {
 		res.status(404).end();
 	}
-});
-router.post("/signup", async (req, res) => {
+}
+
+async function signup(req, res) {
 	try {
 		const userData = await User.findOne({
 			where: { email: req.body.email },
@@ -136,6 +135,5 @@ router.post("/signup", async (req, res) => {
 		console.log(err);
 		res.status(400).send();
 	}
-});
-
-export default router;
+}
+export { login, logout, signup };

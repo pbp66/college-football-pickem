@@ -1,10 +1,8 @@
-import express from "express";
-const router = express.Router();
 import { Game, Date, Team, User, Week, Pick } from "../models";
 import { Sequelize } from "sequelize";
 
 // replace withAuth,
-router.get("/", async (req, res) => {
+async function displayHomepage(req, res) {
 	try {
 		// const userData = await User.findAll({
 		// 	attributes: { exclude: ["password"] },
@@ -20,17 +18,18 @@ router.get("/", async (req, res) => {
 	} catch (err) {
 		res.status(500).json(err);
 	}
-});
+}
 
-router.get("/login", (req, res) => {
+async function login(req, res) {
 	if (req.session.logged_in) {
 		res.redirect("../");
 		return;
 	}
 	res.render("login");
-});
+}
 
-router.get("/teampicker", async (req, res) => {
+// TODO: Rename and redefine this function
+async function teamPicker(req, res) {
 	let picks;
 
 	let gameAssociations = {
@@ -104,9 +103,9 @@ router.get("/teampicker", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
-router.get("/scoreboard", async (req, res) => {
+async function getScoreboard(req, res) {
 	let gameAssociations = {
 		model: Game,
 		attributes: ["id"],
@@ -228,11 +227,6 @@ router.get("/scoreboard", async (req, res) => {
 		picks: picks,
 		logged_in: req.session.logged_in,
 	});
-});
+}
 
-// TODO: Implement route and handlebar site. Stretch Goal. Leave commented unless implemented
-// router.get("/statistics", (req, res) => {
-// 	res.render("statistics");
-// });
-
-export default router;
+export { displayHomepage, login, teamPicker, getScoreboard };

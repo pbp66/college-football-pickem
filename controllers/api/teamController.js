@@ -1,10 +1,8 @@
-import express from "express";
 import { Sequelize } from "sequelize";
-const router = express.Router();
 import { Team } from "../../models";
 
 // Get all teams
-router.get("/", async (req, res) => {
+async function getAllTeams(req, res) {
 	try {
 		const teams = await Team.findAll();
 		if (teams.length === 0) {
@@ -17,10 +15,9 @@ router.get("/", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
-// Add team(s)...
-router.post("/", async (req, res) => {
+async function addTeam(req, res) {
 	/** JSON format for Team Model
 	 * id and timestamps are automatically generated
 	 * {
@@ -48,9 +45,9 @@ router.post("/", async (req, res) => {
 		}
 		console.error(err);
 	}
-});
+}
 
-router.delete("/:id", async (req, res) => {
+async function deleteTeam(req, res) {
 	try {
 		const exists = await Team.findOne({ where: { id: req.params.id } });
 		if (exists) {
@@ -64,6 +61,8 @@ router.delete("/:id", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
 export default router;
+
+export { getAllTeams, addTeam, deleteTeam };

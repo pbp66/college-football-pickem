@@ -1,10 +1,5 @@
-import express from "express";
-const router = express.Router();
 import { Sequelize } from "sequelize";
-import { Week, Game, Date, Team, Pick, User } from "../../models";
-import ServerInterface from "../../lib/serverInterface";
-
-const serverInterface = new ServerInterface();
+import { Week, Game, Date, Team } from "../../models";
 
 const weekAssociations = [
 	{
@@ -35,7 +30,7 @@ const weekAssociations = [
 	},
 ];
 
-router.get("/", async (req, res) => {
+async function getAllWeekData(req, res) {
 	try {
 		const weekData = await Week.findAll({
 			include: weekAssociations,
@@ -45,9 +40,9 @@ router.get("/", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
-router.get("/all-week-nums", async (req, res) => {
+async function getAllWeekNumbers(req, res) {
 	try {
 		const weekNums = await Week.findAll({
 			attributes: [
@@ -61,19 +56,16 @@ router.get("/all-week-nums", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
-router.get("/weeklyScoreboard", (req, res) => {
-	try {
-		const scores = serverInterface.getWeeklyScoreboard();
-		//console.log(scores);
-		res.json(scores);
-	} catch (error) {
-		console.log(error);
-	}
-});
+async function getWeeklyScoreboard(req, res) {
+	// TODO: Implement this function
+	res.error(501).send(`<h1>501 Not Implemented</h1>`);
+}
 
-router.get("/:week_num", async (req, res) => {
+router.get("/weeklyScoreboard", (req, res) => {});
+
+async function getWeek(req, res) {
 	try {
 		const weekData = await Week.findAll({
 			attributes: ["id", "week_num"],
@@ -87,6 +79,6 @@ router.get("/:week_num", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
-export default router;
+export { getAllWeekData, getAllWeekNumbers, getWeeklyScoreboard, getWeek };

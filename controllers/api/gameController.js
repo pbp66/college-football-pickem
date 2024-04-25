@@ -1,6 +1,4 @@
-import express from "express";
 import { Sequelize } from "sequelize";
-const router = express.Router();
 import { Game, Team, Date, Week } from "../../models";
 
 const gameAssociations = [
@@ -24,7 +22,7 @@ const gameAssociations = [
 	},
 ];
 
-router.get("/", async (req, res) => {
+async function getAllGames(req, res) {
 	try {
 		const games = await Game.findAll({
 			attributes: ["id"],
@@ -35,9 +33,9 @@ router.get("/", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
-router.get("/:id", async (req, res) => {
+async function getGameById(req, res) {
 	try {
 		const game = await Game.findByPk(req.params.id, {
 			attributes: ["id"],
@@ -54,9 +52,9 @@ router.get("/:id", async (req, res) => {
 		console.error(err);
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
-});
+}
 
-router.post("/", async (req, res) => {
+async function createGame(req, res) {
 	// Create a new game
 	/**
 	 * Request body JSON Format:
@@ -78,9 +76,9 @@ router.post("/", async (req, res) => {
 		}
 		console.error(err);
 	}
-});
+}
 
-router.put("/:id/winner/:team_id", async (req, res) => {
+async function updateGameWinner(req, res) {
 	const gameIds = (await Game.findAll({ attributes: ["id"] })).map(
 		(element) => element.dataValues.id
 	);
@@ -107,6 +105,6 @@ router.put("/:id/winner/:team_id", async (req, res) => {
 			`<h1>400 Bad Request</h1><h3>Specified ID does not exist</h3>`
 		);
 	}
-});
+}
 
-export default router;
+export { getAllGames, getGameById, createGame, updateGameWinner };
