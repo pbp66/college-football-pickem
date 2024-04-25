@@ -39,6 +39,7 @@ Games.init(
 				key: "id",
 			},
 		},
+		// TODO: Consider adding a column for alternate week to accommodate game delays?
 		week_id: {
 			type: DataTypes.INTEGER,
 			allowNull: false,
