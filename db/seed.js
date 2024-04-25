@@ -37,10 +37,17 @@ const token = process.env.BEARER_TOKEN;
 function getWeekData(year, weekNumber) {
 	let gameType;
 	let week;
+	//! Unfortunately, this function is coupled with generateWeekData() as the year for the postseason switch must be updated in both places. Ugly, but this only affects seeding the database
+	// 2019 and 2020 had 16 regular season weeks, 1 postseason week
+	// historical data lists week 16 as the bowl week for 2019
 	if (year === 2019 && weekNumber === 16) {
 		gameType = "postseason";
 		week = 1;
-	} else if (weekNumber === 15 && year !== 2020) {
+	} else if (year === 2020 && weekNumber === 17) {
+		gameType = "postseason";
+		week = 1;
+		// historical data lists week 15 as the bowl week for 2021 through 2023.
+	} else if (year >= 2021 && weekNumber === 15) {
 		gameType = "postseason";
 		week = 1;
 	} else {
@@ -321,7 +328,7 @@ async function generateTeamNameData(teamNameData) {
 }
 
 async function preprocessHistoricalData() {
-	let splitIndex, homeTeam, awayTeam, weekId;
+	let splitIndex, homeTeam, awayTeam, weekId, homeTeamAbbr, awayTeamAbbr;
 	const matchups = [];
 	const pickData = [];
 	let i = 0;
@@ -330,12 +337,18 @@ async function preprocessHistoricalData() {
 			const [gameType, weekNum] = getWeekData(years[i], week.weekNumber);
 			for (const game of week.matchUps) {
 				splitIndex = game.indexOf("@");
-				homeTeam = await getTeamName(game.substring(splitIndex + 1));
-				awayTeam = await getTeamName(game.substring(0, splitIndex));
+				homeTeamAbbr = game.substring(splitIndex + 1);
+				awayTeamAbbr = game.substring(0, splitIndex);
+
+				homeTeam = await getTeamName(homeTeamAbbr);
+				awayTeam = await getTeamName(awayTeamAbbr);
+
 				weekId = (await getWeekId(years[i], gameType, weekNum)).id;
 				matchups.push({
 					home: homeTeam.school_name,
+					homeAbbr: homeTeamAbbr,
 					away: awayTeam.school_name,
+					awayAbbr: awayTeamAbbr,
 					weekId,
 					year: years[i],
 					gameType,
@@ -358,42 +371,104 @@ async function preprocessHistoricalData() {
 async function generateGamesData(matchups) {
 	let params, gameData, homeTeamId, awayTeamId, locationId, championId;
 	const allGamesData = [];
+	const badGames = [];
 
 	// Iterate through each game and retrieve its information from the API server
 	for (const game of matchups) {
-		params = {
-			year: game.year,
-			week: game.weekNum,
-			team: game.home,
-			seasonType: game.gameType,
-		};
-		gameData = (await getGameData(params)).data[0];
-		homeTeamId = (await getTeamId(game.home)).id;
-		awayTeamId = (await getTeamId(game.away)).id;
+		try {
+			params = {
+				year: game.year,
+				week: game.weekNum,
+				home: game.home,
+				away: game.away,
+				seasonType: game.gameType,
+			};
 
-		// Determine game winner
-		if (gameData.home_points > gameData.away_points) {
-			championId = homeTeamId;
-		} else if (gameData.away_points > gameData.home_points) {
-			championId = awayTeamId;
-		} else {
-			//TODO:
-			//? We have a tie! What do I do for a tie???
-			championId = null;
+			// API database has listed the home and away teams backwards. This conditional corrects the issue.
+			if (
+				params.year === 2022 &&
+				params.week === 1 &&
+				params.home === "LSU" &&
+				params.away === "Florida State"
+			) {
+				params = {
+					year: 2022,
+					week: 1,
+					home: "Florida State",
+					away: "LSU",
+					seasonType: "regular",
+				};
+				// API database correctly shows that the below came occurred in week 6 of the season. It was delayed from Saturday week 5 because of Hurricane Ian. This conditional updates the params to retrieve the correct data. To maintain the week 5 slate of 10 games, this game will be listed as a week 5 game.
+			} else if (
+				params.year === 2022 &&
+				params.week === 5 &&
+				params.home === "UCF" &&
+				params.away === "SMU"
+			) {
+				params = {
+					year: 2022,
+					week: 6,
+					home: "UCF",
+					away: "SMU",
+					seasonType: "regular",
+				};
+			} else if (
+				// API database has listed the home and away teams backwards. This conditional corrects the issue.
+				params.year === 2023 &&
+				params.week === 1 &&
+				params.home === "South Carolina" &&
+				params.away === "North Carolina"
+			) {
+				params = {
+					year: 2023,
+					week: 1,
+					home: "North Carolina",
+					away: "South Carolina",
+					seasonType: "regular",
+				};
+			}
+
+			gameData = (await getGameData(params)).data[0];
+
+			if (!gameData) {
+				throw new Error(
+					`No data found for ${game.away} @ ${game.home} in week ${game.weekNum} of ${game.gameType} of ${game.year} (weekId: ${game.weekId}, homeAbbr: ${game.homeAbbr}, awayAbbr: ${game.awayAbbr})`
+				);
+			}
+			homeTeamId = (await getTeamId(game.home)).id;
+			awayTeamId = (await getTeamId(game.away)).id;
+
+			// Determine game winner
+			if (gameData.home_points > gameData.away_points) {
+				championId = homeTeamId;
+			} else if (gameData.away_points > gameData.home_points) {
+				championId = awayTeamId;
+			} else {
+				//TODO:
+				//? We have a tie! What do I do for a tie???
+				championId = null;
+			}
+
+			locationId = (await getLocationId(gameData.venue)).id;
+
+			allGamesData.push({
+				home_team_id: homeTeamId,
+				away_team_id: awayTeamId,
+				champion_id: championId,
+				week_id: game.weekId,
+				location_id: locationId,
+				date: gameData.start_date,
+				completed: gameData.completed,
+			});
+		} catch (error) {
+			badGames.push(game);
+			console.error(error);
+			console.log("\n");
+			continue;
 		}
-
-		locationId = (await getLocationId(gameData.venue)).id;
-
-		allGamesData.push({
-			home_team_id: homeTeamId,
-			away_team_id: awayTeamId,
-			champion_id: championId,
-			week_id: game.weekId,
-			location_id: locationId,
-			date: gameData.start_date,
-			completed: gameData.completed,
-		});
 	}
+
+	console.log(badGames);
 
 	const gamesData = await Games.bulkCreate(allGamesData, {
 		individualHooks: true,
@@ -404,8 +479,16 @@ async function generateGamesData(matchups) {
 }
 
 async function generatePicksData(pickData) {
-	let playerId, pickedTeamId, pickedTeam, gameId, pickedTeamName, gameInfo;
+	let playerId,
+		pickedTeamName,
+		pickedTeamId,
+		homeTeamName,
+		homeTeamId,
+		awayTeamName,
+		awayTeamId,
+		gameData;
 	const allPicksData = [];
+	const badPicks = [];
 
 	for (const picks of pickData) {
 		playerId = (
@@ -417,30 +500,57 @@ async function generatePicksData(pickData) {
 		).user_id;
 
 		for (const game of picks.games) {
-			pickedTeamName = await getTeamName(game.pickedTeam);
-			pickedTeam = await getTeamId(pickedTeamName.school_name);
-			pickedTeamId = pickedTeam.id;
-			gameInfo = await Games.findOne({
-				attributes: ["id"],
-				where: {
-					week_id: picks.weekId,
-					[Op.or]: [
-						{ home_team_id: pickedTeamId },
-						{ away_team_id: pickedTeamId },
-					],
-				},
-				raw: true,
-			});
-			gameId = gameInfo.id;
+			try {
+				pickedTeamName = (await getTeamName(game.pickedTeam))
+					.school_name;
+				pickedTeamId = (await getTeamId(pickedTeamName)).id;
 
-			allPicksData.push({
-				user_id: playerId,
-				picked_team_id: pickedTeamId,
-				game_id: gameId,
-				week_id: picks.weekId,
-				points_wagered: game.pointsWagered,
-				points_won: game.pointsWon,
-			});
+				homeTeamName = (await getTeamName(game.homeTeam)).school_name;
+				homeTeamId = (await getTeamId(homeTeamName)).id;
+
+				awayTeamName = (await getTeamName(game.awayTeam)).school_name;
+				awayTeamId = (await getTeamId(awayTeamName)).id;
+
+				gameData = await Games.findOne({
+					attributes: ["id"],
+					where: {
+						week_id: picks.weekId,
+						[Op.and]: [
+							{ home_team_id: homeTeamId },
+							{ away_team_id: awayTeamId },
+						],
+					},
+					raw: true,
+				});
+
+				if (!gameData) {
+					throw new Error(
+						`No data found for a pick made by ${picks.player} for the ${awayTeamName} @ ${homeTeamName} game with weekId ${picks.weekId} with picked team ${pickedTeamName} and ${game.pointsWagered} points wagered (points won: ${game.pointsWon}).`
+					);
+				}
+
+				allPicksData.push({
+					user_id: playerId,
+					game_id: gameData.id,
+					picked_team_id: pickedTeamId,
+					week_id: picks.weekId,
+					points_wagered: game.pointsWagered,
+					points_won: game.pointsWon,
+				});
+			} catch (error) {
+				badPicks.push({
+					weekId: picks.weekId,
+					player: picks.player,
+					homeTeamName,
+					awayTeamName,
+					pickedTeamName,
+					points_wagered: game.pointsWagered,
+					points_won: game.pointsWon,
+				});
+				console.error(error);
+				console.log("\n");
+				continue;
+			}
 		}
 	}
 
