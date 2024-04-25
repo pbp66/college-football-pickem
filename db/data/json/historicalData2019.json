@@ -2,7 +2,7 @@
 	{
 		"weekNumber": 1,
 		"matchUps": [
-			"UM@UF",
+			"MIA@UF",
 			"UTAH@BYU",
 			"TOL@UK",
 			"OLE@MEM",
@@ -20,7 +20,7 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
+						"awayTeam": "MIA",
 						"pickedTeam": "UF",
 						"winningTeam": "UF",
 						"pointsWagered": "10",
@@ -115,7 +115,7 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
+						"awayTeam": "MIA",
 						"pickedTeam": "UF",
 						"winningTeam": "UF",
 						"pointsWagered": "9",
@@ -210,7 +210,7 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
+						"awayTeam": "MIA",
 						"pickedTeam": "UF",
 						"winningTeam": "UF",
 						"pointsWagered": "7",
@@ -305,7 +305,7 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
+						"awayTeam": "MIA",
 						"pickedTeam": "UF",
 						"winningTeam": "UF",
 						"pointsWagered": "7",
@@ -400,7 +400,7 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
+						"awayTeam": "MIA",
 						"pickedTeam": "UF",
 						"winningTeam": "UF",
 						"pointsWagered": "7",
@@ -495,7 +495,7 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
+						"awayTeam": "MIA",
 						"pickedTeam": "UF",
 						"winningTeam": "UF",
 						"pointsWagered": "7",
@@ -590,7 +590,7 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
+						"awayTeam": "MIA",
 						"pickedTeam": "UF",
 						"winningTeam": "UF",
 						"pointsWagered": "8",
@@ -685,8 +685,8 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
-						"pickedTeam": "UM",
+						"awayTeam": "MIA",
+						"pickedTeam": "MIA",
 						"winningTeam": "UF",
 						"pointsWagered": "9",
 						"pointsWon": "0"
@@ -780,8 +780,8 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "UF",
-						"awayTeam": "UM",
-						"pickedTeam": "UM",
+						"awayTeam": "MIA",
+						"pickedTeam": "MIA",
 						"winningTeam": "UF",
 						"pointsWagered": "1",
 						"pointsWon": "0"
@@ -5243,7 +5243,7 @@
 			"PSU@IOWA",
 			"UF@LSU",
 			"HAW@BSU",
-			"ZONA@WASH"
+			"WASH@ZONA"
 		],
 		"pickData": [
 			{
@@ -5332,8 +5332,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "4",
@@ -5427,8 +5427,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "7",
@@ -5522,8 +5522,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "4",
@@ -5617,8 +5617,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "3",
@@ -5712,8 +5712,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "4",
@@ -5807,8 +5807,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "2",
@@ -5902,8 +5902,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "5",
@@ -5997,8 +5997,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "1",
@@ -6092,8 +6092,8 @@
 					},
 					{
 						"gameNumber": 10,
-						"homeTeam": "WASH",
-						"awayTeam": "ZONA",
+						"homeTeam": "ZONA",
+						"awayTeam": "WASH",
 						"pickedTeam": "WASH",
 						"winningTeam": "WASH",
 						"pointsWagered": "4",
@@ -8722,7 +8722,7 @@
 	{
 		"weekNumber": 11,
 		"matchUps": [
-			"MIAMI@OHIO",
+			"MIOH@OHIO",
 			"PSU@MINN",
 			"BAY@TCU",
 			"LSU@BAMA",
@@ -8740,9 +8740,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "3",
 						"pointsWon": "0"
 					},
@@ -8835,9 +8835,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "7",
 						"pointsWon": "0"
 					},
@@ -8930,9 +8930,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "7",
 						"pointsWon": "0"
 					},
@@ -9025,9 +9025,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "1",
 						"pointsWon": "0"
 					},
@@ -9120,9 +9120,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "7",
 						"pointsWon": "0"
 					},
@@ -9215,9 +9215,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "5",
 						"pointsWon": "0"
 					},
@@ -9310,9 +9310,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "6",
 						"pointsWon": "0"
 					},
@@ -9405,9 +9405,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "2",
 						"pointsWon": "0"
 					},
@@ -9500,9 +9500,9 @@
 					{
 						"gameNumber": 1,
 						"homeTeam": "OHIO",
-						"awayTeam": "MIAMI",
+						"awayTeam": "MIOH",
 						"pickedTeam": "OHIO",
-						"winningTeam": "MIAMI",
+						"winningTeam": "MIOH",
 						"pointsWagered": "7",
 						"pointsWon": "0"
 					},
@@ -13082,7 +13082,7 @@
 		"weekNumber": 16,
 		"matchUps": [
 			"BUFF@CHA",
-			"USU@KSU",
+			"USU@KENT",
 			"CMU@SDSU",
 			"LIB@GASO",
 			"SMU@FAU",
@@ -13116,10 +13116,10 @@
 			"ORE@WIS",
 			"UGA@BAY",
 			"BC@CINCY",
-			"IU@UT",
+			"IU@TENN",
 			"OHIO@RENO",
 			"USM@TUL",
-			"ULL@MIAMI"
+			"ULL@MIOH"
 		],
 		"pickData": [
 			{
@@ -13136,10 +13136,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -13442,10 +13442,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
-						"pickedTeam": "UT",
-						"winningTeam": "UT",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "11"
 					},
@@ -13469,7 +13469,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
@@ -13492,10 +13492,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -13798,10 +13798,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
-						"pickedTeam": "UT",
-						"winningTeam": "UT",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "11"
 					},
@@ -13825,7 +13825,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
@@ -13848,10 +13848,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -14154,10 +14154,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
-						"pickedTeam": "UT",
-						"winningTeam": "UT",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "11"
 					},
@@ -14181,7 +14181,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
@@ -14204,10 +14204,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -14510,10 +14510,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
-						"pickedTeam": "UT",
-						"winningTeam": "UT",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "11"
 					},
@@ -14537,7 +14537,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
@@ -14560,10 +14560,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -14866,10 +14866,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
 						"pickedTeam": "IU",
-						"winningTeam": "UT",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -14893,7 +14893,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
@@ -14916,10 +14916,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -15222,10 +15222,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
-						"pickedTeam": "UT",
-						"winningTeam": "UT",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "11"
 					},
@@ -15249,7 +15249,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
@@ -15272,10 +15272,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -15578,10 +15578,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
 						"pickedTeam": "IU",
-						"winningTeam": "UT",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -15605,7 +15605,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
@@ -15628,10 +15628,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -15934,10 +15934,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
 						"pickedTeam": "IU",
-						"winningTeam": "UT",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -15961,9 +15961,9 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
-						"pickedTeam": "MIAMI",
+						"pickedTeam": "MIOH",
 						"winningTeam": "ULL",
 						"pointsWagered": "11",
 						"pointsWon": "0"
@@ -15984,10 +15984,10 @@
 					},
 					{
 						"gameNumber": 2,
-						"homeTeam": "KSU",
+						"homeTeam": "KENT",
 						"awayTeam": "USU",
 						"pickedTeam": "USU",
-						"winningTeam": "KSU",
+						"winningTeam": "KENT",
 						"pointsWagered": "11",
 						"pointsWon": "0"
 					},
@@ -16290,10 +16290,10 @@
 					},
 					{
 						"gameNumber": 36,
-						"homeTeam": "UT",
+						"homeTeam": "TENN",
 						"awayTeam": "IU",
-						"pickedTeam": "UT",
-						"winningTeam": "UT",
+						"pickedTeam": "TENN",
+						"winningTeam": "TENN",
 						"pointsWagered": "11",
 						"pointsWon": "11"
 					},
@@ -16317,7 +16317,7 @@
 					},
 					{
 						"gameNumber": 39,
-						"homeTeam": "MIAMI",
+						"homeTeam": "MIOH",
 						"awayTeam": "ULL",
 						"pickedTeam": "ULL",
 						"winningTeam": "ULL",
