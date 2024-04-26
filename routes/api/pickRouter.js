@@ -7,6 +7,7 @@ import {
 	getAllPicksOfTheWeek,
 	getUsersWeeklyPicks,
 	createPick,
+	updatePick
 } from "../../controllers/api/pickController.js";
 
 router.get("/", async (req, res) => {
@@ -27,6 +28,10 @@ router.get("/user/:user_id/week/:week_num", async (req, res) => {
 
 router.post("/", async (req, res) => {
 	createPick(req, res);
+});
+
+router.put("/", async (req, res) => {
+	updatePick(req, res);
 });
 
 export default router;
