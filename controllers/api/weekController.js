@@ -60,10 +60,8 @@ async function getAllWeekNumbers(req, res) {
 
 async function getWeeklyScoreboard(req, res) {
 	// TODO: Implement this function
-	res.error(501).send(`<h1>501 Not Implemented</h1>`);
+	res.status(501).send(`<h1>501 Not Implemented</h1>`);
 }
-
-router.get("/weeklyScoreboard", (req, res) => {});
 
 async function getWeek(req, res) {
 	try {
