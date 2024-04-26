@@ -6,6 +6,7 @@ import {
 	getUserScoreForYear,
 	getUserScoreForWeek,
 } from "../../controllers/api/scoreController";
+import { sendBadInputResponse } from "../../utils/errorResponses.js";
 
 // Requires Query params to pick the right controller
 router.get("/user/:user_id", async (req, res) => {
@@ -18,43 +19,39 @@ router.get("/user/:user_id", async (req, res) => {
 	 */
 	try {
 		if (!req.query.timeFrame) {
-			res.sendStatus(400);
+			sendBadInputResponse(
+				res,
+				"score time frame option must be provided. {timeFrame: <all, year, week>}"
+			);
 			return;
 		}
 		let score;
 		switch (req.query.timeFrame) {
 			case "all":
-				score = await getAllTimeUserScore(req.params.user_id);
-				res.status(200).json(score).send();
+				getAllTimeUserScore(req, res);
 				break;
 			case "year":
 				if (!req.query.year) {
-					res.sendStatus(400);
+					sendBadInputResponse(res, "A year must be provided");
 					return;
 				}
-				score = await getUserScoreForYear(
-					req.params.user_id,
-					req.query.year
-				);
-				res.status(200).json(score).send();
+				getUserScoreForYear(req.params.user_id, req.query.year);
 				break;
 			case "week":
 				if (!req.query.week || !req.query.season) {
-					res.sendStatus(400);
+					sendBadInputResponse(
+						res,
+						"Week and Season must be provided"
+					);
 					return;
 				}
-				score = await getUserScoreForWeek(
-					req.params.user_id,
-					req.query.week,
-					req.query.season
-				);
-				res.status(200).json(score).send();
+				getUserScoreForWeek(req, res);
 				break;
 			default:
-				res.sendStatus(400);
+				sendBadInputResponse(res, "Invalid timeFrame option");
 		}
 	} catch (err) {
-		console.log(err);
+		console.err(err);
 		res.sendStatus(500);
 		return;
 	}
