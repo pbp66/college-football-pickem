@@ -2,10 +2,10 @@ import path from "path";
 import express from "express";
 import session from "express-session";
 import exphbs from "express-handlebars";
-import routes from "./controllers";
+import routes from "./routes";
 import hbsHelpers from "handlebars-helpers";
 const helpers = hbsHelpers();
-import sequelize from "./config/connection";
+import sequelize from "./config/connection.js";
 import sequelizeSession from "connect-session-sequelize";
 const SequelizeStore = sequelizeSession(session.Store);
 
@@ -17,7 +17,7 @@ const hbs = exphbs.create({ helpers });
 const sess = {
 	secret: process.env.SESSION_SECRET,
 	cookie: {
-		maxAge: 1000 * 60 * 45
+		maxAge: 1000 * 60 * 45,
 	},
 	resave: false,
 	saveUninitialized: true,

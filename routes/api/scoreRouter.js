@@ -6,7 +6,7 @@ import {
 	getUserScoreForYear,
 	getUserScoreForWeek,
 } from "../../controllers/api/scoreController";
-import { sendBadInputResponse } from "../../utils/errorResponses.js";
+import { sendBadInputResponse } from "../../utilities/responseHandlers";
 
 // Requires Query params to pick the right controller
 router.get("/user/:user_id", async (req, res) => {

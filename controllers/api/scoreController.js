@@ -1,5 +1,5 @@
-import { Picks, Weeks } from "../../models/models.js";
-import { sendBadInputResponse } from "../../utils/errorResponses.js";
+import { Picks, Weeks } from "../../models/models";
+import { sendBadInputResponse } from "../../utilities/responseHandlers";
 
 async function getAllTimeUserScore(req, res) {
 	if (!req.params.user_id) {

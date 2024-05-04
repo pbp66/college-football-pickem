@@ -1,26 +1,20 @@
 import { Sequelize } from "sequelize";
-import { Week, Game, Date, Team } from "../../models";
+import { Weeks, Games, Teams } from "../../models/models";
 
 const weekAssociations = [
 	{
-		model: Game,
+		model: Games,
 		attributes: ["id"],
 		include: [
 			{
-				model: Date,
-				attributes: {
-					exclude: ["createdAt", "updatedAt"],
-				},
-			},
-			{
-				model: Team,
+				model: Teams,
 				as: "home_team",
 				attributes: {
 					exclude: ["createdAt", "updatedAt"],
 				},
 			},
 			{
-				model: Team,
+				model: Teams,
 				as: "away_team",
 				attributes: {
 					exclude: ["createdAt", "updatedAt"],
@@ -32,7 +26,7 @@ const weekAssociations = [
 
 async function getAllWeekData(req, res) {
 	try {
-		const weekData = await Week.findAll({
+		const weekData = await Weeks.findAll({
 			include: weekAssociations,
 		});
 		res.status(200).json(weekData).send();
@@ -44,7 +38,7 @@ async function getAllWeekData(req, res) {
 
 async function getAllWeekNumbers(req, res) {
 	try {
-		const weekNums = await Week.findAll({
+		const weekNums = await Weeks.findAll({
 			attributes: [
 				Sequelize.fn("DISTINCT", Sequelize.col("week_num")),
 				"week_num",
@@ -65,7 +59,7 @@ async function getWeeklyScoreboard(req, res) {
 
 async function getWeek(req, res) {
 	try {
-		const weekData = await Week.findAll({
+		const weekData = await Weeks.findAll({
 			attributes: ["id", "week_num"],
 			include: weekAssociations,
 			where: {

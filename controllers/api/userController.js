@@ -1,8 +1,8 @@
-import { Date, User, Game, Week, Team, Pick } from "../../models";
+import { Users, Games, Weeks, Teams, Picks } from "../../models/models";
 
 async function login(req, res) {
 	try {
-		const userData = await User.findOne({
+		const userData = await Users.findOne({
 			where: { email: req.body.email },
 		});
 
@@ -33,7 +33,7 @@ async function login(req, res) {
 	}
 }
 
-async function logout(res, res) {
+async function logout(req, res) {
 	if (req.session.logged_in) {
 		// Remove the session variables
 		req.session.destroy(() => {
@@ -46,14 +46,14 @@ async function logout(res, res) {
 
 async function signup(req, res) {
 	try {
-		const userData = await User.findOne({
+		const userData = await Users.findOne({
 			where: { email: req.body.email },
 		});
 		if (userData) {
 			res.status(400).json({ message: "Email already exists" });
 		}
 
-		const newUserData = await User.create(req.body);
+		const newUserData = await Users.create(req.body);
 		const newUser = newUserData.get({ plain: true });
 
 		/**
@@ -61,31 +61,25 @@ async function signup(req, res) {
 		 */
 		let weekAssociations = [
 			{
-				model: Game,
+				model: Games,
 				attributes: ["id"],
 				include: [
 					{
-						model: Date,
-						attributes: {
-							exclude: ["createdAt", "updatedAt"],
-						},
-					},
-					{
-						model: Team,
+						model: Teams,
 						as: "home_team",
 						attributes: {
 							exclude: ["createdAt", "updatedAt"],
 						},
 					},
 					{
-						model: Team,
+						model: Teams,
 						as: "away_team",
 						attributes: {
 							exclude: ["createdAt", "updatedAt"],
 						},
 					},
 					{
-						model: Team,
+						model: Teams,
 						as: "winner",
 						attributes: {
 							exclude: ["createdAt", "updatedAt"],
@@ -94,18 +88,18 @@ async function signup(req, res) {
 				],
 			},
 		];
-		const weekNums = await Week.aggregate("week_num", "DISTINCT", {
+		const weekNums = await Weeks.aggregate("week_num", "DISTINCT", {
 			plain: false,
 		});
 		const weeks = weekNums.map((element) => element.DISTINCT);
 
-		const gameData = await Week.findAll({
+		const gameData = await Weeks.findAll({
 			attributes: ["id", "week_num"],
 			include: weekAssociations,
 			where: {
 				week_num: weeks[0],
 			},
-			order: [[Game, "id", "ASC"]],
+			order: [[Games, "id", "ASC"]],
 		});
 		const games = gameData.map((element) => element.get({ plain: true }));
 
@@ -119,7 +113,7 @@ async function signup(req, res) {
 			});
 		}
 
-		const picksData = await Pick.bulkCreate(pickData, {
+		const picksData = await Picks.bulkCreate(pickData, {
 			individualHooks: true,
 			returning: true,
 		});

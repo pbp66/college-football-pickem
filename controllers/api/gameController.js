@@ -1,30 +1,26 @@
 import { Sequelize } from "sequelize";
-import { Game, Team, Date, Week } from "../../models";
+import { Games, Teams, Weeks } from "../../models/models";
 
 const gameAssociations = [
 	{
-		model: Date,
-		attributes: { exclude: ["createdAt", "updatedAt"] },
-	},
-	{
-		model: Team,
+		model: Teams,
 		as: "home_team",
 		attributes: { exclude: ["createdAt", "updatedAt"] },
 	},
 	{
-		model: Team,
+		model: Teams,
 		as: "away_team",
 		attributes: { exclude: ["createdAt", "updatedAt"] },
 	},
 	{
-		model: Week,
+		model: Weeks,
 		attributes: ["id", "week_num"],
 	},
 ];
 
 async function getAllGames(req, res) {
 	try {
-		const games = await Game.findAll({
+		const games = await Games.findAll({
 			attributes: ["id"],
 			include: gameAssociations,
 		});
@@ -37,7 +33,7 @@ async function getAllGames(req, res) {
 
 async function getGameById(req, res) {
 	try {
-		const game = await Game.findByPk(req.params.id, {
+		const game = await Games.findByPk(req.params.id, {
 			attributes: ["id"],
 			include: gameAssociations,
 		});
@@ -65,7 +61,7 @@ async function createGame(req, res) {
 	 * }
 	 */
 	try {
-		const newGame = await Game.create(req.body);
+		const newGame = await Games.create(req.body);
 		res.status(201).json(newGame).send();
 	} catch (err) {
 		if (err instanceof Sequelize.ValidateError) {
@@ -79,13 +75,13 @@ async function createGame(req, res) {
 }
 
 async function updateGameWinner(req, res) {
-	const gameIds = (await Game.findAll({ attributes: ["id"] })).map(
+	const gameIds = (await Games.findAll({ attributes: ["id"] })).map(
 		(element) => element.dataValues.id
 	);
 
 	if (gameIds.includes(Number(req.params.id))) {
 		try {
-			const updatedGame = await Game.update(
+			const updatedGame = await Games.update(
 				{ winner_team_id: req.params.team_id },
 				{ where: { id: req.params.id } }
 			);

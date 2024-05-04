@@ -1,44 +1,38 @@
 import { Sequelize } from "sequelize";
-import { Game, Pick, Team, User, Date, Week } from "../../../models";
+import { Games, Picks, Teams, Users, Weeks } from "../../models/models";
 
 let gameAssociations = {
-	model: Game,
+	model: Games,
 	attributes: ["id"],
 	include: [
 		{
-			model: Date,
-			attributes: {
-				exclude: ["createdAt", "updatedAt"],
-			},
-		},
-		{
-			model: Team,
+			model: Teams,
 			as: "home_team",
 			attributes: {
 				exclude: ["createdAt", "updatedAt"],
 			},
 		},
 		{
-			model: Team,
+			model: Teams,
 			as: "away_team",
 			attributes: {
 				exclude: ["createdAt", "updatedAt"],
 			},
 		},
 		{
-			model: Week,
+			model: Weeks,
 			attributes: ["id", "week_num"],
 		},
 	],
 };
 
 let userAssociations = {
-	model: User,
+	model: Users,
 	attributes: ["id", "name"],
 };
 
 let teamPickAssociations = {
-	model: Team,
+	model: Teams,
 	as: "picked_team",
 	attributes: {
 		exclude: ["createdAt", "updatedAt"],
@@ -48,7 +42,7 @@ let teamPickAssociations = {
 // TODO: Implement query handler requests...
 async function getAllPicks(req, res) {
 	try {
-		const picks = await Pick.findAll({
+		const picks = await Picks.findAll({
 			attributes: ["id", "points"],
 			include: [gameAssociations, userAssociations, teamPickAssociations],
 		});
@@ -62,7 +56,7 @@ async function getAllPicks(req, res) {
 async function getAllUserPicks(req, res) {
 	userAssociations.where = { id: req.params.user_id };
 	try {
-		const picks = await Pick.findAll({
+		const picks = await Picks.findAll({
 			attributes: ["id", "points"],
 			include: [gameAssociations, userAssociations, teamPickAssociations],
 		});
@@ -76,7 +70,7 @@ async function getAllUserPicks(req, res) {
 async function getAllPicksOfTheWeek(req, res) {
 	gameAssociations.include[3].where = { week_num: req.params.week_num };
 	try {
-		const picks = await Pick.findAll({
+		const picks = await Picks.findAll({
 			attributes: ["id", "points"],
 			include: [gameAssociations, userAssociations, teamPickAssociations],
 		});
@@ -93,7 +87,7 @@ async function getUsersWeeklyPicks(req, res) {
 		week_num: req.params.week_num,
 	};
 	try {
-		const picks = await Pick.findAll({
+		const picks = await Picks.findAll({
 			attributes: ["id", "points"],
 			include: [gameAssociations, userAssociations, teamPickAssociations],
 		});
@@ -106,7 +100,7 @@ async function getUsersWeeklyPicks(req, res) {
 
 async function createPick(req, res) {
 	/**
-	 * Request body for Pick as JSON:
+	 * Request body for Picks as JSON:
 	 * {
 	 * 	game_id: "game id as an integer",
 	 * 	team_pick_id: "picked team id as an integer",
@@ -115,7 +109,7 @@ async function createPick(req, res) {
 	 * }
 	 */
 	try {
-		const newPick = await Pick.create(req.body);
+		const newPick = await Picks.create(req.body);
 		res.status(201).json(newPick).send();
 	} catch (err) {
 		console.error(err);
@@ -137,7 +131,7 @@ async function updatePick(req, res) {
 	console.log(req.body);
 	console.log(req.query);
 
-	const pickExists = await Pick.findOne({
+	const pickExists = await Picks.findOne({
 		attributes: ["id", "game_id", "team_pick_id"],
 		where: { id: req.query.id },
 	});
@@ -145,7 +139,7 @@ async function updatePick(req, res) {
 	// Sequelize will return null if no record is found
 	if (pickExists) {
 		try {
-			const updatedPick = await Pick.update(
+			const updatedPick = await Picks.update(
 				{
 					team_pick_id: req.query.team_pick_id,
 					points: req.query.points,
@@ -173,7 +167,7 @@ async function updatePick(req, res) {
 		}
 	} else {
 		try {
-			const newPick = await Pick.create({
+			const newPick = await Picks.create({
 				game_id: req.query.game_id,
 				team_pick_id: req.query.team_pick_id,
 				points: req.query.points,

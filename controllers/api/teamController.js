@@ -1,10 +1,10 @@
 import { Sequelize } from "sequelize";
-import { Team } from "../../models";
+import { Teams } from "../../models/models";
 
 // Get all teams
 async function getAllTeams(req, res) {
 	try {
-		const teams = await Team.findAll();
+		const teams = await Teams.findAll();
 		if (teams.length === 0) {
 			res.status(404).send(`<h1>404 Data Not Found!</h1>
             <h3>No Categories Available</h3>`);
@@ -18,7 +18,7 @@ async function getAllTeams(req, res) {
 }
 
 async function addTeam(req, res) {
-	/** JSON format for Team Model
+	/** JSON format for Teams Model
 	 * id and timestamps are automatically generated
 	 * {
 	 * name: "name_value",
@@ -29,11 +29,11 @@ async function addTeam(req, res) {
 	try {
 		// For just one team
 		if (!req.body.length) {
-			const newTeam = await Team.create(req.body);
+			const newTeam = await Teams.create(req.body);
 			res.status(201).json(newTeam).send();
 		} else {
 			// For multiple teams
-			const newTeams = await Team.bulkCreate(req.body);
+			const newTeams = await Teams.bulkCreate(req.body);
 			res.status(201).json(newTeams).send();
 		}
 	} catch (err) {
@@ -49,9 +49,9 @@ async function addTeam(req, res) {
 
 async function deleteTeam(req, res) {
 	try {
-		const exists = await Team.findOne({ where: { id: req.params.id } });
+		const exists = await Teams.findOne({ where: { id: req.params.id } });
 		if (exists) {
-			await Team.destroy({ where: { id: req.params.id } });
+			await Teams.destroy({ where: { id: req.params.id } });
 			res.status(204).send();
 		} else {
 			res.status(404).send(`<h1>404 Data Not Found!</h1>
@@ -62,7 +62,5 @@ async function deleteTeam(req, res) {
 		res.status(500).send(`<h1>500 Internal Server Error</h1>`);
 	}
 }
-
-export default router;
 
 export { getAllTeams, addTeam, deleteTeam };

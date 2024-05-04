@@ -6,6 +6,8 @@ import pickRouter from "./pickRouter";
 import teamRouter from "./teamRouter";
 import userRouter from "./userRouter";
 import weekRouter from "./weekRouter";
+import scoreRouter from "./scoreRouter";
+import seasonRouter from "./seasonRouter";
 
 router.use("/games", gameRouter);
 router.use("/picks", pickRouter);

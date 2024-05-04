@@ -6,7 +6,7 @@ import {
 	getAllWeekNumbers,
 	getWeeklyScoreboard,
 	getWeek,
-} from "../../controllers/weekController";
+} from "../../controllers/api/weekController";
 
 router.get("/", async (req, res) => {
 	getAllWeekData(req, res);
