@@ -1,0 +1,27 @@
+{
+	"name": "college-football-pickem",
+	"version": "1.0.0",
+	"description": "interactive site to host a college football pickem league",
+	"main": "server/server.js",
+	"scripts": {
+		"start": "node server/server.js",
+		"develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+		"install": "cd server && npm i && cd ../client && npm i",
+		"seed": "cd server && npm run seed",
+		"build": "cd client && npm run build"
+	},
+	"keywords": [],
+	"author": "pbp66",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pbp66/college-football-pickem.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pbp66/college-football-pickem/issues"
+	},
+	"homepage": "https://github.com/pbp66/college-football-pickem#readme",
+	"dependencies": {
+		"concurrently": "^8.2.2"
+	}
+}
