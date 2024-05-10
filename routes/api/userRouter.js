@@ -4,7 +4,7 @@ const router = express.Router();
 import { login, logout, signup } from "../../controllers/api/userController.js";
 import userStatsRouter from "./userStatsRouter.js";
 
-router.use("/stats", userStatsRouter);
+router.use("/stats", userStatsRouter); //user id as query parameter
 
 router.post("/login", async (req, res) => {
 	login(req, res);
