@@ -173,4 +173,10 @@ async function getWeekLoser(req, res) {
 	}
 }
 
-export { getAllWeekData, getAllWeekNumbers, getWeeklyScoreboard, getWeek };
+export {
+	getAllWeekData,
+	getAllWeekNumbers,
+	getWeeklyScoreboard,
+	getWeekWinner,
+	getWeekLoser,
+};
