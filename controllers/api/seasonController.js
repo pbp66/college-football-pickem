@@ -39,8 +39,6 @@ async function getSeasonWinner(req, res) {
 		where: { id: winnerData.userId },
 	});
 
-	console.log(user);
-
 	res.status(200)
 		.json({ winner: user.fullname, points: winnerData.totalPoints })
 		.send();
