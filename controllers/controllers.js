@@ -1,10 +1,4 @@
 import {
-	displayHomepage,
-	loginView,
-	teamPicker,
-	getScoreboard,
-} from "./viewControllers";
-import {
 	getAllGames,
 	getGameById,
 	createGame,

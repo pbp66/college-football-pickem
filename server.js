@@ -1,18 +1,13 @@
 import path from "path";
 import express from "express";
 import session from "express-session";
-import exphbs from "express-handlebars";
 import routes from "./routes";
-import hbsHelpers from "handlebars-helpers";
-const helpers = hbsHelpers();
 import sequelize from "./config/connection.js";
 import sequelizeSession from "connect-session-sequelize";
 const SequelizeStore = sequelizeSession(session.Store);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-
-const hbs = exphbs.create({ helpers });
 
 const sess = {
 	secret: process.env.SESSION_SECRET,
@@ -27,9 +22,6 @@ const sess = {
 };
 
 app.use(session(sess));
-
-app.engine("handlebars", hbs.engine);
-app.set("view engine", "handlebars");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
