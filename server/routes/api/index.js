@@ -17,5 +17,6 @@ router.use("/weeks", weekRouter);
 
 router.use("/scores", scoreRouter);
 router.use("/seasons", seasonRouter);
+router.use("/scoreboard", scoreBoardRouter);
 
 export default router;

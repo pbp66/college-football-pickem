@@ -52,11 +52,6 @@ async function getAllWeekNumbers(req, res) {
 	}
 }
 
-async function getWeeklyScoreboard(req, res) {
-	// TODO: Implement this function
-	res.status(501).send(`<h1>501 Not Implemented</h1>`);
-}
-
 async function getWeek(req, res) {
 	try {
 		const weekData = await Weeks.findAll({
@@ -173,10 +168,4 @@ async function getWeekLoser(req, res) {
 	}
 }
 
-export {
-	getAllWeekData,
-	getAllWeekNumbers,
-	getWeeklyScoreboard,
-	getWeekWinner,
-	getWeekLoser,
-};
+export { getAllWeekData, getAllWeekNumbers, getWeekWinner, getWeekLoser };

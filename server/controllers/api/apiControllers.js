@@ -22,7 +22,6 @@ import { login, logout, signup } from "./userController";
 import {
 	getAllWeekData,
 	getAllWeekNumbers,
-	getWeeklyScoreboard,
 	getWeek,
 } from "./weekController";
 
