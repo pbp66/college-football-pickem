@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import Head from "./Head";
 import Body from "./Body";
@@ -12,37 +12,61 @@ const initialScoreboardState = {
 	weekType: "regular",
 };
 
-function Scoreboard() {
-	const [year, setYear] = useState(initialScoreboardState.year);
-	const [weekNum, setWeekNum] = useState(initialScoreboardState.weekNum);
-	const [weekType, setweekType] = useState(initialScoreboardState.weekType);
+//* weekData is a JSON object representing an unordered map. Years are the keys. Each value corresponds to another JSON object representing an additional unordered map. The keys for this map are the season/week type. Each value is an array of all possible weeks.
+function Scoreboard({ weekData }) {
+	const [gameWeek, setGameWeek] = useState(initialScoreboardState);
 
-	useEffect(() => {}, [year, weekNum, weekType]);
+	// Query for scoreboard data
+	useEffect(() => {
+		let useEffectActive = true;
+		async function fetchScoreboard() {
+			const scoreboardData = await fetch(
+				`/api/scoreboard?year=${gameWeek.year}&weekNum=${gameWeek.weekNum}&season=${gameWeek.weekType}`
+			);
+
+			//TODO: Translate scoreboardData into readable scoreboard table...
+		}
+		fetchScoreboard();
+		return () => {
+			useEffectActive = false;
+		};
+	}, [gameWeek]);
 
 	return (
 		<div>
-			<div>
-				<select
-					name="year"
-					id="year"
-				>
-					{/* Generate options based on unique years in the db*/}
-					{/*<option value="2019">2019</option>*/}
-				</select>
-				<select
-					name="week"
-					id="week"
-				>
-					{/* Generate options based on unique weeks for the specified year in the db*/}
-					{/*<option value="1">1</option>*/}
-				</select>
-				<select
-					name="type"
-					id="week-type"
-				>
-					{/* Generate options based on unique week types (regular or post) for the year*/}
-					{/*<option value="regular">regular</option>*/}
-				</select>
+			<div className="Calendar">
+				{/* When user clicks on Calendar, the container below is displayed */}
+				<div className="Calendar-Container">
+					<div className="Calendar-Header">
+						<button>
+							{/* 
+								//TODO:
+								Left arrow to decrease year 
+								Disable arrow upon reaching lower limit for years (2019)
+						*/}
+							\2190
+						</button>
+						<div className="Calendar-Year"></div>
+						<button>
+							{/* 
+								//TODO:
+								Right arrow to increase year 
+								Disable arrow upon reaching upper limit for years (Current year)
+						*/}
+							\2192
+						</button>
+					</div>
+					<ul className="weekList">
+						{/* 
+							//TODO:
+							List of weeks segregated by season type (regular and post)
+							Clicking a week sets the state for the page: year, weekNum, and weekType
+						*/}
+					</ul>
+					<div className="Calendar-Footer">
+						<button>Cancel</button>
+					</div>
+				</div>
 			</div>
 			<div>
 				<table>
