@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 
 import Head from "./Head";
 import Body from "./Body";
+import calendarIcon from "../assets/calendar-svgrepo-com.svg";
 import { getCurrentGameYear } from "../../utils/getCurrentGameYear";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // state: { year: number, week: number, type: string }
 
@@ -14,29 +16,50 @@ const initialScoreboardState = {
 
 //* weekData is a JSON object representing an unordered map. Years are the keys. Each value corresponds to another JSON object representing an additional unordered map. The keys for this map are the season/week type. Each value is an array of all possible weeks.
 function Scoreboard({ weekData }) {
-	const [gameWeek, setGameWeek] = useState(initialScoreboardState);
+	// const [gameWeek, setGameWeek] = useState(initialScoreboardState);
 
 	// Query for scoreboard data
-	useEffect(() => {
-		let useEffectActive = true;
-		async function fetchScoreboard() {
-			const scoreboardData = await fetch(
-				`/api/scoreboard?year=${gameWeek.year}&weekNum=${gameWeek.weekNum}&season=${gameWeek.weekType}`
-			);
+	// useEffect(() => {
+	// 	let useEffectActive = true;
+	// 	async function fetchScoreboard() {
+	// 		const scoreboardData = await fetch(
+	// 			`/api/scoreboard?year=${gameWeek.year}&weekNum=${gameWeek.weekNum}&season=${gameWeek.weekType}`
+	// 		);
 
-			//TODO: Translate scoreboardData into readable scoreboard table...
+	// 		//TODO: Translate scoreboardData into readable scoreboard table...
+	// 	}
+	// 	fetchScoreboard();
+	// 	return () => {
+	// 		useEffectActive = false;
+	// 	};
+	// }, [gameWeek]);
+
+	function handleCalendarClick() {
+		const calendarContainerStyle =
+			document.getElementsByClassName("calendar-container")[0].style;
+		if (calendarContainerStyle.display === "none") {
+			calendarContainerStyle.display = "contents";
+		} else {
+			calendarContainerStyle.display = "none";
 		}
-		fetchScoreboard();
-		return () => {
-			useEffectActive = false;
-		};
-	}, [gameWeek]);
+	}
 
 	return (
-		<div>
-			<div className="Calendar">
-				{/* When user clicks on Calendar, the container below is displayed */}
-				<div className="Calendar-Container">
+		<>
+			<div className="calendar-wrapper">
+				<div className="test">Header</div>
+				<button
+					className="calendar"
+					onClick={handleCalendarClick}
+				>
+					<img
+						src={calendarIcon}
+						className="calendar-icon"
+						alt="Calendar Icon"
+						width={50}
+					/>
+				</button>
+				<div className="calendar-container">
 					<div className="Calendar-Header">
 						<button>
 							{/* 
@@ -44,16 +67,16 @@ function Scoreboard({ weekData }) {
 								Left arrow to decrease year 
 								Disable arrow upon reaching lower limit for years (2019)
 						*/}
-							\2190
+							&lsaquo;&lsaquo;
 						</button>
-						<div className="Calendar-Year"></div>
+						<div className="Calendar-Year">Year</div>
 						<button>
 							{/* 
 								//TODO:
 								Right arrow to increase year 
 								Disable arrow upon reaching upper limit for years (Current year)
 						*/}
-							\2192
+							&rsaquo;&rsaquo;
 						</button>
 					</div>
 					<ul className="weekList">
@@ -76,7 +99,7 @@ function Scoreboard({ weekData }) {
 					{/* Include footer if necessary*/}
 				</table>
 			</div>
-		</div>
+		</>
 	);
 }
 
